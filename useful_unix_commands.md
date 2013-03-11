@@ -25,9 +25,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		sudo /usr/sbin/lsof -i :8380
 	
-*CURL commands*
 
-* Convert the .pfx to a PEM .cer
+* Convert the .pfx to a PEM .cer -- this is useful when to use curl to test a Java PFX cert
 
 		openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 
