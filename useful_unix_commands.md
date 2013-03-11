@@ -32,7 +32,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 * run curl with the .cer
 
-		curl -k https://prodsvc.mib.com/01/S2SAdapter -E ~/certificate.cer:m1bQds
+		curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
 	
 * run curl with the http proxy
 
