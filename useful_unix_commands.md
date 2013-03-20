@@ -64,6 +64,11 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * find what process is associated with a TCP port
 
 		sudo /usr/sbin/lsof -i :8380
+		
+* rpm query
+
+		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
+
 
 
 references
