@@ -65,7 +65,13 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		sudo /usr/sbin/lsof -i :8380
 		
-* rpm query
+### rpm commands
+
+* rpm query for any oracle package
+
+ 		rpm -qa|grep oracle
+
+* list information about a package
 
 		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
 
