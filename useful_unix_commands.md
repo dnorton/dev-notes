@@ -65,6 +65,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		sudo /usr/sbin/lsof -i :8380
 		
+* list groups (this searches through naming directories as well as /etc/group)
+		
+		getent group|grep <group name/>
+		
 ### rpm commands
 
 * rpm query for any oracle package
