@@ -47,6 +47,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		tr -d '\r' < dosfile > unixfile
 	
 	
+* find what process is associated with a TCP port
+
+		sudo /usr/sbin/lsof -i :8380
+		
 * See all TCP ports
 
 		$ sudo /usr/sbin/lsof -Pnl +M -i4
@@ -61,9 +65,6 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		http_proxy=http://username:password@hostname:port;
 		export (or set on Windows) $http_proxy		
 		
-* find what process is associated with a TCP port
-
-		sudo /usr/sbin/lsof -i :8380
 		
 * list groups (this searches through naming directories as well as /etc/group)
 		
