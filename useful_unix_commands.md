@@ -36,7 +36,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	
 * run curl with the http proxy
 
-		curl -O http://ftp.redhat.com/pub/redhat/linux/enterprise/6Workstation/en/os/SRPMS/repodata/repomd.xml -x <host/>:<port/>
+		curl -O some_url -x <host/>:<port/>
 	
 * read a password
 
