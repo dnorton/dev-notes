@@ -20,11 +20,6 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * Find and remove files
 
 		find . -type f -exec rm {} \;
-	
-* Find what process is associated with a TCP port
-
-		sudo /usr/sbin/lsof -i :8380
-	
 
 * Convert the .pfx to a PEM .cer -- this is useful when to use curl to test a Java PFX cert
 
