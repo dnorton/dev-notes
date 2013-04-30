@@ -8,9 +8,9 @@ Useful git commands
 
         # origin  https://github.com/user/repo.git (fetch)
         # origin  https://github.com/user/repo.git (push)
-
-* `git diff --cached` - shows changes in index
-* `git rm --cached` - remove file from staging but not working dir
+        
+* `git diff --cached` -- shows changes in index
+* `git rm --cached` -- remove file from the index but not working dir
 
 ### References
 
