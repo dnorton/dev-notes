@@ -15,3 +15,5 @@ Useful git commands
 ### References
 
 1. https://help.github.com/articles/adding-a-remote
+2. http://git-scm.com/book
+3. http://www.atlassian.com/git/tutorial
