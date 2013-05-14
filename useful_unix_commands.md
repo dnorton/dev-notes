@@ -74,6 +74,13 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * list information about a package
 
 		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
+		
+
+### vim tips
+
+* for a case insensitive search use the `\c` escape sequence
+
+		/\ccopyright
 
 
 
