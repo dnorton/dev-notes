@@ -21,7 +21,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		find . -type f -exec rm {} \;
 
-* Convert the .pfx to a PEM .cer -- this is useful when to use curl to test a Java PFX cert
+* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
 
 		openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 
