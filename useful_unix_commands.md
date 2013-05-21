@@ -64,6 +64,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * list groups (this searches through naming directories as well as /etc/group)
 		
 		getent group|grep <group name/>
+
+* use `getent` to retrieve a service user name
+
+		getent passwd|grep maven|awk -F\: '{print $1}'
 		
 ### rpm commands
 
