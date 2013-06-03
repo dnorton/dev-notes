@@ -13,11 +13,15 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		sudo find . -uid `id -u root`
 		
-* Find/Replace one liner in perl
+* find/replace one liner in perl
 
 		perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`
+		
+* find/replace with `sed`
+
+		 find . -type f -exec sed -i 's/bad/good/g' {} \;
     
-* Find and remove files
+* find and remove files
 
 		find . -type f -exec rm {} \;
 
