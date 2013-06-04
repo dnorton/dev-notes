@@ -7,11 +7,11 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 * system calls include child processes
 
-		sudo strace -f /bin/true
+		strace -f /bin/true
   
 * find all files owned by root
 
-		sudo find . -uid `id -u root`
+		find . -uid `id -u root`
 	
 * find all files 28 days old or newer
 
@@ -52,11 +52,11 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	
 * find what process is associated with a TCP port
 
-		sudo /usr/sbin/lsof -i :8380
+		/usr/sbin/lsof -i :8380
 		
 * See all TCP ports
 
-		$ sudo /usr/sbin/lsof -Pnl +M -i4
+		/usr/sbin/lsof -Pnl +M -i4
 
 * find a uid or gid for a user
 
