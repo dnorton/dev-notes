@@ -12,6 +12,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * find all files owned by root
 
 		sudo find . -uid `id -u root`
+	
+* find all files 28 days old or newer
+
+		find . -name '*.log' -mtime -28
 		
 * find/replace one liner in perl
 
