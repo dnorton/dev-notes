@@ -12,6 +12,13 @@ Useful git commands
         
 * `git diff --cached` -- shows changes in index
 * `git rm --cached` -- remove file from the index but not working dir
+* 
+
+Git troubleshooting
+===================
+
+- to debug problems with an HTTP proxy set the environmental variable `GIT_CURL_VERBOSE=1`
+
 
 ### References
 
