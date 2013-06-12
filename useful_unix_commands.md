@@ -77,6 +77,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		getent passwd|grep maven|awk -F\: '{print $1}'
 		
+* turn off `StrictHostKeyChecking` in ssh
+
+		ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
+		
 ### rpm commands
 
 * rpm query for any oracle package
