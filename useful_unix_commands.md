@@ -81,6 +81,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
 		
+* run a simple HTTP server using python
+
+		python -m SimpleHTTPServer [port]
+		
 ### rpm commands
 
 * rpm query for any oracle package
