@@ -103,9 +103,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		/\ccopyright
 
 
+-----
 
-references
-----------
+#### references
+
 List of other useful Unix/Linux cheatsheets:
 
 * https://github.com/WilliamHackmore/linuxgems/blob/master/cheat_sheet.org.sh
