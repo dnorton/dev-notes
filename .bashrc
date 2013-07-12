@@ -2,11 +2,13 @@
 
 # User specific aliases and functions
 
-HOME=/home/usunoda
-
+## These variables should be set according to your local environment
 PATH=$PATH:${HOME}/scripts
+GLASSFISH_HOME=/glassfish #change me
+CONF_DIR=/conf #change me
 
-function _asadmin() { sudo -u tcuser /TARe/apps/glassfish3/glassfish/bin/asadmin --user admin --passwordfile /TARe/apps/conf/glassfish_password.txt $@; }
+
+function _asadmin() { sudo -u tcuser ${GLASSFISH_HOME}/bin/asadmin --user admin --passwordfile ${CONF_DIR}/glassfish_password.txt $@; }
 export _asadmin
 
 # Source global definitions
