@@ -110,3 +110,4 @@ _This is a compilation of commands that I have found particularly useful in a pi
 List of other useful Unix/Linux cheatsheets:
 
 * https://github.com/WilliamHackmore/linuxgems/blob/master/cheat_sheet.org.sh
+* http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
