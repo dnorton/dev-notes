@@ -104,16 +104,16 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		
 ### file permissions (`chmod`)
 
-    | #  | Permission        | rwx |
-    | -- | ----------------- | --- |
-    | 7	 | full              | 111 |
-    | 6  | read and write    | 110 |
-    | 5  | read and execute  | 101 |
-    | 4  | read only         | 100 |
-    | 3  | write and execute | 011 |
-    | 2  | write only        | 010 |
-    | 1  | execute only      | 001 |
-    | 0  | none              | 000 |
+| #  | Permission        | rwx |
+| -- | ----------------- | --- |
+| 7	 | full              | 111 |
+| 6  | read and write    | 110 |
+| 5  | read and execute  | 101 |
+| 4  | read only         | 100 |
+| 3  | write and execute | 011 |
+| 2  | write only        | 010 |
+| 1  | execute only      | 001 |
+| 0  | none              | 000 |
 
 
 
