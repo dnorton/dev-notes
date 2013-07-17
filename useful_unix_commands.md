@@ -85,7 +85,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		python -m SimpleHTTPServer [port]
 		
-* cut the beginning of a value stored in a variable
+* cut the beginning of a value stored in a variable (see this [String manipulation in bash](http://tldp.org/LDP/abs/html/string-manipulation.html))
 
 		TEST="remove.importantfile.txt"
 		echo ${TEST#*.}
