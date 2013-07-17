@@ -85,6 +85,17 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		python -m SimpleHTTPServer [port]
 		
+* cut the beginning of a value stored in a variable
+
+		TEST="remove.importfile.txt"
+		echo ${TEST#*.}
+		
+* cut the end of a value stored in a variable
+
+		TEST="importfile.txt.remove"
+		echo ${TEST%*.}
+	
+		
 ### rpm commands
 
 * rpm query for any oracle package
