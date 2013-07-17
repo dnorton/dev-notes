@@ -87,13 +87,13 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		
 * cut the beginning of a value stored in a variable
 
-		TEST="remove.importfile.txt"
+		TEST="remove.importantfile.txt"
 		echo ${TEST#*.}
 		
 * cut the end of a value stored in a variable
 
-		TEST="importfile.txt.remove"
-		echo ${TEST%*.}
+		TEST="importantfile.txt.remove"
+		echo ${TEST%.*}
 	
 		
 ### rpm commands
