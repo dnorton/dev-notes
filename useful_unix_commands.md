@@ -48,7 +48,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * simple replacement for dos2unix (which is not standard)
 
 		tr -d '\r' < dosfile > unixfile
-	
+		
+* rename `*.bak` to `*`
+
+		rename 's/\.bak$//' *.bak	
 	
 * find what process is associated with a TCP port
 
