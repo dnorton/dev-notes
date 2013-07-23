@@ -1,14 +1,14 @@
 # useful unix commands
 _This is a compilation of commands that I have found particularly useful in a pinch._
 
-* traverse symlinks for a file and give the actual location
- 
-		readlink -f /usr/bin/java
+* find what process is associated with a TCP port
 
-* system calls include child processes
+		/usr/sbin/lsof -i :8380
+		
+* See all TCP ports
 
-		strace -f /bin/true
-  
+		/usr/sbin/lsof -Pnl +M -i4
+
 * find all files owned by root
 
 		find . -uid `id -u root`
@@ -28,6 +28,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * find and remove files
 
 		find . -type f -exec rm {} \;
+
+* traverse symlinks for a file and give the actual location
+ 
+		readlink -f /usr/bin/java
 
 * Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
 
@@ -53,14 +57,6 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		rename 's/\.bak$//' *.bak	
 	
-* find what process is associated with a TCP port
-
-		/usr/sbin/lsof -i :8380
-		
-* See all TCP ports
-
-		/usr/sbin/lsof -Pnl +M -i4
-
 * find a uid or gid for a user
 
 		id -u username
@@ -83,6 +79,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * turn off `StrictHostKeyChecking` in ssh
 
 		ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
+
+* system calls include child processes
+
+		strace -f /bin/true		
 		
 * run a simple HTTP server using python
 
