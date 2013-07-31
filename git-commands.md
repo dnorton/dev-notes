@@ -15,6 +15,7 @@ Useful git commands
 * `git diff --cached` -- shows changes in index  
 * `git rm --cached` -- remove file from the index but not working dir
 * `git checkout -b dnorton-dev-2 origin/release-1.0.0` -- check out from a remote branch
+* `git push -u origin dnorton-dev-2` -- push feature branch to remote repo
 
 
 Git troubleshooting
