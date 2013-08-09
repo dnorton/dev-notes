@@ -36,4 +36,4 @@ Git troubleshooting
 1. https://help.github.com/articles/adding-a-remote
 2. http://git-scm.com/book
 3. http://www.atlassian.com/git/tutorial
-4. 
+4. http://scottchacon.com/2011/08/31/github-flow.html
