@@ -20,7 +20,7 @@ Git Workflow
 
 * `git checkout -b dnorton-dev-2 origin/release-1.0.0` -- check out from a remote branch
 * `git push -u origin dnorton-dev-2` -- push feature branch to remote repo
-* `git pull origin marys-feature` -- pull feature branch
+* `git pull origin dnorton-dev-2` -- pull feature branch
 
 Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 
