@@ -37,3 +37,4 @@ Git troubleshooting
 2. http://git-scm.com/book
 3. http://www.atlassian.com/git/tutorial
 4. http://scottchacon.com/2011/08/31/github-flow.html
+5. http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf (_great training slides_)
