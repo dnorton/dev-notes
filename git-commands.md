@@ -18,13 +18,15 @@ Useful git commands
 Git Workflow
 ============
 
+Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+
 * `git checkout -b dnorton-dev-2 origin/release-1.0.0` -- check out from a remote branch
 * `git push -u origin dnorton-dev-2` -- push feature branch to remote repo
 * `git pull origin dnorton-dev-2` -- pull feature branch
 * `git push origin :dnorton-dev-2` -- delete the remote feature branch ([see the git-scm page](http://git-scm.com/book/en/Git-Branching-Remote-Branches#Deleting-Remote-Branches))
 
-
-Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+* Github help: [syncing a fork](Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+)
 
 
 Git troubleshooting
