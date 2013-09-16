@@ -12,6 +12,7 @@ Useful git commands
         # origin  https://github.com/user/repo.git (push)
 ```  
 
+* `git branch -r` -- view available remote branches
 * `git diff --cached` -- shows changes in index  
 * `git rm --cached` -- remove file from the index but not working dir
 * `git clean -f -X -d` -- remove all unstaged files (great for cleaning up after a build)
