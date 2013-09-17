@@ -44,6 +44,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * run curl with the http proxy
 
 		curl -O some_url -x <host/>:<port/>
+
+* run curl with the http proxy and authentication
+
+		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
 	
 * read a password
 
