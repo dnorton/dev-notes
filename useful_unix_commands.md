@@ -102,6 +102,9 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		TEST="importantfile.txt.remove"
 		echo ${TEST%.*}
 	
+* run a [junit test](https://github.com/junit-team/junit/wiki/Getting-started) from the command line 
+* 
+		java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 		
 ### rpm commands
 
