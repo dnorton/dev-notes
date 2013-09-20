@@ -13,6 +13,8 @@ Programming Notes
 
 ### SSL
 
+* [Example of two way authentication using https in Java](http://rap.ucar.edu/staff/paddy/cacerts/)
+* [A visual overview of the SSL Handshake (IBM)](http://publib.boulder.ibm.com/infocenter/wmqv6/v6r0/index.jsp?topic=%2Fcom.ibm.mq.csqzas.doc%2Fsy10660_.htm)
 
 
 
