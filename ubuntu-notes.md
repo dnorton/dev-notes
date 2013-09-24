@@ -12,3 +12,7 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update  
 sudo apt-get install oracle-java7-installer  
 </verbatim>
+
+### References
+
+1. http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html
