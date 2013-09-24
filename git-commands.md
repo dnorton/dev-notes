@@ -27,7 +27,7 @@ Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * `git pull origin dnorton-dev-2` -- pull feature branch
 * `git push origin :dnorton-dev-2` -- delete the remote feature branch ([see the git-scm page](http://git-scm.com/book/en/Git-Branching-Remote-Branches#Deleting-Remote-Branches))
 
-* Github help: [syncing a fork](Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
+* Github help: [syncing a fork](http://scottchacon.com/2011/08/31/github-flow.html)
 
 
 
