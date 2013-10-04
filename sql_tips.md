@@ -8,4 +8,4 @@
 			         FROM emp
 			         GROUP BY deptno ) emp,
 			       dept
-			 WHERE dept.deptno = emp.deptno;`
+			 WHERE dept.deptno = emp.deptno;
