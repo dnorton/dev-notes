@@ -103,8 +103,12 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		echo ${TEST%.*}
 	
 * run a [junit test](https://github.com/junit-team/junit/wiki/Getting-started) from the command line 
-* 
+
 		java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
+
+* turn on debug with suspend=y (will wait for a remote debugger)
+
+		DBUG="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=10123"
 		
 ### rpm commands
 
