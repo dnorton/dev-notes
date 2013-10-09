@@ -13,6 +13,7 @@ Useful git commands
 ```  
 
 * `git branch -r` -- view available remote branches
+* `git branch -vv` -- view the tracking branch
 * `git checkout --track origin/serverfix` -- change the tracking branch
 * `git diff --cached` -- shows changes in index  
 * `git rm --cached` -- remove file from the index but not working dir
