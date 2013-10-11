@@ -110,6 +110,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		DBUG="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=10123"
 		
+* use [pygmentize](http://pygments.org/docs/cmdline/) to generate an HTML output of a diff file
+
+		pygmentize -l diff -f html -O full -o diff.html diff.txt	
+		
 ### rpm commands
 
 * rpm query for any oracle package
