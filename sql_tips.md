@@ -9,3 +9,14 @@
 			         GROUP BY deptno ) emp,
 			       dept
 			 WHERE dept.deptno = emp.deptno;
+
+* check to see if a column exists before adding
+
+		select count(*) into vRowCount
+			from DBA_TAB_COLUMNS
+	    		where OWNER = 'QDSCORE'
+			and TABLE_NAME = 'QDS_PRESCRIPTION_SCORING'
+	        	and COLUMN_NAME = 'NOTES' ;
+		
+		-- Create the new column
+		IF vRowCount <= 0 THEN
