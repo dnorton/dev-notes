@@ -3,6 +3,8 @@ Programming Notes
 
 ## Algorithm Design
 
+* Free textbook - [Data Structures and Algorithms with Object-Oriented Design Patterns in Java](http://www.brpreiss.com/books/opus5/html/page9.html)
+
 ### Big O Notation
 
 * [Big-O Notation Cheatsheet](http://bigocheatsheet.com/)
