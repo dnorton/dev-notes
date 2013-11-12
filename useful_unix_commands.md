@@ -112,17 +112,11 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		
 * use [pygmentize](http://pygments.org/docs/cmdline/) to generate an HTML output of a diff file
 
-		pygmentize -l diff -f html -O full -o diff.html diff.txt	
+		pygmentize -l diff -f html -O full -o diff.html diff.txt
 		
-### rpm commands
+* set proxy in npm
 
-* rpm query for any oracle package
-
- 		rpm -qa|grep oracle
-
-* list information about a package
-
-		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
+		npm config set https-proxy http://{user}:{password}@proxy.server:{port}
 		
 
 ### vim tips
