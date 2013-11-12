@@ -13,6 +13,22 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer  
 </verbatim>
 
+
+RedHat Tips
+===========
+
+### rpm commands
+
+* rpm query for any oracle package
+
+ 		rpm -qa|grep oracle
+
+* list information about a package
+
+		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
+		
+
+
 ### References
 
 1. http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html
