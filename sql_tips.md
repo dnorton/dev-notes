@@ -20,3 +20,5 @@
 		
 		-- Create the new column
 		IF vRowCount <= 0 THEN
+
+* `tnsping mysid` -- check that a SID exists in your configured `tnsnames.ora`
