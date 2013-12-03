@@ -1,6 +1,8 @@
 # useful unix commands
 _This is a compilation of commands that I have found particularly useful in a pinch._
 
+#### networking
+
 * find what process is associated with a TCP port
 
 		/usr/sbin/lsof -i :8380
@@ -8,6 +10,12 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * See all TCP ports
 
 		/usr/sbin/lsof -Pnl +M -i4
+		
+#### `find` commands		
+
+* find all files that were modified less that 2 days ago
+ 
+		find . -mtime -2
 
 * find all files owned by root
 
@@ -17,10 +25,6 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		find . -name '*.log' -mtime -28
 		
-* find/replace one liner in perl
-
-		perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`
-		
 * find/replace with `sed`
 
 		 find . -type f -exec sed -i 's/bad/good/g' {} \;
@@ -28,10 +32,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * find and remove files
 
 		find . -type f -exec rm {} \;
-
-* traverse symlinks for a file and give the actual location
- 
-		readlink -f /usr/bin/java
+		
+#### `curl` commands
 
 * Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
 
@@ -48,6 +50,18 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * run curl with the http proxy and authentication
 
 		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
+
+
+#### misc commands		
+
+* find/replace one liner in perl
+
+		perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`
+
+* traverse symlinks for a file and give the actual location
+ 
+		readlink -f /usr/bin/java
+
 	
 * read a password
 
