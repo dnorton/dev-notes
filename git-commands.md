@@ -34,6 +34,11 @@ Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * Github help: [syncing a fork](https://help.github.com/articles/syncing-a-fork)
 
 
+Git Misc Commands
+=================
+
+* `git diff-tree -r --root 40a450274b128348ec30d69abc51981ea7be20df` -- see a full diff-tree
+
 
 Git troubleshooting
 ===================
