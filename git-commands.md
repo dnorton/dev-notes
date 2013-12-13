@@ -51,6 +51,8 @@ Git troubleshooting
         git merge -s ours master  
         git checkout master  
         git merge seotweaks  
+        
+See reference #7 for more info.
 
 ### References
 
@@ -60,3 +62,4 @@ Git troubleshooting
 4. http://scottchacon.com/2011/08/31/github-flow.html
 5. http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf (great training slides)
 6. http://gitolite.com/gcs/index.html (git concepts explained)
+7. http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch
