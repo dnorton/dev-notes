@@ -45,6 +45,12 @@ Git troubleshooting
 
 - to debug problems with an HTTP proxy set the environmental variable `GIT_CURL_VERBOSE=1`
 
+### The `ours` merge technique to replace `master`
+
+        git checkout seotweaks  
+        git merge -s ours master  
+        git checkout master  
+        git merge seotweaks  
 
 ### References
 
