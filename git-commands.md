@@ -19,6 +19,7 @@ Useful git commands
 * `git rm --cached` -- remove file from the index but not working dir
 * `git clean -f -X -d` -- remove all unstaged files (great for cleaning up after a build)
 * `git reset --hard HEAD` -- reset your local branch to the HEAD commit
+* `git checkout HEAD -- folder1/pom.xml` -- reset a single file to the HEAD commit
 * `git show-ref` -- shows the `refs` for the repo (still figuring this out)
 
 Git Workflow
