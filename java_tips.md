@@ -18,6 +18,5 @@ Java and JVM Tips
 [1]: http://java.dzone.com/articles/visualvm-monitoring-remote-jvm
 
 
-+ Debug SOAP messages
-
-- Run the Java Web Start client at https://code.google.com/p/tcpmon/
++ Debug SOAP messages  
+    * Run the Java Web Start client at https://code.google.com/p/tcpmon/
