@@ -20,4 +20,4 @@ Java and JVM Tips
 
 + Debug SOAP messages
 
-        Run the Java Web Start client at https://code.google.com/p/tcpmon/
+- Run the Java Web Start client at https://code.google.com/p/tcpmon/
