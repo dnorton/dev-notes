@@ -13,6 +13,8 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer  
 </verbatim>
 
++ `Alt` + `F2` -- pull up command bar
+
 
 RedHat Tips
 ===========
