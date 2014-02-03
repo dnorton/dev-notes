@@ -164,3 +164,4 @@ List of other useful Unix/Linux cheatsheets:
 * https://github.com/WilliamHackmore/linuxgems/blob/master/cheat_sheet.org.sh
 * http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
 * http://www.thegeekstuff.com/2012/08/lsof-command-examples/ (lsof examples)
+* http://tldp.org/LDP/abs/html/ (Advanced Bash-Scripting)
