@@ -1,5 +1,5 @@
 # useful unix commands
-_This is a compilation of commands that I have found particularly useful in a pinch._
+_This is a compilation of commands that I have found particularly useful in a pinch. :+1:_
 
 #### networking
 
