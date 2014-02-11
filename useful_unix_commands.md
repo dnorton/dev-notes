@@ -132,6 +132,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		npm config set https-proxy http://{user}:{password}@proxy.server:{port}
 		
+* pass env variables using sudo
+
+		sudo -E bash -c 'echo $HTTP_PROXY'		
+		
 
 ### vim tips
 
