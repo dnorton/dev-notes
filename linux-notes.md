@@ -15,10 +15,10 @@ sudo apt-get install oracle-java7-installer
 
 + `Alt` + `F2` -- pull up command bar
 
-## References
+### Ubuntu References
 
 * [Keyboard Shortcuts](https://help.ubuntu.com/community/KeyboardShortcuts)
-
+* http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html
 
 RedHat Tips
 -----------
@@ -34,7 +34,3 @@ RedHat Tips
 		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
 		
 
-
-### References
-
-1. http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html
