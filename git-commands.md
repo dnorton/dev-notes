@@ -21,6 +21,7 @@ Useful git commands
 * `git reset --hard HEAD` -- reset your local branch to the HEAD commit
 * `git checkout HEAD -- folder1/pom.xml` -- reset a single file to the HEAD commit
 * `git show-ref` -- shows the `refs` for the repo (still figuring this out)
+* `git filter-branch --prune-empty --subdirectory-filter lib master` -- split out a sub dir into a repository
 
 Git Workflow
 ============
