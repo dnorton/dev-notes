@@ -15,9 +15,13 @@ sudo apt-get install oracle-java7-installer
 
 + `Alt` + `F2` -- pull up command bar
 
+## References
+
+* [Keyboard Shortcuts](https://help.ubuntu.com/community/KeyboardShortcuts)
+
 
 RedHat Tips
-===========
+-----------
 
 ### rpm commands
 
