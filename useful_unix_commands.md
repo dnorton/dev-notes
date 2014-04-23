@@ -5,11 +5,15 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 * find what process is associated with a TCP port
 
-		/usr/sbin/lsof -i :8380
+```bash
+$ /usr/sbin/lsof -i :8380
+```
 		
 * See all TCP ports
 
-		/usr/sbin/lsof -Pnl +M -i4
+```bash
+$ /usr/sbin/lsof -Pnl +M -i4
+```
 		
 #### `find` commands		
 
