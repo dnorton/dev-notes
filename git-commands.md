@@ -66,3 +66,4 @@ See reference #7 for more info.
 5. http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf (great training slides)
 6. http://gitolite.com/gcs.html#(1) (git concepts explained)
 7. http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch
+8. https://github.com/tiimgreen/github-cheat-sheet :thumbsup:
