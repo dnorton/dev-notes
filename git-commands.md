@@ -1,3 +1,8 @@
+---
+layout: post
+title: Useful Git Commands
+---
+
 Useful git commands
 -------------------
 
