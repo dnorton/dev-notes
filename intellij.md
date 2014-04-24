@@ -8,3 +8,11 @@
 + `Ctl + W` -- smart select. Continue to type W to expand the selection.
 + `Alt + F1` + `Enter` -- jump to the file in the Project View
 + `Ctl + Alt + Left` -- go back to last point (useful if traversing a call stack)
+
+### Debugging
+
++ Add this to breakpoint to only stop every 10th item
+
+```java
+myList.size() % 10 == 0
+```
