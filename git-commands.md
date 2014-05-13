@@ -51,7 +51,8 @@ Git Alias
 =======
 - Edit your ~/.gitconfig to add useful git aliases. see ([Effective pull requests and other good practices for teams using github](http://codeinthehole.com/writing/pull-requests-and-other-good-practices-for-teams-using-github/))
 
-```[alias]
+```
+[alias]
     hist = log --color --pretty=format:\"%C(yellow)%h%C(reset) %s%C(bold red)%d%C(reset) 
     %C(green)%ad%C(reset) %C(blue)[%an]%C(reset)\" --relative-date --decorate
 ```
