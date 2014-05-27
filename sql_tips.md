@@ -22,3 +22,9 @@
 		IF vRowCount <= 0 THEN
 
 * `tnsping mysid` -- check that a SID exists in your configured `tnsnames.ora`
+* kill a session -- _todo: fill this out_
+
+
+```select username, user#, sid, serial#, inst_id from gv$session where machine =
+ 
+SQL> ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE; ```
