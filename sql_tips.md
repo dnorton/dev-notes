@@ -25,6 +25,8 @@
 * kill a session -- _todo: fill this out_
 
 
-```select username, user#, sid, serial#, inst_id from gv$session where machine =
+```sql
+select username, user#, sid, serial#, inst_id from gv$session where machine =
  
-SQL> ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE; ```
+SQL> ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE;
+```
