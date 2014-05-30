@@ -13,6 +13,7 @@ Useful git commands
 * `git remote add origin https://github.com/user/repo.git` -- set a new remote  
 * `git remote set-url origin https://github.com/user/repo2.git` -- change the remote URL for `origin`
 * `git remote -v` -- verify new remote
+* `git remote update` -- update branches from remote repos. Use this if you don't see you branch using `git branch -r`
 
 ```
         # origin  https://github.com/user/repo.git (fetch)
