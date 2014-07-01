@@ -2,6 +2,7 @@ Python Tips and Tricks
 ----------------------
 
 * [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py) -- install pip
+* `pip --proxy {proxy_url} install {your lib}` -- run pip using a proxy
 
 
 Python Libraries
