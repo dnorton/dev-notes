@@ -13,7 +13,12 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer  
 </verbatim>
 
+### Keyboard shortcults
+
 + `Alt` + `F2` -- pull up command bar
++ `Super` + `w` -- scale effect for desktop
++ `Super` + `s` -- zoom out and show all workspaces
++ `Ctl` + `Shift` + `Alt` + `[left/right]` -- move window to left or right workspace
 
 ### Ubuntu References
 
