@@ -13,6 +13,10 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer  
 </verbatim>
 
++ install deb package using `dpkg`
+
+`sudo dpkg -i {file}.deb`
+
 ### Keyboard shortcults
 
 + `Alt` + `F2` -- pull up command bar
