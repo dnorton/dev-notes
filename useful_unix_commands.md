@@ -106,7 +106,7 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 		strace -f /bin/true		
 		
-* run a simple HTTP server using python
+* run a simple HTTP server using python (2.7+)
 
 		python -m SimpleHTTPServer [port]
 		
@@ -138,7 +138,15 @@ $ /usr/sbin/lsof -Pnl +M -i4
 		
 * pass env variables using sudo
 
-		sudo -E bash -c 'echo $HTTP_PROXY'		
+		sudo -E bash -c 'echo $HTTP_PROXY'	
+		
+* capture command execution in a variable -- this example is useful for a date format string
+
+		timestamp=$(date '+%Y%m%d%H%M')
+		
+* `bash` shell default to env value or use positional argument
+
+		jboss_user=${jboss_user:-"$1"}
 		
 
 ### vim tips
