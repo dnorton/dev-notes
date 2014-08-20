@@ -9,9 +9,14 @@ Useful git commands
 * `git init` -- initialize a git repo in the current directory (you still need to add and commit the local files)
 * `git config -l` -- view git configs
 * `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config        
+Remote Repo Commands
+====================
+
 * `git clone https://github.com/user/repo.git -o notorigin` -- sets the remote to "notorigin"
 * `git remote add origin https://github.com/user/repo.git` -- set a new remote  
 * `git remote set-url origin https://github.com/user/repo2.git` -- change the remote URL for `origin`
+* `git remote update` -- update the local repo with remote tracking branches
+* `git remote prune origin` -- remove stale tracking branches
 * `git remote -v` -- verify new remote
 * `git remote update` -- update branches from remote repos. Use this if you don't see you branch using `git branch -r`
 
@@ -19,6 +24,9 @@ Useful git commands
         # origin  https://github.com/user/repo.git (fetch)
         # origin  https://github.com/user/repo.git (push)
 ```  
+
+Local Repo Commands
+===================
 
 * `git branch -r` -- view available remote branches
 * `git branch -vv` -- view the tracking branch
