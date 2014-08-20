@@ -4,14 +4,13 @@ title: Useful Git Commands
 ---
 
 Useful git commands
--------------------
+===================
 
 * `git init` -- initialize a git repo in the current directory (you still need to add and commit the local files)
 * `git config -l` -- view git configs
 * `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config        
 
-Remote Repo Commands
-====================
+### Remote Repo Commands
 
 * `git clone https://github.com/user/repo.git -o notorigin` -- sets the remote to "notorigin"
 * `git remote add origin https://github.com/user/repo.git` -- set a new remote  
@@ -26,8 +25,7 @@ Remote Repo Commands
         # origin  https://github.com/user/repo.git (push)
 ```  
 
-Local Repo Commands
-===================
+### Local Repo Commands
 
 * `git branch -r` -- view available remote branches
 * `git branch -vv` -- view the tracking branch
