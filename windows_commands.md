@@ -4,3 +4,4 @@ Windows Commands
 _This is just a collection of useful Windows commands_
 
 * `where python` -- like the Unix `which python`, locates the installed path to `python`
+* clear `.bat` file Open Extension -- http://superuser.com/questions/53948/how-do-i-restore-bat-files-as-executables
