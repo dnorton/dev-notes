@@ -18,7 +18,7 @@ vagrant plugin install vagrant-proxyconf
 
   * `vagrant up`
   * `vagrant ssh` -- doesn't work in Windows unless you have `ssh` on your %PATH%
------
+ 
 
 [1]: http://stackoverflow.com/questions/19872591/how-to-use-vagrant-in-a-proxy-enviroment
 [2]: https://vagrantcloud.com/hashicorp/boxes/precise32/versions/1
