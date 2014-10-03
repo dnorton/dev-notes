@@ -8,7 +8,8 @@ Useful git commands
 
 * `git init` -- initialize a git repo in the current directory (you still need to add and commit the local files)
 * `git config -l` -- view git configs
-* `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config        
+* `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config    
+* `git branch -r --contains origin/my_release` -- find all remote branches that contain the commits in `my_release` branch
 
 ### Remote Repo Commands
 
