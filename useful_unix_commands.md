@@ -148,6 +148,10 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 		jboss_user=${jboss_user:-"$1"}
 		
+* tar up a directory but exclude logs
+
+		tar cvfz mydir.tgz mydir --exclude mydir/logs
+		
 
 ### vim tips
 
