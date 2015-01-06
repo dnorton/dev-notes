@@ -9,6 +9,7 @@
 + `Alt + F1` + `Enter` -- jump to the file in the Project View
 + `Ctl + Alt + Left` -- go back to last point (useful if traversing a call stack)
 + `Ctl + P` -- show method parameters
++ `Ctl + Alt + H` -- [show call hierarchy](https://www.jetbrains.com/idea/help/building-call-hierarchy.html)
 
 ### Debugging
 
