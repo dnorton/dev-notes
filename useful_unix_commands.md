@@ -1,5 +1,11 @@
-# useful unix commands
+Useful Unix Commands
+====================
+
 _This is a compilation of commands that I have found particularly useful in a pinch. :+1:_
+
+## Table of Contents
+
+[networking](#networking)
 
 #### networking
 
