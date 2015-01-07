@@ -173,6 +173,10 @@ $ /usr/sbin/lsof -Pnl +M -i4
 | 1   | execute only      | 001 |
 | 0   | none              | 000 |
 
+### set up SSH keys
+
+1. generate keys: `ssh-keygen -t rsa`
+2. copy the public key: `ssh-copy-id user@host`
 
 
 -----
@@ -186,3 +190,4 @@ List of other useful Unix/Linux cheatsheets:
 * http://www.thegeekstuff.com/2012/08/lsof-command-examples/ (lsof examples)
 * http://tldp.org/LDP/abs/html/ (Advanced Bash-Scripting)
 * http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html (Better Bash Scripting)
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
