@@ -5,7 +5,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Table of Contents
 
-[networking](#networking)
+[networking](#networking)  
+[find commands](#find-commands)
 
 #### networking
 
