@@ -1,12 +1,14 @@
-Useful Unix Commands
-====================
+Useful Unix Commands and Notes
+==============================
 
 _This is a compilation of commands that I have found particularly useful in a pinch. :+1:_
 
 ## Table of Contents
 
 [networking](#networking)  
-[find commands](#find-commands)
+[find commands](#find-commands)  
+[curl commands](#curl-commands)  
+[miscellanous commands](#misc-commands)
 
 #### networking
 
