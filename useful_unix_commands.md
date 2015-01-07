@@ -58,10 +58,6 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 		curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
 	
-* run curl with the http proxy
-
-		curl -O some_url -x <host/>:<port/>
-
 * run curl with the http proxy and authentication
 
 		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
