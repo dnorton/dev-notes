@@ -5,12 +5,12 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Table of Contents
 
-[networking](#networking)  
-[find commands](#find-commands)  
-[curl commands](#curl-commands)  
-[miscellanous commands](#misc-commands)  
-[file permissions](#file-permissions-chmod)  
-[SSH keys](#set-up-ssh-keys)
+* [networking](#networking)  
+* [find commands](#find-commands)  
+* [curl commands](#curl-commands)  
+* [miscellanous commands](#misc-commands)  
+* [file permissions](#file-permissions-chmod)  
+* [SSH keys](#set-up-ssh-keys)
 
 #### networking
 
