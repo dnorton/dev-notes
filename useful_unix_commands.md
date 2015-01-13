@@ -25,6 +25,10 @@ $ /usr/sbin/lsof -i :8380
 ```bash
 $ /usr/sbin/lsof -Pnl +M -i4
 ```
+
+* Replacement for `telnet`
+	
+	curl host:port
 		
 #### `find` commands		
 
