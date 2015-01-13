@@ -17,6 +17,7 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 + `Ctl + Shift + S` -- open =settings= menu
 + `Ctl + Shift + Alt + S` -- open =project structure= menu
 + `!` -- [negating completion](https://confluence.jetbrains.com/display/IntelliJIDEA/Code+Completion#CodeCompletion-5.Negatingcompletion)
++ `Ctl + F12` -- navigate w/i a class
 
 
 ### Debugging
