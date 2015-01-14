@@ -24,7 +24,7 @@ Programming Notes
 
 ## Computer Science Courses Online
 
-* [awesome-course](https://github.com/prakhar1989/awesome-courses/blob/master/README.md) -> this is a great resource to find online courses. It is actively maintained by several contributors.
+* [awesome-courses](https://github.com/prakhar1989/awesome-courses/blob/master/README.md) -- this is a great resource to find online courses. It is actively maintained by several contributors. :thumbsup:
 
 
 
