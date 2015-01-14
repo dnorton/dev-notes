@@ -22,6 +22,10 @@ Programming Notes
 
 * [RegEx Survival Guide: 15 Rules](http://blog.smartbear.com/development/the-developers-regex-survival-guide-15-rules-for-making-sense-of-regular-expressions/)
 
+## Computer Science Courses Online
+
+* [awesome-course](https://github.com/prakhar1989/awesome-courses/blob/master/README.md) -> this is a great resource to find online courses. It is actively maintained by several contributors.
+
 
 
 
