@@ -30,3 +30,4 @@ myList.size() % 10 == 0
 
 ### References
 1. http://trishagee.github.io/
+2. http://www.radcortez.com/my-most-useful-intellij-idea-keyboard-shortcuts/
