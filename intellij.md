@@ -4,6 +4,8 @@
 
 ### IntelliJ Shortcuts
 
+_for the most part, replace `Ctl` with `Cmd` for OSX_
+
 + `Ctl + Plus/Minus` -- expand/collapse code folding
 + `Ctl + W` -- smart select. Continue to type W to expand the selection.
 + `Alt + F1` + `Enter` -- jump to the file in the Project View
