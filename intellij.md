@@ -11,6 +11,7 @@ _for the most part, replace `Ctl` with `Cmd` for OSX_
 + `Alt + F1` + `Enter` -- jump to the file in the Project View
 + `Ctl + Alt + Left` -- go back to last point (useful if traversing a call stack)
 + `Ctl + P` -- show method parameters
++ `Ctl + B` -- go to declaration (for any element in a class)
 + `Ctl + Alt + H` -- [show call hierarchy](https://www.jetbrains.com/idea/help/building-call-hierarchy.html)
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
