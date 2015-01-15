@@ -9,7 +9,7 @@ _for the most part, replace `Ctl` with `Cmd` for OSX_
 + `Ctl + Plus/Minus` -- expand/collapse code folding
 + `Ctl + W` -- smart select. Continue to type W to expand the selection.
 + `Alt + F1` + `Enter` -- jump to the file in the Project View
-+ `Ctl + Alt + Left/Right` -- go back to last point (useful if traversing a call stack)
++ `Ctl + Alt + Left/Right` -- go back or forward to last point (useful if traversing a call stack)
 + `Ctl + P` -- show method parameters
 + `Ctl + B` -- go to declaration (for any element in a class)
 + `Ctl + Alt + H` -- [show call hierarchy](https://www.jetbrains.com/idea/help/building-call-hierarchy.html)
