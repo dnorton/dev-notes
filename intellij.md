@@ -32,4 +32,5 @@ myList.size() % 10 == 0
 
 ### References
 1. http://trishagee.github.io/
-2. http://www.radcortez.com/my-most-useful-intellij-idea-keyboard-shortcuts/
+2. https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard.pdf
+3. http://www.radcortez.com/my-most-useful-intellij-idea-keyboard-shortcuts/
