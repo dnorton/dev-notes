@@ -95,7 +95,7 @@ See [reference #7](http://stackoverflow.com/questions/2862590/how-to-replace-mas
 Github Cheatsheet
 =================
 
-+ Check out [Tim Green's Github Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md) ::exclamation::
++ Check out [Tim Green's Github Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md) :exclamation:
 + [Create git.io shortcuts URLs](https://github.com/blog/985-git-io-github-url-shortener)
 
 ### References
