@@ -3,8 +3,15 @@ layout: post
 title: Useful Git Commands
 ---
 
-Useful git commands
-===================
+## Table of Contents
+
+- [Git Commands](#git-commands)
+    * [Useful git commands](#useful-git-commands)
+    * [Remote Commands](#remote-repo-commands)
+
+## Git commands
+
+### Useful git commands
 
 * `git init` -- initialize a git repo in the current directory (you still need to add and commit the local files)
 * `git config -l` -- view git configs
