@@ -80,7 +80,12 @@ Git troubleshooting
         git checkout master  
         git merge seotweaks  
         
-See reference #7 for more info.
+See [reference #7](http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch) for more info.
+
+Github Cheatsheet
+=================
+
++ [Create git.io shortcuts URLs](https://github.com/blog/985-git-io-github-url-shortener)
 
 ### References
 
