@@ -10,6 +10,7 @@ title: Useful Git Commands
     * [Remote Commands](#remote-repo-commands)
     * [Local Repo Commands](#local-repo-commands)
 - [Git Workflow](#git-workflow) 
+- [Github Cheatsheet](#github-cheatsheet)
 
 ## Git commands
 
