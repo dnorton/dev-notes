@@ -1,7 +1,8 @@
 dev-notes
 =========
 
-This repo contains dev notes, useful commands, and short scripts.
+This repo contains dev notes, useful commands, and short scripts.  
+_short URL_: <http://git.io/FWti>
 
 I keep more detailed dev notes on Google Drive:
 
