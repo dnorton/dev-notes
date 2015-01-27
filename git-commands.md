@@ -9,6 +9,7 @@ title: Useful Git Commands
     * [General git commands](#general-git-commands)
     * [Remote Commands](#remote-repo-commands)
     * [Local Repo Commands](#local-repo-commands)
+- [Git Workflow](#git-workflow) 
 
 ## Git commands
 
