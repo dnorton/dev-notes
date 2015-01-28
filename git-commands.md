@@ -20,7 +20,7 @@ title: Useful Git Commands
 * `git config -l` -- view git configs
 * `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config    
 * `git branch -r --contains origin/my_release` -- find all remote branches that contain the commits in `my_release` branch
-* `git diff-tree -r --root 40a450274b128348ec30d69abc51981ea7be20df` -- see a full diff-tree
+* `git diff-tree -r --root <SHA>` -- see a full diff-tree
 
 ### Remote Repo Commands
 
