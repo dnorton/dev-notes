@@ -20,6 +20,7 @@ title: Useful Git Commands
 * `git config -l` -- view git configs
 * `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config    
 * `git branch -r --contains origin/my_release` -- find all remote branches that contain the commits in `my_release` branch
+* `git diff-tree -r --root 40a450274b128348ec30d69abc51981ea7be20df` -- see a full diff-tree
 
 ### Remote Repo Commands
 
@@ -60,12 +61,6 @@ Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * `git push origin :dnorton-dev-2` -- delete the remote feature branch ([see the git-scm page](http://git-scm.com/book/en/Git-Branching-Remote-Branches#Deleting-Remote-Branches))
 
 * Github help: [syncing a fork](https://help.github.com/articles/syncing-a-fork)
-
-
-Git Misc Commands
-=================
-
-* `git diff-tree -r --root 40a450274b128348ec30d69abc51981ea7be20df` -- see a full diff-tree
 
 Git Alias
 =======
