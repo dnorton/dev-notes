@@ -35,7 +35,7 @@ Markdown Cheatsheet
 ```
 + Strike
  + `~~strike me~~` (github)
- + `<strike>strike me</strike` (normal)
+ + `<strike>strike me</strike>` (normal)
  
 ## Github Flavored Markdown
 _see [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)_
