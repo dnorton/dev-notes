@@ -22,7 +22,7 @@ Markdown Cheatsheet
 
  
 ## Github Flavored Markdown
-_ see [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)_
+_see [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)_
 
 + Tasks 
   + `- [ ] open task`
