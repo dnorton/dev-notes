@@ -1,7 +1,7 @@
 Markdown Cheatsheet
 ===================
 
-- [ ] start a list of useful Markdown commands
+- [x] start a list of useful Markdown commands
 - [x] simple URL links
   - [ ] reference links
 - [ ] github specific commands
@@ -12,14 +12,26 @@ Markdown Cheatsheet
 
 + simple links: `[text](http://url)`
 + github link: `<http://url>`
+
+### Reference Links
+
+```markdown
+[this is text][1]
+[1]: http://url
+```
  
 ## Formatting
 
 + escape a \`
-```
+```markdown
     ``Back`Tick``
 ```
-
++ Code blocks:
+```
+    ```markdown
+      [this is markdown](http://url)
+    ```
+```
  
 ## Github Flavored Markdown
 _see [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)_
