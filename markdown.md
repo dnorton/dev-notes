@@ -2,8 +2,22 @@ Markdown Cheatsheet
 ===================
 
 - [ ] start a list of useful Markdown commands
-- [ ] simple URL links
+- [x] simple URL links
   - [ ] reference links
 - [ ] github specific commands
 - [ ] lists
 - [ ] tables?
+
+## Links
+
++ simple links: `[text](http://url)`
++ github link: `<http://url>`
+ 
+## Formatting
+
++ escape a \`:  \`\`Escape\`Tick\`\`
+ 
+## References
+
+1. <http://daringfireball.net/projects/markdown/syntax> -- __THE_ first place to look
+2. <http://meta.stackexchange.com/questions/82718/how-do-i-escape-a-backtick-in-markdown> -- how to escape a backtick
