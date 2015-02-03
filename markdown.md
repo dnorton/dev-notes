@@ -17,7 +17,10 @@ Markdown Cheatsheet
 
 + escape a \`:  \`\`Escape\`Tick\`\`
  
+## [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+ 
 ## References
 
 1. <http://daringfireball.net/projects/markdown/syntax> -- __THE_ first place to look
-2. <http://meta.stackexchange.com/questions/82718/how-do-i-escape-a-backtick-in-markdown> -- how to escape a backtick
+2. <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>
+3. <http://meta.stackexchange.com/questions/82718/how-do-i-escape-a-backtick-in-markdown> -- how to escape a backtick
