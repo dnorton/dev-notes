@@ -15,9 +15,18 @@ Markdown Cheatsheet
  
 ## Formatting
 
-+ escape a \`:  \`\`Escape\`Tick\`\`
++ escape a \`
+```
+    ``Back`Tick``
+```
+
  
-## [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
+## Github Flavored Markdown
+_ see [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)_
+
++ Tasks 
+  + `- [ ] open task`
+  + `- [x] closed task`
  
 ## References
 
