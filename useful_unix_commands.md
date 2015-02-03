@@ -8,6 +8,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [networking](#networking)  
 * [find commands](#find-commands)  
 * [curl commands](#curl-commands)  
+* [vim commands](#vim-tips)
 * [miscellanous commands](#misc-commands)  
 * [file permissions](#file-permissions-chmod)  
 * [SSH keys](#set-up-ssh-keys)
@@ -169,6 +170,11 @@ $ /usr/sbin/lsof -Pnl +M -i4
 * for a case insensitive search use the `\c` escape sequence
 
 		/\ccopyright
+
+* `mark` locations
+
+ 	+ `ma` -- set the mark `a` at the current position
+ 	+ ```a`` -- jump to mark `a`
 		
 ### file permissions (`chmod`)
 
