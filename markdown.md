@@ -1,14 +1,12 @@
 Markdown Cheatsheet
 ===================
 
-- [ ] lists
-- [ ] tables?
- 
 ## Table of Contents
 * [links](#links)
   * [reference links](#reference-links)
 * [formatting](#formatting)
 * [GFM](#github-flavored-markdown)
+* [references](#references)
 
 ## Links
 
@@ -29,7 +27,7 @@ Markdown Cheatsheet
     ``Back`Tick``
 ```
 + Code blocks:
-```
+```markdown
     ```markdown
       [this is markdown](http://url)
     ```
