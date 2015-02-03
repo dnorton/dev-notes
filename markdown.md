@@ -22,6 +22,7 @@ Markdown Cheatsheet
  
 ## Formatting
 
++ code highlight: `` `code` ``
 + escape a \`
 ```markdown
     ``Back`Tick``
@@ -32,6 +33,9 @@ Markdown Cheatsheet
       [this is markdown](http://url)
     ```
 ```
++ Strike
+ + `~~strike me~~` (github)
+ + `<strike>strike me</strike` (normal)
  
 ## Github Flavored Markdown
 _see [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)_
