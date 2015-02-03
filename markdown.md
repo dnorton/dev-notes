@@ -1,12 +1,14 @@
 Markdown Cheatsheet
 ===================
 
-- [x] start a list of useful Markdown commands
-- [x] simple URL links
-  - [ ] reference links
-- [ ] github specific commands
 - [ ] lists
 - [ ] tables?
+ 
+## Table of Contents
+* [links](#links)
+  * [reference links](#reference-links)
+* [formatting](#formatting)
+* [GFM](#github-flavored-markdown)
 
 ## Links
 
