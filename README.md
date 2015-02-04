@@ -13,6 +13,8 @@ _short URL: <http://git.io/FWti>_
 
 ## Scripts
 + [fr.py](scripts/fr.py) -- a find/replace python script
++ [dos2unix.sh](https://gist.github.com/dnorton/bdac1f49ce1e6da8f41f) -- for those times when dos2unix isn't installed
++ [find_sql_files.py](https://gist.github.com/dnorton/fb0fa9f80b6c9d71639a) -- fun with python list comprehensions
 
 
 _:notebook: I keep more detailed dev notes in my [Google Drive dev folder](https://drive.google.com/?authuser=0#folders/0B1esl71mo8A9VV9MUzdlb0dvZU0)_
