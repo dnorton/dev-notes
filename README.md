@@ -8,7 +8,7 @@ _short URL: <http://git.io/FWti>_
 ## My Most Used Notes
 + [useful_unix_commands.md](useful_unix_commands.md) -- this file contains lots of Unix commands that I never memorized but got tired of looking up constantly.
 + [git-commands.md](git-commands.md) -- local and remote git commands as well as some Github tips and tricks :octocat:
-+ [intellij.md](intellij.md) -- keyboard shortcuts that my `IntelliJ` the most productive IDE ever!
++ [intellij.md](intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
 + [markdown.md](markdown.md) -- Markdown cheatsheet
 
 ## Scripts
