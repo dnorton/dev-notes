@@ -22,6 +22,9 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 + `!` -- [negating completion](https://confluence.jetbrains.com/display/IntelliJIDEA/Code+Completion#CodeCompletion-5.Negatingcompletion)
 + `Ctl + F12` -- navigate w/i a class
 
+### Projects
+
++ To open a Gradle project for the first time: "Open" -> Navigate to build.gradle
 
 ### Debugging
 
