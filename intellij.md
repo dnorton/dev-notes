@@ -31,7 +31,7 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 
 ### Project Tricks
 
-+ To open a Gradle project for the first time: `"Open"` -> Navigate to build.gradle
++ To open a Gradle project for the first time: `"Open"` -> Navigate to `build.gradle` file
 
 ### Debugging
 
