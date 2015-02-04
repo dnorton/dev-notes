@@ -10,7 +10,7 @@ IntelliJ Tips and Tricks
 
 ### IntelliJ Shortcuts
 
-_for the most part, replace `Ctl` with `Cmd` for OSX_
+_replace `Ctl` with `Cmd` for OSX :apple:_
 
 + `Ctl + Plus/Minus` -- expand/collapse code folding
 + `Ctl + W` -- smart select. Continue to type W to expand the selection.
@@ -21,6 +21,7 @@ _for the most part, replace `Ctl` with `Cmd` for OSX_
 + `Ctl + Alt + H` -- [show call hierarchy](https://www.jetbrains.com/idea/help/building-call-hierarchy.html)
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
+
 + `Ctl + Shift + A` -- navigate directly to an action/option
 + `Ctl + Shift + Enter` -- [statement completion](https://confluence.jetbrains.com/display/IntelliJIDEA/Code+Completion#CodeCompletion-4.Statementcompletion)
 + `Ctl + Shift + S` -- open `settings` menu
@@ -30,7 +31,7 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 
 ### Project Tricks
 
-+ To open a Gradle project for the first time: "Open" -> Navigate to build.gradle
++ To open a Gradle project for the first time: `"Open"` -> Navigate to build.gradle
 
 ### Debugging
 
