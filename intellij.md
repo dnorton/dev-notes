@@ -1,6 +1,12 @@
-## IntelliJ
+IntelliJ Tips and Tricks
+========================
 
-* [Debug Maven test in IntelliJ](http://stackoverflow.com/questions/6573289/intellij-idea-debugger-skips-breakpoints-when-debugging-maven-tests)
+## Table of Contents
+* [shortcuts](#intellij-shortcuts)
+* [projects](#project-tricks)
+* [debugging](#debugging)
+* [references](#references)
+
 
 ### IntelliJ Shortcuts
 
@@ -22,11 +28,13 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 + `!` -- [negating completion](https://confluence.jetbrains.com/display/IntelliJIDEA/Code+Completion#CodeCompletion-5.Negatingcompletion)
 + `Ctl + F12` -- navigate w/i a class
 
-### Projects
+### Project Tricks
 
 + To open a Gradle project for the first time: "Open" -> Navigate to build.gradle
 
 ### Debugging
+
++ [Debug Maven test in IntelliJ](http://stackoverflow.com/questions/6573289/intellij-idea-debugger-skips-breakpoints-when-debugging-maven-tests)
 
 + Add this to breakpoint to only stop every 10th item
 
