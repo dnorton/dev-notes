@@ -36,6 +36,7 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 ### Debugging
 
 + [Debug Maven test in IntelliJ](http://stackoverflow.com/questions/6573289/intellij-idea-debugger-skips-breakpoints-when-debugging-maven-tests)
++ [Cleaning System Cache](https://www.jetbrains.com/idea/help/cleaning-system-cache.html) -- to manually delete system cache, go to `%userprofile%\.IntelliJ##\system`
 
 + Add this to breakpoint to only stop every 10th item
 
