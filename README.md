@@ -10,6 +10,7 @@ _short URL: <http://git.io/FWti>_
 + [git-commands.md](git-commands.md) -- local and remote git commands as well as some Github tips and tricks :octocat:
 + [intellij.md](intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
 + [markdown.md](markdown.md) -- Markdown cheatsheet
++ [atom-io.md](atom-io.md) -- keyboard shortcuts for the [Atom](http://atom.io) editor
 
 ## Scripts
 + [fr.py](scripts/fr.py) -- a find/replace python script
