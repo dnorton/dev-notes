@@ -1,4 +1,5 @@
 # .bashrc
+# https://dotfiles.github.io/
 
 # User specific aliases and functions
 alias l.='ls -d .* --color=auto'
