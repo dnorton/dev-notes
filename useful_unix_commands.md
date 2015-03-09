@@ -29,13 +29,17 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 * Replacement for `telnet`
 	
-		curl host:port
+```bash
+curl host:port
+```
 		
 #### `find` commands		
 
 * find all files that were modified less that 2 days ago
  
-		find . -mtime -2
+```bash
+find . -mtime -2
+```
 
 * find all files owned by root
 
@@ -57,7 +61,9 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 * Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
 
-		openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```bash
+openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```
 
 * run curl with the .cer
 
