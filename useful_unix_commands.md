@@ -164,6 +164,10 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 		tar cvfz mydir.tgz mydir --exclude mydir/logs
 		
+* list a directory sorted by size reversed
+
+		ls -lSr
+		
 
 ### vim tips
 
