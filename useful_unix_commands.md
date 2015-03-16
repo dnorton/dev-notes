@@ -171,9 +171,14 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 		tar cvfz mydir.tgz mydir --exclude mydir/logs
 		
 * list a directory sorted by size reversed
+```bash
+ls -lSr
+```
+* check a unique file size (better than `md5sum`)
+```bash
+sha1sum {file_name}
+```
 
-		ls -lSr
-		
 
 ### vim tips
 
