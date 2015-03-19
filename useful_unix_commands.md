@@ -1,21 +1,45 @@
-# useful unix commands
+Useful Unix Commands and Notes
+==============================
+
 _This is a compilation of commands that I have found particularly useful in a pinch. :+1:_
+
+## Table of Contents
+
+* [networking](#networking)  
+* [find commands](#find-commands)  
+* [curl commands](#curl-commands)  
+* [vim commands](#vim-tips)
+* [miscellanous commands](#misc-commands)  
+* [file permissions](#file-permissions-chmod)  
+* [SSH keys](#set-up-ssh-keys)
 
 #### networking
 
 * find what process is associated with a TCP port
 
-		/usr/sbin/lsof -i :8380
+```bash
+$ /usr/sbin/lsof -i :8380
+```
 		
 * See all TCP ports
 
-		/usr/sbin/lsof -Pnl +M -i4
+```bash
+$ /usr/sbin/lsof -Pnl +M -i4
+```
+
+* Replacement for `telnet`
+	
+```bash
+curl host:port
+```
 		
 #### `find` commands		
 
 * find all files that were modified less that 2 days ago
  
-		find . -mtime -2
+```bash
+find . -mtime -2
+```
 
 * find all files owned by root
 
@@ -37,16 +61,14 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 * Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
 
-		openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```bash
+openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```
 
 * run curl with the .cer
 
 		curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
 	
-* run curl with the http proxy
-
-		curl -O some_url -x <host/>:<port/>
-
 * run curl with the http proxy and authentication
 
 		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
@@ -102,7 +124,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 		strace -f /bin/true		
 		
-* run a simple HTTP server using python
+* run a simple HTTP server using python (2.7+)
 
 		python -m SimpleHTTPServer [port]
 		
@@ -134,14 +156,40 @@ _This is a compilation of commands that I have found particularly useful in a pi
 		
 * pass env variables using sudo
 
-		sudo -E bash -c 'echo $HTTP_PROXY'		
+		sudo -E bash -c 'echo $HTTP_PROXY'	
 		
+* capture command execution in a variable -- this example is useful for a date format string
+
+		timestamp=$(date '+%Y%m%d%H%M')
+		
+* `bash` shell default to env value or use positional argument
+
+		jboss_user=${jboss_user:-"$1"}
+		
+* tar up a directory but exclude logs
+
+		tar cvfz mydir.tgz mydir --exclude mydir/logs
+		
+* list a directory sorted by size reversed
+```bash
+ls -lSr
+```
+* check a unique file size (better than `md5sum`)
+```bash
+sha1sum {file_name}
+```
+
 
 ### vim tips
 
 * for a case insensitive search use the `\c` escape sequence
 
 		/\ccopyright
+
+* `mark` locations
+
+ 	+ `ma` -- set the mark `a` at the current position
+ 	+ ```a`` -- jump to mark `a`
 		
 ### file permissions (`chmod`)
 
@@ -157,6 +205,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 | 1   | execute only      | 001 |
 | 0   | none              | 000 |
 
+### set up SSH keys
+
+1. generate keys: `ssh-keygen -t rsa`
+2. copy the public key: `ssh-copy-id user@host`
 
 
 -----
@@ -169,3 +221,5 @@ List of other useful Unix/Linux cheatsheets:
 * http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
 * http://www.thegeekstuff.com/2012/08/lsof-command-examples/ (lsof examples)
 * http://tldp.org/LDP/abs/html/ (Advanced Bash-Scripting)
+* http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html (Better Bash Scripting)
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2

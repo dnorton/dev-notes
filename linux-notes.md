@@ -13,12 +13,21 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer  
 </verbatim>
 
-+ `Alt` + `F2` -- pull up command bar
++ install deb package using `dpkg`
 
-## References
+`sudo dpkg -i {file}.deb`
+
+### Keyboard shortcults
+
++ `Alt` + `F2` -- pull up command bar
++ `Super` + `w` -- scale effect for desktop
++ `Super` + `s` -- zoom out and show all workspaces
++ `Ctl` + `Shift` + `Alt` + `[left/right]` -- move window to left or right workspace
+
+### Ubuntu References
 
 * [Keyboard Shortcuts](https://help.ubuntu.com/community/KeyboardShortcuts)
-
+* http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html
 
 RedHat Tips
 -----------
@@ -34,7 +43,3 @@ RedHat Tips
 		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
 		
 
-
-### References
-
-1. http://www.ubuntugeek.com/how-to-install-oracle-java-7-in-ubuntu-12-04.html

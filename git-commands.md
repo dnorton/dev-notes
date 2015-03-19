@@ -1,16 +1,43 @@
-Useful git commands
--------------------
+---
+layout: post
+title: Useful Git Commands
+---
+
+## Table of Contents
+
+- [Git Commands](#git-commands)
+    * [General git commands](#general-git-commands)
+    * [Remote Commands](#remote-repo-commands)
+    * [Local Repo Commands](#local-repo-commands)
+- [Git Workflow](#git-workflow) 
+- [Github Cheatsheet](#github-cheatsheet)
+
+## Git commands
+
+### General git commands
 
 * `git init` -- initialize a git repo in the current directory (you still need to add and commit the local files)
 * `git config -l` -- view git configs
-* `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config        
-* `git remote add origin https://github.com/user/repo.git` -- set a new remote        
+* `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config    
+* `git branch -r --contains origin/my_release` -- find all remote branches that contain the commits in `my_release` branch
+* `git diff-tree -r --root <SHA>` -- see a full diff-tree
+
+### Remote Repo Commands
+
+* `git clone https://github.com/user/repo.git -o notorigin` -- sets the remote to "notorigin"
+* `git remote add origin https://github.com/user/repo.git` -- set a new remote  
+* `git remote set-url origin https://github.com/user/repo2.git` -- change the remote URL for `origin`
+* `git remote update` -- update the local repo with remote tracking branches
+* `git remote prune origin` -- remove stale tracking branches
 * `git remote -v` -- verify new remote
+* `git remote update` -- update branches from remote repos. Use this if you don't see you branch using `git branch -r`
 
 ```
         # origin  https://github.com/user/repo.git (fetch)
         # origin  https://github.com/user/repo.git (push)
 ```  
+
+### Local Repo Commands
 
 * `git branch -r` -- view available remote branches
 * `git branch -vv` -- view the tracking branch
@@ -21,6 +48,7 @@ Useful git commands
 * `git reset --hard HEAD` -- reset your local branch to the HEAD commit
 * `git checkout HEAD -- folder1/pom.xml` -- reset a single file to the HEAD commit
 * `git show-ref` -- shows the `refs` for the repo (still figuring this out)
+* `git filter-branch --prune-empty --subdirectory-filter lib master` -- split out a sub dir into a repository
 
 Git Workflow
 ============
@@ -34,11 +62,15 @@ Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 
 * Github help: [syncing a fork](https://help.github.com/articles/syncing-a-fork)
 
+Git Alias
+=======
+- Edit your ~/.gitconfig to add useful git aliases. see ([Effective pull requests and other good practices for teams using github](http://codeinthehole.com/writing/pull-requests-and-other-good-practices-for-teams-using-github/))
 
-Git Misc Commands
-=================
-
-* `git diff-tree -r --root 40a450274b128348ec30d69abc51981ea7be20df` -- see a full diff-tree
+```
+[alias]
+    hist = log --color --pretty=format:\"%C(yellow)%h%C(reset) %s%C(bold red)%d%C(reset) 
+    %C(green)%ad%C(reset) %C(blue)[%an]%C(reset)\" --relative-date --decorate
+```
 
 
 Git troubleshooting
@@ -53,7 +85,13 @@ Git troubleshooting
         git checkout master  
         git merge seotweaks  
         
-See reference #7 for more info.
+See [reference #7](http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch) for more info.
+
+Github Cheatsheet
+=================
+
++ Check out [Tim Green's Github Cheatsheet](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.md) :exclamation:
++ [Create git.io shortcuts URLs](https://github.com/blog/985-git-io-github-url-shortener)
 
 ### References
 
@@ -62,5 +100,6 @@ See reference #7 for more info.
 3. http://www.atlassian.com/git/tutorial
 4. http://scottchacon.com/2011/08/31/github-flow.html
 5. http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf (great training slides)
-6. http://gitolite.com/gcs/index.html (git concepts explained)
+6. http://gitolite.com/gcs.html#(1) (git concepts explained)
 7. http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch
+8. https://github.com/tiimgreen/github-cheat-sheet :thumbsup:

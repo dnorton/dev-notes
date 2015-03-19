@@ -1,5 +1,5 @@
-Programming Notes
-===================
+Computer Science Notes
+======================
 
 ## Algorithm Design
 
@@ -21,6 +21,14 @@ Programming Notes
 ## RegEx
 
 * [RegEx Survival Guide: 15 Rules](http://blog.smartbear.com/development/the-developers-regex-survival-guide-15-rules-for-making-sense-of-regular-expressions/)
+
+## Computer Science Courses Online
+
+* [awesome-courses](https://github.com/prakhar1989/awesome-courses/blob/master/README.md) -- this is a great resource to find online courses. It is actively maintained by several contributors. :thumbsup:
+
+## Quantum Computing
+
+* [explanation of quantum computing (imgur)](http://i.imgur.com/m72ut23.jpg)
 
 
 
