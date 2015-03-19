@@ -14,6 +14,7 @@ _short URL: <http://git.io/FWti>_
 + [cs-notes.md](cs-notes.md) -- general purpose Computer Science notes (data structures, algorithms, cryptography, etc.)
 
 ## Scripts
+_Very small utility scripts that have come in handy more than once._
 + [fr.py](scripts/fr.py) -- a find/replace python script
 + [dos2unix.sh](https://gist.github.com/dnorton/bdac1f49ce1e6da8f41f) -- for those times when dos2unix isn't installed
 + [find_sql_files.py](https://gist.github.com/dnorton/fb0fa9f80b6c9d71639a) -- fun with python list comprehensions
