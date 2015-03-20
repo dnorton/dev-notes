@@ -36,5 +36,8 @@ jar uf <jar_file> <file>
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
 
+## Detailed Notes
+:100: _go to [Google Drive: Java Notes](https://docs.google.com/document/d/1P68nAfkay0KGi7elw56HflUxoxhCy96uTXtI0ToiImY/edit?usp=sharing) for notes on the JVM, useful libraries, language information, etc._
+
 [1]: http://java.dzone.com/articles/visualvm-monitoring-remote-jvm
 
