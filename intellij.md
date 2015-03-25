@@ -19,9 +19,8 @@ _replace `Ctl` with `Cmd` for OSX :apple:_
 + `Ctl + P` -- show method parameters
 + `Ctl + B` -- go to declaration (for any element in a class)
 + `Ctl + Alt + H` -- [show call hierarchy](https://www.jetbrains.com/idea/help/building-call-hierarchy.html)
-
-+ `Ctl + N` -- go to a class file in the project
-+ `Ctl + Shift + N` -- go to any file in the project
++ `Ctl + N` -- go to a class file in the project :star:
++ `Ctl + Shift + N` -- go to any file in the project :star:
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
 
