@@ -1,5 +1,6 @@
 IntelliJ Tips and Tricks
 ========================
+_as of IntelliJ 14.0.3_
 
 ## Table of Contents
 * [shortcuts](#intellij-shortcuts)
