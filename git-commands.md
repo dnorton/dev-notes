@@ -21,7 +21,7 @@ title: Useful Git Commands
 * `git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080` -- set http proxy in git config    
 * `git branch -r --contains origin/my_release` -- find all remote branches that contain the commits in `my_release` branch
 * `git diff-tree -r --root <SHA>` -- see a full diff-tree
-* `git svn clone {svn_url}` -- clone an SVN repo as a git repository. [more info](https://www.atlassian.com/git/tutorials/migrating-prepare)
+* `git svn clone {svn_url}` -- clone an SVN repo as a git repository. _[more info](https://www.atlassian.com/git/tutorials/migrating-prepare)_
 
 ### Remote Repo Commands
 
