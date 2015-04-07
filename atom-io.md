@@ -10,3 +10,4 @@ Atom Editor Notes
 ## References
 
 1. https://bugsnag.com/blog/atom-editor-cheat-sheet
+2. http://blog.atom.io/2014/03/13/git-integration.html
