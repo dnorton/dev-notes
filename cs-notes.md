@@ -30,6 +30,10 @@ Computer Science Notes
 
 * [explanation of quantum computing (imgur)](http://i.imgur.com/m72ut23.jpg)
 
+## Data Science
+
+* [Data Science Specialization](http://datasciencespecialization.github.io/) -- part of [Practical Machine Learning](https://class.coursera.org/predmachlearn-013)
+
 
 
 
