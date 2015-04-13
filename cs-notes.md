@@ -26,15 +26,10 @@ Computer Science Notes
 
 * [awesome-courses](https://github.com/prakhar1989/awesome-courses/blob/master/README.md) -- this is a great resource to find online courses. It is actively maintained by several contributors. :thumbsup:
 
-## Quantum Computing
-
-* [explanation of quantum computing (imgur)](http://i.imgur.com/m72ut23.jpg)
-
 ## Data Science
 
 * [Data Science Specialization](http://datasciencespecialization.github.io/) -- part of [Practical Machine Learning](https://class.coursera.org/predmachlearn-013)
 
+## Quantum Computing
 
-
-
-
+* [explanation of quantum computing (imgur)](http://i.imgur.com/m72ut23.jpg)
