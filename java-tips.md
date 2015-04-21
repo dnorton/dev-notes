@@ -7,7 +7,7 @@ Table of Contents
 * [Resources](#resources)
        * [Libraries](#libraries)
        * [DesignPatterns](#design-patterns)
- * [Debugging](#debugging)
+* [Debugging](#debugging)
 
 
 ## Resources
