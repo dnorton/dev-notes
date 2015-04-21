@@ -53,7 +53,7 @@ sudo jstack -F -l {pid} > ~/{file_name} 2>&1
 jar uf <jar_file> <file>
 ```
 
-+ run a junit test from the command line
++ run a [junit test](https://github.com/junit-team/junit/wiki/Getting-started) from the command line
 ```
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
