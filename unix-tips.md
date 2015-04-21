@@ -147,14 +147,6 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 		TEST="importantfile.txt.remove"
 		echo ${TEST%.*}
 	
-* run a [junit test](https://github.com/junit-team/junit/wiki/Getting-started) from the command line 
-
-		java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
-
-* turn on debug with suspend=y (will wait for a remote debugger)
-
-		DBUG="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=10123"
-		
 * use [pygmentize](http://pygments.org/docs/cmdline/) to generate an HTML output of a diff file
 
 		pygmentize -l diff -f html -O full -o diff.html diff.txt
