@@ -13,7 +13,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [file permissions](#file-permissions-chmod)  
 * [SSH keys](#set-up-ssh-keys)
 
-#### networking
+### Networking
 
 * find what process is associated with a TCP port
 
@@ -32,8 +32,16 @@ $ /usr/sbin/lsof -Pnl +M -i4
 ```bash
 curl host:port
 ```
+
+### Benchmarking
+
+* I/O performance benchmarks
+
+```bash
+hdparm -tT /dev/sda1
+```
 		
-#### `find` commands		
+### `find` commands		
 
 * find all files that were modified less that 2 days ago
  
@@ -57,7 +65,7 @@ find . -mtime -2
 
 		find . -type f -exec rm {} \;
 		
-#### `curl` commands
+### `curl` commands
 
 * Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
 
