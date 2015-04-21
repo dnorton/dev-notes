@@ -1,5 +1,25 @@
 Java and JVM Tips
+=================
+
+Table of Contents
 -----------------
+
+* [resources](#resources)
+       * [Libraries](#Libraries)     
+
+
+## Resources
+
+### Libraries
+
+- [awesome-java](https://github.com/akullpp/awesome-java)
+
+### Design Patterns
+
+- [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+
+## Debugging
+
 + [Turn on Debugger](http://stackoverflow.com/questions/138511/what-are-java-command-line-options-to-set-to-allow-jvm-to-be-remotely-debugged)
 
         * java 1.5+
@@ -35,15 +55,7 @@ jar uf <jar_file> <file>
 ```
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
-## Resources
 
-### Libraries
-
-- [awesome-java](https://github.com/akullpp/awesome-java)
-
-### Design Patterns
-
-- [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
 ## Detailed Notes
 :100: _go to [Google Drive: Java Notes](https://docs.google.com/document/d/1P68nAfkay0KGi7elw56HflUxoxhCy96uTXtI0ToiImY/edit?usp=sharing) for notes on the JVM, useful libraries, language information, etc._
