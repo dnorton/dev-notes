@@ -1,5 +1,5 @@
-Java and JVM Tips
-=================
+Java/JVM Notes
+==============
 
 Table of Contents
 -----------------
