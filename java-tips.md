@@ -4,8 +4,10 @@ Java and JVM Tips
 Table of Contents
 -----------------
 
-* [resources](#resources)
-       * [Libraries](#Libraries)     
+* [Resources](#resources)
+       * [Libraries](#libraries)
+       * [DesignPatterns](#design-patterns)
+ * [Debugging](#debugging)
 
 
 ## Resources
