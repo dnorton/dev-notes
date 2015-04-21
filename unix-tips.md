@@ -5,7 +5,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Table of Contents
 
-* [networking](#networking)  
+* [Networking](#networking)  
+* [Benchmarking](#benchmarking)
 * [find commands](#find-commands)  
 * [curl commands](#curl-commands)  
 * [vim commands](#vim-tips)
