@@ -58,19 +58,27 @@ find . -mtime -2
 
 * find all files owned by root
 
-		find . -uid `id -u root`
+```bash
+find . -uid `id -u root`
+```
 	
 * find all files 28 days old or newer
 
-		find . -name '*.log' -mtime -28
+```bash
+find . -name '*.log' -mtime -28
+```
 		
 * find/replace with `sed`
 
-		 find . -type f -exec sed -i 's/bad/good/g' {} \;
+```bash
+find . -type f -exec sed -i 's/bad/good/g' {} \;
+```
     
 * find and remove files
 
-		find . -type f -exec rm {} \;
+```bash
+find . -type f -exec rm {} \;
+```
 		
 ### `curl` commands
 
