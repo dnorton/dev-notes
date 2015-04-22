@@ -4,21 +4,12 @@ Java/JVM Notes
 Table of Contents
 -----------------
 
+* [Debugging](#debugging)
 * [Resources](#resources)
        * [Libraries](#libraries)
        * [DesignPatterns](#design-patterns)
-* [Debugging](#debugging)
+* [Detailed Notes](#detailed-notes)
 
-
-## Resources
-
-### Libraries
-
-- [awesome-java](https://github.com/akullpp/awesome-java)
-
-### Design Patterns
-
-- [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
 ## Debugging
 
@@ -58,6 +49,15 @@ jar uf <jar_file> <file>
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
 
+## Resources
+
+### Libraries
+
+- [awesome-java](https://github.com/akullpp/awesome-java)
+
+### Design Patterns
+
+- [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
 ## Detailed Notes
 :100: _go to [Google Drive: Java Notes](https://docs.google.com/document/d/1P68nAfkay0KGi7elw56HflUxoxhCy96uTXtI0ToiImY/edit?usp=sharing) for notes on the JVM, useful libraries, language information, etc._
