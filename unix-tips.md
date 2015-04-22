@@ -34,6 +34,12 @@ $ /usr/sbin/lsof -Pnl +M -i4
 curl host:port
 ```
 
+* ping Google DNS -- this is very useful for checking network reliability
+
+```bash
+ping -t 8.8.8.8
+```
+
 ### Benchmarking
 
 * I/O performance benchmarks
