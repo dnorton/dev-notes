@@ -3,7 +3,9 @@ JBoss EAP Notes
 
 ## CLI
 
-`jboss_cli.sh --connect controller=myjboss-host:9999` -- connect to the JBoss CLI port
++ `jboss_cli.sh --connect controller=myjboss-host:9999` -- connect to the JBoss CLI port
++ `[standalone@myjboss-host:9999 /]module remove --name=module_name` -- remove a module
+
 
 ## Tricks
 
