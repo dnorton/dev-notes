@@ -35,3 +35,7 @@ Computer Science Notes
 ## Quantum Computing
 
 * [explanation of quantum computing (imgur)](http://i.imgur.com/m72ut23.jpg)
+
+### Book Lists
+
+* [Peteris Krumins' Top 100 Books: Part 1](http://www.catonmat.net/blog/top-100-books-part-one/)
