@@ -36,6 +36,8 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 ### Project Tricks
 + To open a Gradle project for the first time: `"Open"` -> Navigate to `build.gradle` file
 + [turn off IntelliJ tabs](http://hadihariri.com/2014/06/24/no-tabs-in-intellij-idea/)
++ `Ctl + Shift + [0-9]` -- set a numbered bookmark
++ `Ctl + [0-9]` -- jump to numbered bookmark
 
 ### Debugging
 + [Debug Maven test in IntelliJ](http://stackoverflow.com/questions/6573289/intellij-idea-debugger-skips-breakpoints-when-debugging-maven-tests)
