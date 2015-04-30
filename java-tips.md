@@ -52,6 +52,10 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 
 ## Resources
 
+### Java 8
+
+- [java8-tutorial](https://github.com/winterbe/java8-tutorial)
+
 ### Libraries
 
 - [awesome-java](https://github.com/akullpp/awesome-java)
@@ -59,10 +63,6 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 ### Design Patterns
 
 - [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
-
-### Java 8
-
-- [java8-tutorial](https://github.com/winterbe/java8-tutorial)
 
 ## Detailed Notes
 :100: _go to [Google Drive: Java Notes](https://docs.google.com/document/d/1P68nAfkay0KGi7elw56HflUxoxhCy96uTXtI0ToiImY/edit?usp=sharing) for notes on the JVM, useful libraries, language information, etc._
