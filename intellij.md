@@ -22,6 +22,7 @@ _replace `Ctl` with `Cmd` for OSX :apple:_
 + `Ctl + Alt + H` -- [show call hierarchy](https://www.jetbrains.com/idea/help/building-call-hierarchy.html)
 + `Ctl + N` -- go to a class file in the project :star:
 + `Ctl + Shift + N` -- go to any file in the project :star:
++ `Ctl + E` -- show recent files
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
 
@@ -34,6 +35,7 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 
 ### Project Tricks
 + To open a Gradle project for the first time: `"Open"` -> Navigate to `build.gradle` file
++ [turn off IntelliJ tabs](http://hadihariri.com/2014/06/24/no-tabs-in-intellij-idea/)
 
 ### Debugging
 + [Debug Maven test in IntelliJ](http://stackoverflow.com/questions/6573289/intellij-idea-debugger-skips-breakpoints-when-debugging-maven-tests)
