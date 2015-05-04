@@ -40,6 +40,10 @@ curl host:port
 ping -t 8.8.8.8
 ```
 
+* Mount an NFS drive on Ubuntu
+
+	- [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
+
 ### Benchmarking
 
 * I/O performance benchmarks
@@ -230,7 +234,7 @@ sha1sum {file_name}
 
 #### references
 
-List of other useful Unix/Linux cheatsheets:
+List of other useful Unix/Linux cheatsheets or tutorials:
 
 * https://github.com/WilliamHackmore/linuxgems/blob/master/cheat_sheet.org.sh
 * http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
