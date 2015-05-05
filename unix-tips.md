@@ -197,9 +197,9 @@ ls -lSr
 ```bash
 sha1sum {file_name}
 ```
-* human readable file sizes
+* human readable file sizes including summary of first level directories
 ```bash
-du -h
+du -h --max-depth=1 --all
 ```
 
 
