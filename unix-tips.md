@@ -197,6 +197,10 @@ ls -lSr
 ```bash
 sha1sum {file_name}
 ```
+* human readable file sizes
+```bash
+du -h
+```
 
 
 ### vim tips
