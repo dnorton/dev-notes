@@ -11,6 +11,6 @@ Web Development Notes
 
 ### Frameworks
 
-- [node](https://nodejs.org/) 
+- [node](https://nodejs.org/) -- platform built on [Chrome's Javascript Runtime Engine](http://code.google.com/p/v8/)
 - [yeoman](http://yeoman.io/) -- project scaffolding
 - [grunt](http://gruntjs.com/) -- Javascript task runner (like ant for JS)
