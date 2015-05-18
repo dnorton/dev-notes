@@ -6,6 +6,14 @@ Atom Editor Notes
 * `Ctl + Shift + P` -- open the command list (the first shortcut to learn)
 * `Ctl + Shift + M` -- open/close an HTML preview of a Markdown doc (emojis included)
 * `cmd + alt + Z` -- checks out the HEAD revision of the file in the editor
+* 
+
+### Keymap Shortcut
+
++ I used this to fix a problem with duplicate keymap shortcuts
+```
+You can change it by going into "${ATOM_HOME}/packages/emmet/keymaps" and editing "emmet.cson". I simply changed mine to "ctrl-alt-m".
+```
 
 ## References
 
