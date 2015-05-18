@@ -12,7 +12,8 @@ Atom Editor Notes
 
 + I used this to fix a problem with duplicate keymap shortcuts
 ```
-You can change it by going into "${ATOM_HOME}/packages/emmet/keymaps" and editing "emmet.cson". I simply changed mine to "ctrl-alt-m".
+change it by going into "${ATOM_HOME}/packages/emmet/keymaps" and editing "emmet.cson". 
+I simply changed mine to "ctrl-alt-m".
 ```
 
 ## References
