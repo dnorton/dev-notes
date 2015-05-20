@@ -202,6 +202,12 @@ sha1sum {file_name}
 du -h --max-depth=1 --all
 ```
 
+* view configuration of services in `/etc/rc[0-9]/`.  The `chkconfig` can be used to administer all start up services.
+
+```
+sudo chkconfig --list
+```
+
 
 ### vim tips
 
