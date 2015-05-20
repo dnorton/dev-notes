@@ -30,3 +30,9 @@ select username, user#, sid, serial#, inst_id from gv$session where machine =
  
 SQL> ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE;
 ```
+
+* `to_date` usage - see [more examples](http://www.techonthenet.com/oracle/functions/to_date.php)
+
+```
+TO_DATE('2003/07/09', 'yyyy/mm/dd')
+```
