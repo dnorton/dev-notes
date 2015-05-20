@@ -28,10 +28,10 @@ $ /usr/sbin/lsof -i :8380
 $ /usr/sbin/lsof -Pnl +M -i4
 ```
 
-* Replacement for `telnet`
-	
-```bash
-curl host:port
+* set system time
+
+```
+ntpdate 127.0.0.1 (replace with NTP server IP)
 ```
 
 * ping Google DNS -- this is very useful for checking network reliability
