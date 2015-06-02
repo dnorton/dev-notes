@@ -39,3 +39,4 @@ Computer Science Notes
 ### Book Lists
 
 * [Peteris Krumins' Top 100 Books: Part 1](http://www.catonmat.net/blog/top-100-books-part-one/)
+* [Free Programming Book (updated frequently)](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
