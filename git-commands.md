@@ -88,6 +88,8 @@ Git troubleshooting
         
 See [reference #7](http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch) for more info.
 
+- [github.com: how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
+
 Github Cheatsheet
 =================
 
