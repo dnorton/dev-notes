@@ -40,9 +40,12 @@ ntpdate 127.0.0.1 (replace with NTP server IP)
 ping -t 8.8.8.8
 ```
 
-* Mount an NFS drive on Ubuntu
+* [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
 
-	- [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
+```bash
+sudo mount 1.2.3.4:/volume1/myvolume /local/folder
+```
+
 
 ### Benchmarking
 
