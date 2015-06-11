@@ -5,6 +5,7 @@ Table of Contents
 -----------------
 
 * [Debugging](#debugging)
+* [Security](#security)
 * [Resources](#resources)
       * [Java 8](#java-8)    
       * [Libraries](#libraries)
@@ -49,6 +50,14 @@ jar uf <jar_file> <file>
 ```
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
+
+## Security
+
+### Keytool
+
+- [Most Common keytool commands](https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
+
+* `keytool -list -keystore cacerts` -- list the certificates in the `cacerts` file. You will need to know the keystore pwd.
 
 ## Resources
 
