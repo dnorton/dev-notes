@@ -103,6 +103,24 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 
 		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
 
+#### test
+Some file `test` [flags](http://tldp.org/LDP/abs/html/fto.html). See also the [wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)) article
+
+* `-e` -- file exists
+* `-f` -- file is a regular file
+* `-d` -- file is a directory
+* `!` -- negate
+ 
+_Examples:_  
+
+```bash
+if test ! -s "$1"
+ then
+   echo $1 does not exist or is empty.
+ fi
+```
+
+
 
 #### misc commands		
 
