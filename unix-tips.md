@@ -10,6 +10,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [find commands](#find-commands)  
 * [curl commands](#curl-commands)  
 * [vim commands](#vim-tips)
+* [test commands](#test)
 * [miscellanous commands](#misc-commands)  
 * [file permissions](#file-permissions-chmod)  
 * [SSH keys](#set-up-ssh-keys)
