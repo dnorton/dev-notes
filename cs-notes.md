@@ -1,6 +1,10 @@
 Computer Science Notes
 ======================
 
+## Basics of Computing
+
+* [Structures and Intepretation of Computer Programs](https://drive.google.com/open?id=0B1esl71mo8A9eGdtWTlxSlFVNTA&authuser=0) :book:
+
 ## Algorithm Design
 
 * Free textbook - [Data Structures and Algorithms with Object-Oriented Design Patterns in Java](http://www.brpreiss.com/books/opus5/html/page9.html)
