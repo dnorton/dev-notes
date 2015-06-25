@@ -7,6 +7,7 @@ Atom Editor Notes
 * `Ctl + Shift + M` -- open/close an HTML preview of a Markdown doc (emojis included)
 * `cmd + alt + Z` -- checks out the HEAD revision of the file in the editor
 * `Ctrl + Shift + K` -- delete line
+* `Ctrl + M` -- go to matching bracket
 
 ### Keymap Shortcut
 
