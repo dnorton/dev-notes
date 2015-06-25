@@ -8,6 +8,7 @@ Atom Editor Notes
 * `cmd + alt + Z` -- checks out the HEAD revision of the file in the editor
 * `Ctrl + Shift + K` -- delete line
 * `Ctrl + M` -- go to matching bracket
+* `Ctrl + Alt + [ or ]` -- fold/unfold section
 
 ### Keymap Shortcut
 
