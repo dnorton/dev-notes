@@ -261,6 +261,8 @@ sudo chkconfig --list
 1. generate keys: `ssh-keygen -t rsa`
 2. copy the public key: `ssh-copy-id user@host`
 
+### SSH config
+- <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/>
 
 -----
 
