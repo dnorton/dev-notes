@@ -13,7 +13,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [test commands](#test)
 * [miscellanous commands](#misc-commands)  
 * [file permissions](#file-permissions-chmod)  
-* [SSH keys](#set-up-ssh-keys)
+* [SSH commands](#ssh-commands)
 
 ### Networking
 
@@ -255,6 +255,9 @@ sudo chkconfig --list
 | 2   | write only        | 010 |
 | 1   | execute only      | 001 |
 | 0   | none              | 000 |
+
+
+## SSH commands
 
 ### set up SSH keys
 
