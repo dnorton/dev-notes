@@ -36,3 +36,12 @@ SQL> ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE;
 ```
 TO_DATE('2003/07/09', 'yyyy/mm/dd')
 ```
+
+* use `dba_errors` to find SQL issues:
+
+```
+select name,sequence,line,position,text
+from dba_errors
+where owner='{schema}'
+and name='{object_name}';  -- like a package name for instance
+```
