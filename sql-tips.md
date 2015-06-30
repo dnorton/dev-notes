@@ -10,7 +10,7 @@
 			       dept
 			 WHERE dept.deptno = emp.deptno;
 
-* check to see if a column exists before adding
+* _plsql_ check to see if a column exists before adding
 
 		select count(*) into vRowCount
 			from DBA_TAB_COLUMNS
