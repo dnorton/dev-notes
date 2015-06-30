@@ -14,9 +14,9 @@
 
 		select count(*) into vRowCount
 			from DBA_TAB_COLUMNS
-	    		where OWNER = 'QDSCORE'
-			and TABLE_NAME = 'QDS_PRESCRIPTION_SCORING'
-	        	and COLUMN_NAME = 'NOTES' ;
+	    		where OWNER = '{owner}'
+			and TABLE_NAME = '{table}'
+	        	and COLUMN_NAME = '{column}' ;
 		
 		-- Create the new column
 		IF vRowCount <= 0 THEN
