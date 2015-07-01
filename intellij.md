@@ -52,3 +52,5 @@ myList.size() % 10 == 0
 1. http://trishagee.github.io/
 2. https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard.pdf
 3. http://www.radcortez.com/my-most-useful-intellij-idea-keyboard-shortcuts/
+4. https://medium.com/@andrey_cheptsov/top-20-navigation-features-in-intellij-idea-ed8c17075880?source=most-recommended
+
