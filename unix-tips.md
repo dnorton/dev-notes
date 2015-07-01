@@ -265,6 +265,12 @@ sudo chkconfig --list
 2. copy the public key: `ssh-copy-id user@host`
 
 ### SSH config
+
+* turn off `GSSAPIAuthentication`
+```bash
+echo "GSSAPIAuthentication no" >> ~/.ssh/config
+```
+
 - <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/>
 
 -----
