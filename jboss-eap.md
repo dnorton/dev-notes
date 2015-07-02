@@ -27,6 +27,12 @@ In `<virtual-server name="default-host>`, add this line:
 <access-log pattern="%h %l %u %t %r %s %b %{Referer}i %{User-Agent}i %S %T" prefix="access_log_"/>
 ```
 
+### Add a tricky system property
+```
+[standalone@dev2-qdsapp4:9999 /] /system-property=ldap_searchBase:add(value="DC=
+test,OS=test2")
+```
+
 ### Enable HTTPS connector
 
 _[Redhat.com: Implement SSL Encryption](https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6.1/html/Security_Guide/Implement_SSL_Encryption_for_the_JBoss_Enterprise_Application_Platform_Web_Server1.html)_
