@@ -9,6 +9,9 @@ Atom Editor Notes
 * `Ctrl + Shift + K` -- delete line
 * `Ctrl + M` -- go to matching bracket
 * `Ctrl + Alt + [ or ]` -- fold/unfold section
+* `Ctrl + K + direction key` -- split pane ::neckbeard::
+* `Ctrl + K + Ctrl + direction key` -- move to pane ::neckbeard::
+* `Ctrl + K + Ctrl + W` -- close pane ::neckbeard::
 
 ### Keymap Shortcut
 
