@@ -9,6 +9,8 @@ Web Development Notes
 
 ## Javascript
 
+- [Airbnb: Javascript Style Guide](https://github.com/airbnb/javascript)
+
 ## CSS
 
 - [purify-css](https://github.com/purifycss/purifycss) -- remove unused CSS
