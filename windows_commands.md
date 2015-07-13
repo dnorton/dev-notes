@@ -8,3 +8,9 @@ _This is just a collection of useful Windows commands_
 * `rmdir /S dir_name` -- remove a non-empty directory
 * `ctrl + shift + esc` -- open task manager
 * [if else block with exist](https://gist.github.com/dnorton/eeed81c93dda9a82163a) -- a gist to check for directory existence in batch script
+* 
+
+## Windows Utilities
+
+- [Microsoft File Checksum Integrity Verifier](http://www.microsoft.com/en-us/download/details.aspx?id=11533) -- installs `fciv`
+  * `fciv {path_to_file} -sha1` -- generate the SHA1 value of a file   
