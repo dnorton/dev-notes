@@ -275,9 +275,13 @@ echo "GSSAPIAuthentication no" >> ~/.ssh/config
 
 -----
 
-#### references
+#### References
 
-List of other useful Unix/Linux cheatsheets or tutorials:
+**Reading List**
+
+- [ ] https://github.com/jlevy/the-art-of-command-line
+
+**List of other useful Unix/Linux cheatsheets or tutorials:**
 
 * https://github.com/WilliamHackmore/linuxgems/blob/master/cheat_sheet.org.sh
 * http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
