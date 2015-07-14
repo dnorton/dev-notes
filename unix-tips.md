@@ -15,6 +15,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [file permissions](#file-permissions-chmod)  
 * [SSH commands](#ssh-commands)
 * [References](#references)
+	* [Reading List](#reading-list) 	
 
 ### Networking
 
@@ -276,9 +277,9 @@ echo "GSSAPIAuthentication no" >> ~/.ssh/config
 
 -----
 
-#### References
+### References
 
-**Reading List**
+#### Reading List
 
 - [ ] https://github.com/jlevy/the-art-of-command-line
 
