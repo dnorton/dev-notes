@@ -6,18 +6,23 @@ _This is a compilation of commands that I have found particularly useful in a pi
 ## Table of Contents
 
 * [Networking](#networking)  
-* [Benchmarking](#benchmarking)
-* [find commands](#find-commands)  
-* [curl commands](#curl-commands)  
-* [vim commands](#vim-tips)
-* [test commands](#test)
-* [miscellanous commands](#misc-commands)  
-* [file permissions](#file-permissions-chmod)  
-* [SSH commands](#ssh-commands)
+	* [TCP commands](#tcp-commands) 	
+	* [curl commands](#curl-commands)  
+	* [SSH commands](#ssh-commands)
+* [System](#system)
+	* [Benchmarking](#benchmarking)
+* [Every Day Commands](#every-day-commands)
+	* [find commands](#find-commands)  
+	* [vim commands](#vim-tips)
+	* [test commands](#test)
+	* [miscellanous commands](#misc-commands)  
+	* [file permissions](#file-permissions-chmod)  
 * [References](#references)
 	* [Reading List](#reading-list) 	
 
-### Networking
+## Networking
+
+### TCP commands
 
 * find what process is associated with a TCP port
 
@@ -31,17 +36,45 @@ $ /usr/sbin/lsof -i :8380
 $ /usr/sbin/lsof -Pnl +M -i4
 ```
 
-* set system time
-
-```
-ntpdate 127.0.0.1 (replace with NTP server IP)
-```
-
 * ping Google DNS -- this is very useful for checking network reliability
 
 ```bash
 ping -t 8.8.8.8
 ```
+
+### `curl` commands
+
+* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
+
+```bash
+openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```
+
+* run curl with the .cer
+
+		curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
+	
+* run curl with the http proxy and authentication
+
+		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
+		
+## SSH commands
+
+### set up SSH keys
+
+1. generate keys: `ssh-keygen -t rsa`
+2. copy the public key: `ssh-copy-id user@host`
+
+### SSH config
+
+* turn off `GSSAPIAuthentication`
+```bash
+echo "GSSAPIAuthentication no" >> ~/.ssh/config
+```
+
+- <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/>
+
+## System
 
 * [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
 
@@ -49,6 +82,11 @@ ping -t 8.8.8.8
 sudo mount 1.2.3.4:/volume1/myvolume /local/folder
 ```
 
+* set system time
+
+```
+ntpdate 127.0.0.1 (replace with NTP server IP)
+```
 
 ### Benchmarking
 
@@ -57,6 +95,8 @@ sudo mount 1.2.3.4:/volume1/myvolume /local/folder
 ```bash
 hdparm -tT /dev/sda1
 ```
+
+## Every Day Commands
 		
 ### `find` commands		
 
@@ -90,21 +130,6 @@ find . -type f -exec sed -i 's/bad/good/g' {} \;
 find . -type f -exec rm {} \;
 ```
 		
-### `curl` commands
-
-* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
-
-```bash
-openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
-```
-
-* run curl with the .cer
-
-		curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
-	
-* run curl with the http proxy and authentication
-
-		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
 
 #### test
 Some file `test` [flags](http://tldp.org/LDP/abs/html/fto.html). See also the [wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)) article
@@ -122,8 +147,6 @@ if test ! -s "$1"
    echo $1 does not exist or is empty.
  fi
 ```
-
-
 
 #### misc commands		
 
@@ -259,21 +282,6 @@ sudo chkconfig --list
 | 0   | none              | 000 |
 
 
-## SSH commands
-
-### set up SSH keys
-
-1. generate keys: `ssh-keygen -t rsa`
-2. copy the public key: `ssh-copy-id user@host`
-
-### SSH config
-
-* turn off `GSSAPIAuthentication`
-```bash
-echo "GSSAPIAuthentication no" >> ~/.ssh/config
-```
-
-- <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/>
 
 -----
 
