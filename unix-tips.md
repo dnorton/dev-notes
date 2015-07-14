@@ -14,6 +14,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [miscellanous commands](#misc-commands)  
 * [file permissions](#file-permissions-chmod)  
 * [SSH commands](#ssh-commands)
+* [References](#references)
 
 ### Networking
 
