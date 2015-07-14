@@ -72,7 +72,12 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 echo "GSSAPIAuthentication no" >> ~/.ssh/config
 ```
 
-- <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/>
+* turn off `StrictHostKeyChecking` in ssh
+
+```bash
+ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
+```
+
 
 ## System
 
@@ -190,10 +195,6 @@ if test ! -s "$1"
 
 		getent passwd|grep maven|awk -F\: '{print $1}'
 		
-* turn off `StrictHostKeyChecking` in ssh
-
-		ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
-
 * system calls include child processes
 
 		strace -f /bin/true		
@@ -299,3 +300,4 @@ sudo chkconfig --list
 * http://tldp.org/LDP/abs/html/ (Advanced Bash-Scripting)
 * http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html (Better Bash Scripting)
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
+* http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file
