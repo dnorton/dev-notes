@@ -13,7 +13,6 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [Benchmarking](#benchmarking)
 * [Every Day Commands](#every-day-commands)
 	* [find commands](#find-commands)  
-	* [vim commands](#vim-tips)
 	* [test commands](#test)
 	* [miscellanous commands](#misc-commands)  
 	* [file permissions](#file-permissions-chmod)  
@@ -210,16 +209,16 @@ if test ! -s "$1"
 		
 * cut the end of a value stored in a variable
 
-		TEST="importantfile.txt.remove"
-		echo ${TEST%.*}
+```bash
+TEST="importantfile.txt.remove"
+echo ${TEST%.*}
+```
 	
 * use [pygmentize](http://pygments.org/docs/cmdline/) to generate an HTML output of a diff file
 
-		pygmentize -l diff -f html -O full -o diff.html diff.txt
-		
-* set proxy in npm
-
-		npm config set https-proxy http://{user}:{password}@proxy.server:{port}
+```bash
+pygmentize -l diff -f html -O full -o diff.html diff.txt
+```
 		
 * pass env variables using sudo
 
@@ -231,17 +230,23 @@ if test ! -s "$1"
 		
 * `bash` shell default to env value or use positional argument
 
-		jboss_user=${jboss_user:-"$1"}
+```bash
+jboss_user=${jboss_user:-"$1"}
+```
 		
 * tar up a directory but exclude logs
 
-		tar cvfz mydir.tgz mydir --exclude mydir/logs
+```bash
+tar cvfz mydir.tgz mydir --exclude mydir/logs
+```
 		
 * list a directory sorted by size reversed
+
 ```bash
 ls -lSr
 ```
 * check a unique file size (better than `md5sum`)
+
 ```bash
 sha1sum {file_name}
 ```
@@ -255,18 +260,6 @@ du -h --max-depth=1 --all
 ```
 sudo chkconfig --list
 ```
-
-
-### vim tips
-
-* for a case insensitive search use the `\c` escape sequence
-
-		/\ccopyright
-
-* `mark` locations
-
- 	+ `ma` -- set the mark `a` at the current position
- 	+ ```a`` -- jump to mark `a`
 		
 ### file permissions (`chmod`)
 
