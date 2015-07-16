@@ -11,6 +11,12 @@ Web Development Notes
 
 - [Airbnb: Javascript Style Guide](https://github.com/airbnb/javascript)
 
+### [node.js](https://nodejs.org/)
+
+* set proxy in npm
+
+		npm config set https-proxy http://{user}:{password}@proxy.server:{port}
+
 ## CSS
 
 - [purify-css](https://github.com/purifycss/purifycss) -- remove unused CSS
