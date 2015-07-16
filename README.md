@@ -8,10 +8,14 @@ _short URL: <http://git.io/FWti>_
 ## My Most Used Notes
 + [unix-tips.md](unix-tips.md) -- this file contains lots of Unix commands that I never memorized but got tired of looking up constantly.
 + [git-commands.md](git-commands.md) -- local and remote git commands as well as some Github tips and tricks :octocat:
-+ [intellij.md](intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
 + [markdown.md](markdown.md) -- Markdown cheatsheet
 + [cs-notes.md](cs-notes.md) -- general purpose Computer Science notes (data structures, algorithms, cryptography, etc)
 + [java-tips.md](java-tips.md) -- Java/JVM notes including libraries, debugging info, useful resources
+
+## Editors
++ [intellij.md](intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
++ [atom-io.md](atom-io.md) -- keyboard shortcuts for the [Atom](http://atom.io) text editor
++ [vim-tips.md](vim-tips.md) -- keyboard shortcuts and tricks for VIM
 
 ## Scripts
 _Very small utility scripts that have come in handy more than once._
