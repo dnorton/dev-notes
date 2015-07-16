@@ -1,7 +1,7 @@
 VIM Tips and Tricks
 ===================
 
-- [ ] Set up sections for .vimrc, VIM keyboard shortcuts, tricks, etc.
+- [x] Set up sections for .vimrc, VIM keyboard shortcuts, tricks, etc.
 
 ## Keyboard shortcuts
 
