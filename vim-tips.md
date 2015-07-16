@@ -1,7 +1,7 @@
 VIM Tips and Tricks
 ===================
 
-- [x] Set up sections for .vimrc, VIM keyboard shortcuts, tricks, etc.
+
 
 ## Keyboard shortcuts
 
@@ -13,6 +13,8 @@ VIM Tips and Tricks
  	+ ```a`` -- jump to mark `a`
 
 ### `.vimrc` file
+
+- [ ] Read over https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
 
 ### vim tricks
 
