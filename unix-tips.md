@@ -51,11 +51,15 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 
 * run curl with the .cer
 
-		curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
+```bash
+curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
+```
 	
 * run curl with the http proxy and authentication
 
-		curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
+```bash
+curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
+```
 		
 ## SSH commands
 
@@ -67,6 +71,7 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 ### SSH config
 
 * turn off `GSSAPIAuthentication`
+
 ```bash
 echo "GSSAPIAuthentication no" >> ~/.ssh/config
 ```
@@ -156,57 +161,81 @@ if test ! -s "$1"
 
 * find/replace one liner in perl
 
-		perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`
+```bash
+perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`
+```
 
 * traverse symlinks for a file and give the actual location
  
-		readlink -f /usr/bin/java
+```bash
+readlink -f /usr/bin/java
+```
 
 	
 * read a password
 
-		read -es password  #reads the next line into $password and masks user input
+```bash
+read -es password  #reads the next line into $password and masks user input
+```
 	
 * simple replacement for dos2unix (which is not standard)
 
-		tr -d '\r' < dosfile > unixfile
+```bash
+tr -d '\r' < dosfile > unixfile
+```
 		
 * rename `*.bak` to `*`
 
-		rename 's/\.bak$//' *.bak	
+```bash
+rename 's/\.bak$//' *.bak
+```
+
 	
 * find a uid or gid for a user
 
-		id -u username
-		id -g username
+```bash
+id -u username
+id -g username
+```
 
 * set http_proxy env variable
 
-		http_proxy=http://username:password@hostname:port;
-		export (or set on Windows) $http_proxy		
-		
-		
+```bash
+http_proxy=http://username:password@hostname:port;
+export (or set on Windows) $http_proxy
+```
+	
 * list groups (this searches through naming directories as well as /etc/group)
-		
-		getent group|grep <group name/>
+
+```bash
+getent group|grep <group name/>
+```
 
 * use `getent` to retrieve a service user name
 
-		getent passwd|grep maven|awk -F\: '{print $1}'
-		
+```bash
+getent passwd|grep maven|awk -F\: '{print $1}'
+```
+
 * system calls include child processes
 
-		strace -f /bin/true		
-		
+```bash
+strace -f /bin/true		
+```
+
 * run a simple HTTP server using python (2.7+)
 
-		python -m SimpleHTTPServer [port]
-		
+```bash
+python -m SimpleHTTPServer [port]
+```
+	
 * cut the beginning of a value stored in a variable (see this [String manipulation in bash](http://tldp.org/LDP/abs/html/string-manipulation.html))
 
-		TEST="remove.importantfile.txt"
-		echo ${TEST#*.}
-		
+```bash
+TEST="remove.importantfile.txt"
+echo ${TEST#*.}
+```
+
 * cut the end of a value stored in a variable
 
 ```bash
