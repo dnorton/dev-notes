@@ -5,7 +5,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Table of Contents
 
-* [Networking](#networking)  
+* [Networking](#networking)
+	* [SSL commands](#ssl) 	
 	* [TCP commands](#tcp-commands) 	
 	* [curl commands](#curl-commands)  
 	* [SSH commands](#ssh-commands)
@@ -29,6 +30,12 @@ _This is a compilation of commands that I have found particularly useful in a pi
 keytool -list -keystore file.pfx -storetype PKCS12
 ```
 
+* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
+
+```bash
+openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```
+
 ### TCP commands
 
 * find what process is associated with a TCP port
@@ -50,12 +57,6 @@ ping -t 8.8.8.8
 ```
 
 ### `curl` commands
-
-* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
-
-```bash
-openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
-```
 
 * run curl with the .cer
 
