@@ -21,6 +21,14 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Networking
 
+### SSL
+
+* view a `.pfx` file using `keytool` (read [what is PKCS12](http://stackoverflow.com/questions/6157550/what-is-the-difference-between-a-pkcs12-keystore-and-a-pkcs11-keystore))
+
+```bash
+keytool -list -keystore file.pfx -storetype PKCS12
+```
+
 ### TCP commands
 
 * find what process is associated with a TCP port
