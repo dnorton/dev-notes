@@ -13,6 +13,7 @@ Table of Content
 
 + `jboss_cli.sh --connect controller=myjboss-host:9999` -- connect to the JBoss CLI port
 + `[standalone@myjboss-host:9999 /]module remove --name=module_name` -- remove a module
++ http://stackoverflow.com/questions/9819561/jboss-as-7-update-system-property-via-cli
 
 
 ## Tricks
