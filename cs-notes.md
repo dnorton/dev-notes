@@ -39,6 +39,10 @@ Computer Science Notes
 ## Quantum Computing
 
 * [explanation of quantum computing (imgur)](http://i.imgur.com/m72ut23.jpg)
+ 
+### Functional Programming
+
+* `monads` - https://en.wikipedia.org/wiki/Monad_(functional_programming)
 
 ### Book Lists
 
