@@ -18,12 +18,14 @@ Computer Science Notes
 ## Cryptography
 
 * [Example of Encryption/Decryption (JCE)](http://cs.saddleback.edu/rwatkins/CS4B/Crypto/EncryptDecrypt.html)
-* [What is ECDHE-RSA](http://security.stackexchange.com/questions/14731/what-is-ecdhe-rsa)
+
 
 ### SSL
 
 * [Example of two way authentication using https in Java](http://rap.ucar.edu/staff/paddy/cacerts/)
 * [A visual overview of the SSL Handshake (IBM)](http://publib.boulder.ibm.com/infocenter/wmqv6/v6r0/index.jsp?topic=%2Fcom.ibm.mq.csqzas.doc%2Fsy10660_.htm)
+* [What is ECDHE-RSA](http://security.stackexchange.com/questions/14731/what-is-ecdhe-rsa)
+  * [SSL/TLS & Perfect Forward Secrecy](http://vincent.bernat.im/en/blog/2011-ssl-perfect-forward-secrecy.html)  
 
 ## RegEx
 
