@@ -26,4 +26,6 @@ _Very small utility scripts that have come in handy more than once._
 
 _:notebook: I keep more detailed dev notes in my [Google Drive dev folder](https://drive.google.com/?authuser=0#folders/0B1esl71mo8A9VV9MUzdlb0dvZU0)_
 
+_:notebook_with_decorative_cover: more notes and getting started guides are available in [the wiki](wiki)_
+
 
