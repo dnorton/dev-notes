@@ -14,7 +14,6 @@ VIM Tips and Tricks
 
 ### `.vimrc` files
 
-- https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
 - http://vim.wikia.com/wiki/Example_vimrc
 - http://spf13.com/post/perfect-vimrc-vim-config-file
 
