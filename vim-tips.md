@@ -12,9 +12,11 @@ VIM Tips and Tricks
  	+ `ma` -- set the mark `a` at the current position
  	+ ```a`` -- jump to mark `a`
 
-### `.vimrc` file
+### `.vimrc` files
 
-- [ ] Read over https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
+- https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
+- http://vim.wikia.com/wiki/Example_vimrc
+- http://spf13.com/post/perfect-vimrc-vim-config-file
 
 ### vim tricks
 
