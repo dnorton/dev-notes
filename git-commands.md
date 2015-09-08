@@ -5,6 +5,7 @@ title: Useful Git Commands
 
 ## Table of Contents
 
+- [Git tricks](#git-tricks)
 - [Git Commands](#git-commands)
     * [General git commands](#general-git-commands)
     * [Remote Commands](#remote-repo-commands)
