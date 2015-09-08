@@ -12,6 +12,13 @@ title: Useful Git Commands
 - [Git Workflow](#git-workflow) 
 - [Github Cheatsheet](#github-cheatsheet)
 
+
+## Git tricks
+
+:bowtie: <http://www.alexkras.com/19-git-tips-for-everyday-use/>
+
+* `git log --oneline --graph` -- great logging output
+
 ## Git commands
 
 ### General git commands
