@@ -38,10 +38,10 @@ title: Useful Git Commands
 * `git remote set-url origin https://github.com/user/repo2.git` -- change the remote URL for `origin`
 * `git remote update` -- update the local repo with remote tracking branches
 * `git remote prune origin` -- remove stale tracking branches
-* `git remote -v` -- verify new remote
 * `git remote update` -- update branches from remote repos. Use this if you don't see you branch using `git branch -r`
+* `git remote -v` -- verify new remote
 
-```
+```bash
         # origin  https://github.com/user/repo.git (fetch)
         # origin  https://github.com/user/repo.git (push)
 ```  
