@@ -11,6 +11,11 @@ SELECT *
  WHERE dept.deptno = emp.deptno;
 ```
 
+* `to_date` usage - see [more examples](http://www.techonthenet.com/oracle/functions/to_date.php)
+```sql
+TO_DATE('2003/07/09', 'yyyy/mm/dd')
+```
+
 ## Oracle specific
 * _plsql_ check to see if a column exists before adding
 
@@ -43,12 +48,6 @@ where to_date(TIMESTAMP, 'DD-Mon-YY') in (select to_date(TIMESTAMP, 'DD-Mon-YY')
 from dba_audit_session
 where to_date(TIMESTAMP,'DD-Mon-YY') = to_date(sysdate, 'DD-Mon-YY'))
 and RETURNCODE = 28000;
-```
-
-* `to_date` usage - see [more examples](http://www.techonthenet.com/oracle/functions/to_date.php)
-
-```sql
-TO_DATE('2003/07/09', 'yyyy/mm/dd')
 ```
 
 * use `dba_errors` to find SQL issues:
