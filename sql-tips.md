@@ -2,7 +2,6 @@
 
 * `alter user MYUSER account unlock` - unlock an account
 * inline view query
-
 ```sql		
 SELECT * 
   FROM ( SELECT deptno, count(*) emp_count
@@ -12,6 +11,7 @@ SELECT *
  WHERE dept.deptno = emp.deptno;
 ```
 
+## Oracle specific
 * _plsql_ check to see if a column exists before adding
 
 ```sql
@@ -33,6 +33,16 @@ IF vRowCount <= 0 THEN
 select username, user#, sid, serial#, inst_id from gv$session where machine =
  
 SQL> ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE;
+```
+
+* who locked an account - <https://community.oracle.com/thread/1016170>
+```sql
+select OS_USERNAME, USERNAME , USERHOST, RETURNCODE, TIMESTAMP
+from dba_audit_session
+where to_date(TIMESTAMP, 'DD-Mon-YY') in (select to_date(TIMESTAMP, 'DD-Mon-YY')
+from dba_audit_session
+where to_date(TIMESTAMP,'DD-Mon-YY') = to_date(sysdate, 'DD-Mon-YY'))
+and RETURNCODE = 28000;
 ```
 
 * `to_date` usage - see [more examples](http://www.techonthenet.com/oracle/functions/to_date.php)
