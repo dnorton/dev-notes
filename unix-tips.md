@@ -304,7 +304,7 @@ sudo chkconfig --list
 
 * generate a random 15 character password
 ```bash
-head -c 500 /dev/urandom | tr -dc a-zA-Z0-9 | head -c 12; echo
+head -c 500 /dev/urandom | tr -dc a-zA-Z0-9\.\^\*\? | head -c 15; echo
 ```
 
 		
