@@ -182,7 +182,6 @@ perl -p -i -e 's/oldstring/newstring/g' `find ./ -name *.html`
 readlink -f /usr/bin/java
 ```
 
-	
 * read a password
 
 ```bash
@@ -200,7 +199,6 @@ tr -d '\r' < dosfile > unixfile
 ```bash
 rename 's/\.bak$//' *.bak
 ```
-
 	
 * find a uid or gid for a user
 
@@ -262,11 +260,15 @@ pygmentize -l diff -f html -O full -o diff.html diff.txt
 		
 * pass env variables using sudo
 
-		sudo -E bash -c 'echo $HTTP_PROXY'	
+```bash
+sudo -E bash -c 'echo $HTTP_PROXY'
+```
 		
 * capture command execution in a variable -- this example is useful for a date format string
 
-		timestamp=$(date '+%Y%m%d%H%M')
+```bash
+timestamp=$(date '+%Y%m%d%H%M')
+```
 		
 * `bash` shell default to env value or use positional argument
 
@@ -296,10 +298,15 @@ du -h --max-depth=1 --all
 ```
 
 * view configuration of services in `/etc/rc[0-9]/`.  The `chkconfig` can be used to administer all start up services.
-
 ```
 sudo chkconfig --list
 ```
+
+* generate a random 15 character password
+```bash
+head -c 500 /dev/urandom | tr -dc a-zA-Z0-9 | head -c 12; echo
+```
+
 		
 ### file permissions (`chmod`)
 
