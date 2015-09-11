@@ -18,7 +18,7 @@ Table of Content
 
 ### CLI Cookbook 
 
-+ 
++ <https://docs.jboss.org/author/display/AS71/CLI+Recipes>
 
 ## Tricks
 
