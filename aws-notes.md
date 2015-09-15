@@ -6,7 +6,6 @@ _:work: work in progress_
 ### CLI
 
 + <http://cloudacademy.com/blog/aws-cli-10-useful-commands/>
-+ 
 
 ### Notes
 
