@@ -34,6 +34,7 @@ title: Useful Git Commands
 ### Remote Repo Commands
 
 * `git clone https://github.com/user/repo.git -o notorigin` -- sets the remote to "notorigin"
+* `git clone -b branch_name https://github.com/user/repo.git` -- clone and checkout a specific remote branch
 * `git remote add origin https://github.com/user/repo.git` -- set a new remote  
 * `git remote set-url origin https://github.com/user/repo2.git` -- change the remote URL for `origin`
 * `git remote update` -- update the local repo with remote tracking branches
