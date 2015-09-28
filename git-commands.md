@@ -61,6 +61,10 @@ title: Useful Git Commands
 * `git filter-branch --prune-empty --subdirectory-filter lib master` -- split out a sub dir into a repository
 * `git reset --soft HEAD~1` -- rollback a commit
 
+#### Git articles
+
++ [git reset (demystified)](https://git-scm.com/blog/2011/07/11/reset.html)
+
 Git Workflow
 ============
 
