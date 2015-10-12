@@ -13,7 +13,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [System](#system)
 	* [Benchmarking](#benchmarking)
 * [Every Day Commands](#every-day-commands)
-	* [find commands](#find-commands)  
+	* [find commands](#find-commands)
+	* [rsync](#rsync)
 	* [test commands](#test)
 	* [miscellanous commands](#misc-commands)  
 	* [file permissions](#file-permissions-chmod)  
@@ -152,7 +153,7 @@ find . -type f -exec rm {} \;
 
 ### rsync
 
-- [] read: http://www.thegeekstuff.com/2010/09/rsync-command-examples/
+- [ ] read: http://www.thegeekstuff.com/2010/09/rsync-command-examples/
 
 #### test
 Some file `test` [flags](http://tldp.org/LDP/abs/html/fto.html). See also the [wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)) article
