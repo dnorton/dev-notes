@@ -149,7 +149,10 @@ find . -type f -exec sed -i 's/bad/good/g' {} \;
 ```bash
 find . -type f -exec rm {} \;
 ```
-		
+
+### rsync
+
+- [] read: http://www.thegeekstuff.com/2010/09/rsync-command-examples/
 
 #### test
 Some file `test` [flags](http://tldp.org/LDP/abs/html/fto.html). See also the [wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)) article
