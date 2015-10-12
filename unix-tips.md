@@ -14,7 +14,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [Benchmarking](#benchmarking)
 * [Every Day Commands](#every-day-commands)
 	* [find commands](#find-commands)
-	* [rsync](#rsync)
+	* [rsync commands](#rsync)
 	* [test commands](#test)
 	* [miscellanous commands](#misc-commands)  
 	* [file permissions](#file-permissions-chmod)  
