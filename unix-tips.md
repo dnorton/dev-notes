@@ -338,6 +338,7 @@ head -c 500 /dev/urandom | tr -dc a-zA-Z0-9\.\^\*\? | head -c 15; echo
 
 **List of other useful Unix/Linux cheatsheets or tutorials:**
 
+* https://github.com/alebcay/awesome-shell :boom:
 * https://github.com/WilliamHackmore/linuxgems/blob/master/cheat_sheet.org.sh
 * http://www.gregreda.com/2013/07/15/unix-commands-for-data-science/
 * http://www.thegeekstuff.com/2012/08/lsof-command-examples/ (lsof examples)
