@@ -58,6 +58,10 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 - [Most Common keytool commands](https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
 
 * `keytool -list -keystore cacerts` -- list the certificates in the `cacerts` file. You will need to know the keystore pwd.
+ 
+### Secure Password Storage
+
+* http://blog.jerryorr.com/2012/05/secure-password-storage-lots-of-donts.html -- uses Java SE6 to generate secure pwd
 
 ## Resources
 
