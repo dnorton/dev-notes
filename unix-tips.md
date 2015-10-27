@@ -109,6 +109,12 @@ sudo mount 1.2.3.4:/volume1/myvolume /local/folder
 ntpdate 127.0.0.1 (replace with NTP server IP)
 ```
 
+* change default shell to `zsh` (on OS X)
+
+```bash
+chsh -s $(which zsh)
+```
+
 ### Benchmarking
 
 * I/O performance benchmarks
