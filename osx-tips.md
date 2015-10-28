@@ -6,4 +6,8 @@
 _[Apple's Keyboard Shortcut page](https://support.apple.com/en-us/HT201236)_
 
 + `Cmd + e` -- eject selected disk or volume
-+ 
+ 
+### Trackpad Gestures
+
++ `two finger swipe left` -- opens Notification Center
++ `tap a word with 3 fingers` -- look up word in dictionary
