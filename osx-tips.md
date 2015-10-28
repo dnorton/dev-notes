@@ -6,8 +6,13 @@
 _[Apple's Keyboard Shortcut page](https://support.apple.com/en-us/HT201236)_
 
 + `Cmd + e` -- eject selected disk or volume
++ `F4` -- open Launchpad
++ `Ctrl + Left/Right` -- move between desktops
++ `Ctrl + Down` -- view all windows for current app
  
 ### Trackpad Gestures
 
 + `two finger swipe left` -- opens Notification Center
 + `tap a word with 3 fingers` -- look up word in dictionary
++ `swipe up 3 fingers` -- open Mission Control
++ `3 finger drag` -- move a selected item from one place to another on desktop
