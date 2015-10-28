@@ -1,7 +1,7 @@
 AWS Notes
 =========
 
-_:work: work in progress_
+:information_source: _work in progress_
 
 ### CLI
 
