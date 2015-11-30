@@ -16,6 +16,7 @@ VIM Tips and Tricks
 
 - http://vim.wikia.com/wiki/Example_vimrc
 - http://spf13.com/post/perfect-vimrc-vim-config-file
+- [view vimrc file](http://vim.wikia.com/wiki/Open_vimrc_file)
 
 ### vim tricks
 
