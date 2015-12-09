@@ -4,6 +4,7 @@ Atom Editor Notes
 ## Command Cheatsheet
 
 * `Ctl + Shift + P` -- open the command list (the first shortcut to learn)
+* `Shift + F3` -- search Previous
 * `Ctl + Shift + M` -- open/close an HTML preview of a Markdown doc (emojis included)
 * `cmd + alt + Z` -- checks out the HEAD revision of the file in the editor
 * `Ctrl + Shift + K` -- delete line
