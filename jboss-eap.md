@@ -15,6 +15,8 @@ Table of Content
 + `[standalone@myjboss-host:9999 /]module remove --name=module_name` -- remove a module
 + http://stackoverflow.com/questions/9819561/jboss-as-7-update-system-property-via-cli
 + `[standalone@myjboss-host:9999 /] :read-resource(include-runtime=true, recursive=true, recursive-depth=10)` -- get all JBoss configuration info
++ `[standalone@dev2-qdsapp1:9999 /] /subsystem=logging/root-logger=ROOT:write-attribute(name="handlers", value=["CONSOLE", "FILE_RH"])` -- write multiple values to an attribute
+
 
 ### CLI Cookbook 
 
