@@ -8,7 +8,8 @@ _This is just a collection of useful Windows commands_
 * `rmdir /S dir_name` -- remove a non-empty directory
 * `ctrl + shift + esc` -- open task manager
 * [if else block with exist](https://gist.github.com/dnorton/eeed81c93dda9a82163a) -- a gist to check for directory existence in batch script
-* 
+* `mklink /D nameDir sourceDir` -- create a symlink directory named `nameDir` that points to `sourceDir`
+* `rd nameDir` -- remove `nameDir` directory symlink. _must be done first if symlink already exists in mklink above_
 
 ## Windows Utilities
 
