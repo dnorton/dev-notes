@@ -2,6 +2,7 @@
 
 ## Shortcuts
 
-| key  | action                |
-|:-----| :---------------------|
-| Shift+Alt+F | Format Code    |
+| key  | action                                   |
+|:-------------| :--------------------------------|
+| Shift+Alt+F  | Format Code                      |
+| Ctrl+Shift+] | Jump to Matching Bracket         |
