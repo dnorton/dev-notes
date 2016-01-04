@@ -64,3 +64,12 @@ and name='{object_name}';  -- like a package name for instance
 ```sql
 ALTER USER user_name IDENTIFIED BY new_password;
 ```
+
+* [`between`](http://www.techonthenet.com/sql/between.php) statement
+* 
+```sql
+SELECT *
+FROM orders
+WHERE order_date BETWEEN TO_DATE ('2003/01/01', 'yyyy/mm/dd')
+AND TO_DATE ('2003/12/31', 'yyyy/mm/dd');
+```
