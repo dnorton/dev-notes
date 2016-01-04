@@ -66,7 +66,6 @@ ALTER USER user_name IDENTIFIED BY new_password;
 ```
 
 * [`between`](http://www.techonthenet.com/sql/between.php) statement
-* 
 ```sql
 SELECT *
 FROM orders
