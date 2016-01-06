@@ -6,3 +6,9 @@
 |:-------------| :--------------------------------|
 | Shift+Alt+F  | Format Code                      |
 | Ctrl+Shift+] | Jump to Matching Bracket         |
+| Ctrl+\       | Split Active Editor window       |
+
+## gotchas
+
+* there is no shortcut to join lines
+* line wrapping is a JSON configuration settting
