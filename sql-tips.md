@@ -16,6 +16,12 @@ SELECT *
 TO_DATE('2003/07/09', 'yyyy/mm/dd')
 ```
 
+## Common Table Expression
+
+* https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL
+* http://www.morganslibrary.org/reference/with.html
+
+
 ## Oracle specific
 * _plsql_ check to see if a column exists before adding
 
