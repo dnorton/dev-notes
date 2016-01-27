@@ -1,3 +1,10 @@
+# Table of Contents
+
+* [SQL Commands](#useful-sql-commands)
+* [Joins](#joins)
+* [Common Table Expression](#common-table-expressions)
+
+
 # Useful SQL Commands
 
 * `alter user MYUSER account unlock` - unlock an account
@@ -15,6 +22,18 @@ SELECT *
 ```sql
 TO_DATE('2003/07/09', 'yyyy/mm/dd')
 ```
+
+## Joins
+- reference: http://www.techonthenet.com/oracle/joins.php
+
+Outer join to select everything from table1 but only matches from table2, otherwise <null>  
+```sql
+SELECT columns
+FROM table1
+LEFT [OUTER] JOIN table2
+ON table1.column = table2.column;
+```
+
 
 ## Common Table Expression
 
