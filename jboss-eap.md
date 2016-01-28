@@ -5,6 +5,7 @@ Table of Content
 ----------------
 
 * [CLI](#cli)
+  * [CLI Cookbook](#cli-cookbook)  
 * [Tricks](#tricks)
   * [Turn on Access Logging](#turn-on-access-logging)
   * [Enable HTTPS connections](#enable-https-connector)
@@ -21,6 +22,7 @@ Table of Content
 ### CLI Cookbook 
 
 + <https://docs.jboss.org/author/display/AS71/CLI+Recipes>
++ http://acdcjunior.github.io/jboss-cli-recipes-commands-for-wildfly-jboss-as-maven-plugins.html
 
 ## Tricks
 
