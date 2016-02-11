@@ -40,6 +40,9 @@ ON table1.column = table2.column;
 * https://en.wikipedia.org/wiki/Hierarchical_and_recursive_queries_in_SQL
 * http://www.morganslibrary.org/reference/with.html
 
+## String parsing in SQL
+
+* https://www.periscopedata.com/blog/string-parsing-in-sql.html
 
 ## Oracle specific
 * _plsql_ check to see if a column exists before adding
