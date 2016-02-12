@@ -13,3 +13,7 @@
 
 * there is no shortcut to join lines
 * line wrapping is a JSON configuration settting
+ 
+## references
+
+* https://github.com/viatsko/awesome-vscode
