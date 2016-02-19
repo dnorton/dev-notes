@@ -317,6 +317,12 @@ sudo chkconfig --list
 head -c 500 /dev/urandom | tr -dc a-zA-Z0-9\.\^\*\? | head -c 15; echo
 ```
 
+* download Java SDK stuff
+```bash
+curl -s http://get.sdkman.io | bash
+sdk install kotlin
+```
+
 		
 ### file permissions (`chmod`)
 
