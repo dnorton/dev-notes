@@ -1,1 +1,1 @@
-_todo: fill out info_
+wiki link: https://github.com/dnorton/dev-notes/wiki/DevOps
