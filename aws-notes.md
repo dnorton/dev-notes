@@ -3,6 +3,8 @@ AWS Notes
 
 :information_source: _work in progress_
 
+personal sign in URL: https://dnorton.signin.aws.amazon.com/console
+
 ### CLI
 
 + <http://cloudacademy.com/blog/aws-cli-10-useful-commands/>
