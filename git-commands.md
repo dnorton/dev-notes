@@ -65,6 +65,7 @@ title: Useful Git Commands
 ### Git articles
 
 + [git reset (demystified)](https://git-scm.com/blog/2011/07/11/reset.html)
++ [The Golden rule of rebase](https://medium.freecodecamp.com/git-rebase-and-the-golden-rule-explained-70715eccc372#.2v8ra1b4f)
 
 Git Workflow
 ============
