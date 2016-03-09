@@ -10,6 +10,7 @@ Computer Science Notes
 * Free textbook - [Data Structures and Algorithms with Object-Oriented Design Patterns in Java](http://www.brpreiss.com/books/opus5/html/page9.html)
 * [MIT Video Lectures on Algorithm Design](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/) :vhs:
 * [Scala-Algorithm](https://github.com/garyaiki/Scala-Algorithms) -- Scala rewrite of Robert Sedgwick and Kevin Wayne's [(Princeton) Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
+* [Knuth.java](http://algs4.cs.princeton.edu/11model/Knuth.java.html) -- includes shuffle
 
 ### Big O Notation
 
