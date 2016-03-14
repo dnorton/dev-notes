@@ -11,6 +11,7 @@ _This is just a collection of useful Windows commands_
 * `mklink /D nameDir sourceDir` -- create a symlink directory named `nameDir` that points to `sourceDir`
 * `rd nameDir` -- remove `nameDir` directory symlink. _must be done first if symlink already exists in mklink above_
 * `echo %errorlevel%` -- echo the status of the previous command. If not 0, there was an error.
+* `net user %USERNAME% /domain` -- print user domain information (password expiration, etc.)
 
 ## Windows Utilities
 
