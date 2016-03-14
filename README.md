@@ -3,7 +3,7 @@ DNorton Dev Notes
 
 This repo contains my tips, tricks, and notes that I have found useful.
 
-_short URL: <http://git.io/FWti>_
+_short URL: <https://git.io/valFH>_
 
 :point_right: __[My Reading List](https://github.com/dnorton/dev-notes/wiki/Reading-List)__ :point_left:
 
