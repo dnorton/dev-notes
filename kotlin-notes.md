@@ -12,3 +12,4 @@ println("$days days in the future is ${futureDate(days)}")
 ## Notes
 
 - [dev-notes wiki Kotlin page](https://github.com/dnorton/dev-notes/wiki/Kotlin)
+- [Kotlin Programming Cheatsheet (dodyg)](https://gist.github.com/dodyg/5823184)
