@@ -16,7 +16,7 @@ _short URL: <https://git.io/valFH>_
 
 ## Wiki Links
 
-+ [AWS](https://github.com/dnorton/dev-notes/wiki/AWS) -- AWS resources
++ [AWS](https://github.com/dnorton/dev-notes/wiki/AWS)
 
 ## Editors
 + [intellij.md](editors/intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
