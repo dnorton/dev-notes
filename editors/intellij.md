@@ -32,6 +32,10 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 + `Ctl + Shift + Alt + S` -- open `project structure` menu
 + `!` -- [negating completion](https://confluence.jetbrains.com/display/IntelliJIDEA/Code+Completion#CodeCompletion-5.Negatingcompletion)
 + `Ctl + F12` -- navigate w/i a class
+ 
+_Refactoring_
+
++ `Ctl + Alt + M` -- extract selected code into a new method
 
 ### Project Tricks
 + To open a Gradle project for the first time: `"Open"` -> Navigate to `build.gradle` file
