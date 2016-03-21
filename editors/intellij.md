@@ -36,6 +36,7 @@ _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_int
 _Refactoring_
 
 + `Ctl + Alt + M` -- extract selected code into a new method
++ `Ctl + O` -- generate override method(s)
 
 ### Project Tricks
 + To open a Gradle project for the first time: `"Open"` -> Navigate to `build.gradle` file
