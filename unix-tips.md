@@ -75,7 +75,7 @@ curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
 		
 ## SSH commands
 
-### set up SSH keys
+### set up [SSH keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
 
 1. generate keys: `ssh-keygen -t rsa`
 2. copy the public key: `ssh-copy-id user@host`
