@@ -100,6 +100,7 @@ ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc>
 service sshd restart
 ```
 
+* to troubleshoot SSH connections, check `/var/log/secure`
 
 ## System
 
