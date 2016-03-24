@@ -122,6 +122,12 @@ ntpdate 127.0.0.1 (replace with NTP server IP)
 chsh -s $(which zsh)
 ```
 
+* remove all files except for those that match a pattern
+
+```bash
+sudo find . -not -name 'FileA*' -type f -exec rm {} \;
+```
+
 ### Benchmarking
 
 * I/O performance benchmarks
