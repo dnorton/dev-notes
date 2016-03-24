@@ -94,6 +94,12 @@ echo "GSSAPIAuthentication no" >> ~/.ssh/config
 ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
 ```
 
+* restart `sshd`
+
+```
+service sshd restart
+```
+
 
 ## System
 
