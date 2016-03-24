@@ -23,6 +23,7 @@ _replace `Ctl` with `Cmd` for OSX :apple:_
 + `Ctl + N` -- go to a class file in the project :star:
 + `Ctl + Shift + N` -- go to any file in the project :star:
 + `Ctl + E` -- show recent files
++ `Ctl + Shift + K` -- git push
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
 
