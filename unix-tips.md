@@ -5,6 +5,12 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Table of Contents
 
+* [Every Day Commands](#every-day-commands)
+	* [find commands](#find-commands)
+	* [sed commands](#sed-commands)
+	* [rsync commands](#rsync)
+	* [test commands](#test)
+	* [miscellanous commands](#misc-commands)  
 * [Networking](#networking)
 	* [SSL commands](#ssl) 	
 	* [TCP commands](#tcp-commands) 	
@@ -12,124 +18,9 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [SSH commands](#ssh-commands)
 * [System](#system)
 	* [Benchmarking](#benchmarking)
-* [Every Day Commands](#every-day-commands)
-	* [find commands](#find-commands)
-	* [sed commands](#sed-commands)
-	* [rsync commands](#rsync)
-	* [test commands](#test)
-	* [miscellanous commands](#misc-commands)  
 	* [file permissions](#file-permissions-chmod)  
 * [References](#references)
 	* [Reading List](#reading-list) 	
-
-## Networking
-
-### SSL
-
-- [ ] read http://www.planetlarg.net/support-cookbook/ssl-secure-sockets-layer
-
-* view a `.pfx` file using `keytool` (read [what is PKCS12](http://stackoverflow.com/questions/6157550/what-is-the-difference-between-a-pkcs12-keystore-and-a-pkcs11-keystore))
-
-```bash
-keytool -list -keystore file.pfx -storetype PKCS12
-```
-
-* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
-
-```bash
-openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
-```
-
-### TCP commands
-
-* find what process is associated with a TCP port
-
-```bash
-$ /usr/sbin/lsof -i :8380
-```
-		
-* See all TCP ports
-
-```bash
-$ /usr/sbin/lsof -Pnl +M -i4
-```
-
-* ping Google DNS -- this is very useful for checking network reliability
-
-```bash
-ping -t 8.8.8.8
-```
-
-### `curl` commands
-
-* run curl with the .cer
-
-```bash
-curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
-```
-	
-* run curl with the http proxy and authentication
-
-```bash
-curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
-```
-		
-## SSH commands
-
-### set up [SSH keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
-
-1. generate keys: `ssh-keygen -t rsa`
-2. copy the public key: `ssh-copy-id user@host`
-
-### SSH config
-
-* turn off `GSSAPIAuthentication`
-
-```bash
-echo "GSSAPIAuthentication no" >> ~/.ssh/config
-```
-
-* turn off `StrictHostKeyChecking` in ssh
-
-```bash
-ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
-```
-
-* restart `sshd`
-
-```
-service sshd restart
-```
-
-* to troubleshoot SSH connections, check `/var/log/secure`
-
-## System
-
-* [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
-
-```bash
-sudo mount 1.2.3.4:/volume1/myvolume /local/folder
-```
-
-* set system time
-
-```
-ntpdate 127.0.0.1 (replace with NTP server IP)
-```
-
-* change default shell to `zsh` (on OS X)
-
-```bash
-chsh -s $(which zsh)
-```
-
-### Benchmarking
-
-* I/O performance benchmarks
-
-```bash
-hdparm -tT /dev/sda1
-```
 
 ## Every Day Commands
 		
@@ -358,7 +249,116 @@ sdk install kotlin
 | 1   | execute only      | 001 |
 | 0   | none              | 000 |
 
+------
 
+## Networking
+
+### SSL
+
+- [ ] read http://www.planetlarg.net/support-cookbook/ssl-secure-sockets-layer
+
+* view a `.pfx` file using `keytool` (read [what is PKCS12](http://stackoverflow.com/questions/6157550/what-is-the-difference-between-a-pkcs12-keystore-and-a-pkcs11-keystore))
+
+```bash
+keytool -list -keystore file.pfx -storetype PKCS12
+```
+
+* Convert the .pfx to a PEM .cer -- this is a prereq to use a Java PFX cert in curl
+
+```bash
+openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```
+
+### TCP commands
+
+* find what process is associated with a TCP port
+
+```bash
+$ /usr/sbin/lsof -i :8380
+```
+		
+* See all TCP ports
+
+```bash
+$ /usr/sbin/lsof -Pnl +M -i4
+```
+
+* ping Google DNS -- this is very useful for checking network reliability
+
+```bash
+ping -t 8.8.8.8
+```
+
+### `curl` commands
+
+* run curl with the .cer
+
+```bash
+curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
+```
+	
+* run curl with the http proxy and authentication
+
+```bash
+curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
+```
+		
+## SSH commands
+
+### set up [SSH keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
+
+1. generate keys: `ssh-keygen -t rsa`
+2. copy the public key: `ssh-copy-id user@host`
+
+### SSH config
+
+* turn off `GSSAPIAuthentication`
+
+```bash
+echo "GSSAPIAuthentication no" >> ~/.ssh/config
+```
+
+* turn off `StrictHostKeyChecking` in ssh
+
+```bash
+ssh -o StrictHostKeyChecking=no <user>@<host> -i <priv_key_loc> 
+```
+
+* restart `sshd`
+
+```
+service sshd restart
+```
+
+* to troubleshoot SSH connections, check `/var/log/secure`
+
+## System
+
+* [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
+
+```bash
+sudo mount 1.2.3.4:/volume1/myvolume /local/folder
+```
+
+* set system time
+
+```
+ntpdate 127.0.0.1 (replace with NTP server IP)
+```
+
+* change default shell to `zsh` (on OS X)
+
+```bash
+chsh -s $(which zsh)
+```
+
+### Benchmarking
+
+* I/O performance benchmarks
+
+```bash
+hdparm -tT /dev/sda1
+```
 
 -----
 
