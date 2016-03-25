@@ -14,6 +14,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [Benchmarking](#benchmarking)
 * [Every Day Commands](#every-day-commands)
 	* [find commands](#find-commands)
+	* [sed commands](#sed-commands)
 	* [rsync commands](#rsync)
 	* [test commands](#test)
 	* [miscellanous commands](#misc-commands)  
@@ -122,12 +123,6 @@ ntpdate 127.0.0.1 (replace with NTP server IP)
 chsh -s $(which zsh)
 ```
 
-* remove all files except for those that match a pattern
-
-```bash
-sudo find . -not -name 'FileA*' -type f -exec rm {} \;
-```
-
 ### Benchmarking
 
 * I/O performance benchmarks
@@ -169,6 +164,18 @@ find . -type f -exec sed -i 's/bad/good/g' {} \;
 ```bash
 find . -type f -exec rm {} \;
 ```
+
+* remove all files except for those that match a pattern
+
+```bash
+sudo find . -not -name 'FileA*' -type f -exec rm {} \;
+```
+
+### sed commands
+
+- [Digital Ocean: Getting Started with Sed](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
+
+
 
 ### rsync
 
