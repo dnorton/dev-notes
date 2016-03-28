@@ -10,4 +10,4 @@ Python Libraries
 ================
 
 * [inspect](https://docs.python.org/2/library/inspect.html#module-inspect) -- `inspect.getmembers(object)`
-* [elementtree](https://pypi.python.org/pypi/elementtree/)
+* [elementtree](https://pypi.python.org/pypi/elementtree/) -- XML parsing
