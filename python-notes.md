@@ -7,6 +7,7 @@
 ## Standard Library
 
 + [subprocess](https://docs.python.org/2/library/subprocess.html) -- library for making system calls
++ [File and Directory Access](https://docs.python.org/2/library/filesys.html)
 
 ## Python Libraries
 
