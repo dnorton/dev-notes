@@ -12,3 +12,7 @@
 
 * [inspect](https://docs.python.org/2/library/inspect.html#module-inspect) -- `inspect.getmembers(object)`
 * [elementtree](https://pypi.python.org/pypi/elementtree/) -- XML parsing
+
+### More
+
+__My [Python Wiki page](https://github.com/dnorton/dev-notes/wiki/Python)__
