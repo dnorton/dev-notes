@@ -65,6 +65,7 @@ sudo find . -not -name 'FileA*' -type f -exec rm {} \;
 * remove all files except for those that match a list
 
 ```bash
+find ./ -maxdepth 1 -not \( -name 'A*' -or -name 'B*' \)
 ```
 
 ### sed commands
