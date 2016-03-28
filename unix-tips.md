@@ -62,6 +62,11 @@ find . -type f -exec rm {} \;
 sudo find . -not -name 'FileA*' -type f -exec rm {} \;
 ```
 
+* remove all files except for those that match a list
+
+```bash
+```
+
 ### sed commands
 
 - [Digital Ocean: Getting Started with Sed](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
