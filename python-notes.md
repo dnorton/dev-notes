@@ -15,4 +15,4 @@
 
 ### More
 
-__My [Python Wiki page](https://github.com/dnorton/dev-notes/wiki/Python)__
+_My [Python Wiki page](https://github.com/dnorton/dev-notes/wiki/Python)_ :notebook:
