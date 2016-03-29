@@ -17,3 +17,4 @@
 ## references
 
 * https://github.com/viatsko/awesome-vscode
+* http://docs.emmet.io/cheat-sheet/
