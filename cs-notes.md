@@ -12,6 +12,10 @@ Computer Science Notes
 * [Scala-Algorithm](https://github.com/garyaiki/Scala-Algorithms) -- Scala rewrite of Robert Sedgwick and Kevin Wayne's [(Princeton) Java Algorithms and Clients](http://algs4.cs.princeton.edu/code/)
 * [Knuth.java](http://algs4.cs.princeton.edu/11model/Knuth.java.html) -- includes shuffle
 
+### Monte Carlo Simulation
+
+- <http://introcs.cs.princeton.edu/java/98simulation/>
+
 ### Big O Notation
 
 * [Big-O Notation Cheatsheet](http://bigocheatsheet.com/)
