@@ -53,6 +53,8 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 
 ## Security
 
++ test an SSL connection - [SSLPoke.java](https://gist.github.com/4ndrej/4547029)
+
 ### Keytool
 
 - [Most Common keytool commands](https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
