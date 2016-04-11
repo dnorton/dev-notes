@@ -15,7 +15,9 @@
 
 * [inspect](https://docs.python.org/2/library/inspect.html#module-inspect) -- `inspect.getmembers(object)`
 * [elementtree](https://pypi.python.org/pypi/elementtree/) -- XML parsing
-* 
+* [httpie](https://github.com/jkbrzt/httpie) -- curl replacement
+
+ 
 ## Testing
 
 - [stdlib: unittest](https://docs.python.org/dev/library/unittest.html#module-unittest)
