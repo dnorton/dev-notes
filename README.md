@@ -13,7 +13,7 @@ _short URL: <https://git.io/valFH>_
 + [markdown.md](markdown.md) -- Markdown cheatsheet
 + [cs-notes.md](cs-notes.md) -- general purpose Computer Science notes (data structures, algorithms, cryptography, etc)
 + [java-tips.md](java-tips.md) -- Java/JVM notes including libraries, debugging info, useful resources
-+ [python-notes.md](python-notes.md) -- Python tips, tricks, librarie - obviously
++ [python-notes.md](python-notes.md) -- Python tips, tricks, libraries - obviously
 
 ## Wiki Links
 
