@@ -60,6 +60,7 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 - [Most Common keytool commands](https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
 
 * `keytool -list -keystore cacerts` -- list the certificates in the `cacerts` file. You will need to know the keystore pwd.
+* [simple example of importing a certificate](https://azure.microsoft.com/en-us/documentation/articles/java-add-certificate-ca-store/)
  
 ### Secure Password Storage
 
