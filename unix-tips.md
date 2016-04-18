@@ -3,6 +3,8 @@ Useful Unix Commands and Notes
 
 _This is a compilation of commands that I have found particularly useful in a pinch. :+1:_
 
+- [ ] http://serverfault.com/questions/661978/displaying-a-remote-ssl-certificate-details-using-cli-tools
+
 ## Table of Contents
 
 * [Every Day Commands](#every-day-commands)
