@@ -65,3 +65,15 @@ or just edit the _standalone.xml_ directly:
   </connector>
 ```
 
+### Environment Variables
+
+- https://developers.openshift.com/servers/jbosseap/environment-variables.html
+
+```xml
+<security>
+    <user-name>${env.OPENSHIFT_MYSQL_DB_USERNAME}</user-name>
+    <password>${env.OPENSHIFT_MYSQL_DB_PASSWORD}</password>
+</security>
+```
+
+
