@@ -18,6 +18,9 @@
 * [inspect](https://docs.python.org/2/library/inspect.html#module-inspect) -- `inspect.getmembers(object)`
 * [elementtree](https://pypi.python.org/pypi/elementtree/) -- XML parsing
 * [httpie](https://github.com/jkbrzt/httpie) -- curl replacement
+ 
+## Google App Engine
+- https://gae-init.appspot.com/
 
  
 ## Testing
