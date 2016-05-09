@@ -6,7 +6,7 @@
 * `with` statements - <http://effbot.org/zone/python-with-statement.htm> (see [Remote.py gist](https://gist.github.com/dnorton/ad9804f79dcac7804772))
 * [Filesystem structure of a Python project](http://as.ynchrono.us/2007/12/filesystem-structure-of-python-project_21.html) :star2:
   * <http://docs.python-guide.org/en/latest/writing/structure/>
-* [Deleting read-only dirs in Windows](http://stackoverflow.com/a/1889686)
+* [Deleting read-only dirs in Windows](http://stackoverflow.com/a/1889686) ([my gist](https://gist.github.com/dnorton/9c9f465a9f458ac095c5f0b9cb74ec58))
 
 ## Standard Library
 
