@@ -1,6 +1,7 @@
 # Python Tips and Tricks
 
 * `__file__` -- reference to current file name
+* `print('Bucket name: {}'.format(bucket.name))` -- format method for strings
 * [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py) -- install pip
 * `pip --proxy {proxy_url} install {your lib}` -- run pip using a proxy
 * `pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org  pythonPackage`
