@@ -5,6 +5,7 @@
 * `print('Bucket name: {}'.format(bucket.name))` -- format method for strings
 * `with` statements - <http://effbot.org/zone/python-with-statement.htm> (see [Remote.py gist](https://gist.github.com/dnorton/ad9804f79dcac7804772))
 * [Deleting read-only dirs in Windows](http://stackoverflow.com/a/1889686) ([my gist](https://gist.github.com/dnorton/9c9f465a9f458ac095c5f0b9cb74ec58))
+* [use **kwargs -- key word args](http://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/)
 
 ## pip
 
