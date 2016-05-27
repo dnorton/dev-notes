@@ -97,7 +97,14 @@ if test ! -s "$1"
  fi
 ```
 
-#### misc commands		
+#### misc commands
+
+* what's my IP? (Use ifconfig.co to get your external facing IP)
+
+```bash
+curl ifconfig.co
+```
+
 
 * find/replace one liner in perl
 
