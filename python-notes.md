@@ -16,6 +16,7 @@
 
 + [subprocess](https://docs.python.org/2/library/subprocess.html) -- library for making system calls
 + [File and Directory Access](https://docs.python.org/2/library/filesys.html)
++ [Regex](https://developers.google.com/edu/python/regular-expressions) - [cheatsheet](https://www.debuggex.com/cheatsheet/regex/python)
 
 ## Python Libraries
 
