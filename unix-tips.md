@@ -12,6 +12,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [sed commands](#sed-commands)
 	* [rsync commands](#rsync)
 	* [test commands](#test)
+	* [cron](#cron)
 	* [miscellanous commands](#misc-commands)  
 * [Networking](#networking)
 	* [SSL commands](#ssl) 	
