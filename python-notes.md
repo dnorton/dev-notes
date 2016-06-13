@@ -9,7 +9,7 @@
 
 ## pip
 
-* [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py) -- install pip
+* [get-pip.py](https://bootstrap.pypa.io/get-pip.py) -- install pip
 * `pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org  pythonPackage`
 
 ## Standard Library
