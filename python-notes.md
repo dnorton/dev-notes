@@ -19,6 +19,7 @@
 + [re](https://docs.python.org/2/library/re.html) -- regular expressions
  + [Google's Regex Tutorial](https://developers.google.com/edu/python/regular-expressions)
  + [cheatsheet](https://www.debuggex.com/cheatsheet/regex/python)
+ 
 
 ## Python Libraries
 
@@ -26,6 +27,7 @@
 * [elementtree](https://pypi.python.org/pypi/elementtree/) -- XML parsing
 * [httpie](https://github.com/jkbrzt/httpie) -- curl replacement
 * [requests](http://docs.python-requests.org/en/master/) -- HTTP(s) requests
+* [pandas](http://pandas.pydata.org/) -- big data analysis. Compares to R.
  
 ## Google App Engine
 - https://gae-init.appspot.com/
