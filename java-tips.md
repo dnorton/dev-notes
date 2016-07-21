@@ -5,6 +5,7 @@ Table of Contents
 -----------------
 
 * [Debugging](#debugging)
+* [Testing](#testing)
 * [Security](#security)
 * [Resources](#resources)
       * [Java 8](#java-8)    
