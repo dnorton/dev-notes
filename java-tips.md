@@ -51,6 +51,10 @@ jar uf <jar_file> <file>
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
 
+## Testing 
+
+- [AssertJ asserts](http://joel-costigliola.github.io/assertj/assertj-core-converting-junit-assertions-to-assertj.html)
+
 ## Security
 
 + test an SSL connection - [SSLPoke.java](https://gist.github.com/4ndrej/4547029)
