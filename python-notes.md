@@ -29,6 +29,7 @@
 * [requests](http://docs.python-requests.org/en/master/) -- HTTP(s) requests
 * [pandas](http://pandas.pydata.org/) -- big data analysis. Compares to R.
 * [flask](https://github.com/pallets/flask) -- microframework/web
+* [hug](https://github.com/timothycrosley/hug) -- API generation
  
 ## Google App Engine
 - https://gae-init.appspot.com/
