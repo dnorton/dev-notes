@@ -28,6 +28,7 @@
 * [httpie](https://github.com/jkbrzt/httpie) -- curl replacement
 * [requests](http://docs.python-requests.org/en/master/) -- HTTP(s) requests
 * [pandas](http://pandas.pydata.org/) -- big data analysis. Compares to R.
+* [flask](https://github.com/pallets/flask) -- microframework/web
  
 ## Google App Engine
 - https://gae-init.appspot.com/
