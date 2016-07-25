@@ -25,6 +25,7 @@ TO_DATE('2003/07/09', 'yyyy/mm/dd')
 
 * between dates
 ```sql
+create_datetime between TO_DATE('2016/07/25 09:00', 'yyyy/mm/dd HH24:MI') and TO_DATE('2016/07/25 10:50', 'yyyy/mm/dd HH24:MI') 
 ```
 
 ## Joins
