@@ -17,6 +17,8 @@ title: Useful Git Commands
 
 ## Git tricks
 
+:clap: http://ohshitgit.com/
+
 :bowtie: <http://www.alexkras.com/19-git-tips-for-everyday-use/>
 
 * `git log --oneline --graph` -- great logging output
