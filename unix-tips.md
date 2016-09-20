@@ -74,6 +74,13 @@ find ./ -maxdepth 1 -not \( -name 'A*' -or -name 'B*' \)
 ### sed commands
 
 - [Digital Ocean: Getting Started with Sed](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
+- [Unix Sed Tutorial](http://www.thegeekstuff.com/2009/10/unix-sed-tutorial-advanced-sed-substitution-examples/)
+
+* multiple replacements in one command
+
+```bash
+sed -i -e 's/string1/val1/' -e '/s/string2/val2/' file.txt
+```
 
 
 ### rsync
