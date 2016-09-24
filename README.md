@@ -1,8 +1,6 @@
 DNorton Dev Notes
 =================
 
-__:sweat_drops:  http://www.istocknow.com/live/ || [Apple Reservations](https://reserve.cdn-apple.com/US/en_US/reserve/iPhone/availability?channel=1&iPP=U) (remove me soon) :sweat_drops:__
-
 This repo contains my tips, tricks, and notes that I have found useful.
 
 _short URL: <https://git.io/valFH>_
