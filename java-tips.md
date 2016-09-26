@@ -11,6 +11,8 @@ Table of Contents
       * [Java 8](#java-8)    
       * [Libraries](#libraries)
       * [DesignPatterns](#design-patterns)
+* [Groovy](#groovy)
+     * [Libraries](#groovy-libraries)
 * [Detailed Notes](#detailed-notes)
 
 
@@ -83,6 +85,12 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 ### Design Patterns
 
 - [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+
+## Groovy
+
+### Groovy Libraries
+
+- [HTTPBuilder](https://github.com/jgritman/httpbuilder/wiki)
 
 ## Detailed Notes
 :100: _go to [Google Drive: Java Notes](https://docs.google.com/document/d/1P68nAfkay0KGi7elw56HflUxoxhCy96uTXtI0ToiImY/edit?usp=sharing) for notes on the JVM, useful libraries, language information, etc._
