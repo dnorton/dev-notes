@@ -77,6 +77,7 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 ### Java 8
 
 - [java8-tutorial](https://github.com/winterbe/java8-tutorial)
+- [Java 8 Code Swim (YouTube) @venkat](https://blogs.oracle.com/java/java-8-code-swim)
 
 ### Libraries
 
