@@ -104,6 +104,8 @@ if test ! -s "$1"
  fi
 ```
 
+* [Advanced Bash Scripting: Comparisons](http://tldp.org/LDP/abs/html/comparison-ops.html)
+
 #### cron
 
 ```
