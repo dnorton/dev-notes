@@ -39,6 +39,10 @@
 - [stdlib: unittest](https://docs.python.org/dev/library/unittest.html#module-unittest)
 - [3rd party: nose](https://nose.readthedocs.org/en/latest/testing.html)
 
+## Great github projects
+
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+
 ### More
 
 _My [Python Wiki page](https://github.com/dnorton/dev-notes/wiki/Python)_ :notebook:
