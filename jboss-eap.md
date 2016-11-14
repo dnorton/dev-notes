@@ -9,6 +9,10 @@ Table of Content
 * [Tricks](#tricks)
   * [Turn on Access Logging](#turn-on-access-logging)
   * [Enable HTTPS connections](#enable-https-connector)
+  
+## Getting Started
+
+- [jboss-eap-quickstarts](https://github.com/jboss-developer/jboss-eap-quickstarts)
 
 ## CLI
 
