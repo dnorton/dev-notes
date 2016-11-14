@@ -4,6 +4,7 @@ JBoss EAP Notes
 Table of Content
 ----------------
 
+* [Getting Started](#getting-started)
 * [CLI](#cli)
   * [CLI Cookbook](#cli-cookbook)  
 * [Tricks](#tricks)
