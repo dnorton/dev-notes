@@ -273,6 +273,9 @@ curl -s http://get.sdkman.io | bash
 sdk install kotlin
 ```
 
+* update DNS (Windows DNS)
+
++ [nsupdate](http://linuxcommand.org/man_pages/nsupdate8.html)
 		
 ### file permissions (`chmod`)
 
