@@ -71,6 +71,12 @@ sudo find . -not -name 'FileA*' -type f -exec rm {} \;
 find ./ -maxdepth 1 -not \( -name 'A*' -or -name 'B*' \)
 ```
 
+* test network speeds by ping the Google Public DNS IP (8.8.8.8)
+
+```bash
+ping 8.8.8.8
+```
+
 ### sed commands
 
 - [Digital Ocean: Getting Started with Sed](https://www.digitalocean.com/community/tutorials/the-basics-of-using-the-sed-stream-editor-to-manipulate-text-in-linux)
