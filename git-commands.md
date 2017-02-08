@@ -22,6 +22,7 @@ title: Useful Git Commands
 :bowtie: <http://www.alexkras.com/19-git-tips-for-everyday-use/>
 
 * `git log --oneline --graph` -- great logging output
+* `export GIT_CURL_VERBOSE=1;git clone ...` -- show the verbose output of the git curl
 
 ## Git commands
 
