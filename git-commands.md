@@ -18,8 +18,8 @@ title: Useful Git Commands
 ## Git tricks
 
 :clap: http://ohshitgit.com/
-
 :bowtie: <http://www.alexkras.com/19-git-tips-for-everyday-use/>
+:secret: [CIA's git tips & tricks](https://wikileaks.org/ciav7p1/cms/page_1179773.html)
 
 * `git log --oneline --graph` -- great logging output
 * `export GIT_CURL_VERBOSE=1;git clone ...` -- show the verbose output of the git curl
