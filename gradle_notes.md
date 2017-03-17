@@ -17,3 +17,8 @@ jar {
     }
 }
 ```
+
+stop gradle daemon:
+```bash
+gradle -stop
+```
