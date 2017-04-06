@@ -88,10 +88,9 @@ ping 8.8.8.8
 sed -i -e 's/string1/val1/' -e '/s/string2/val2/' file.txt
 ```
 
-
 ### rsync
 
-- [ ] read: http://www.thegeekstuff.com/2010/09/rsync-command-examples/
+_TODO: fill me out_
 
 #### test
 Some file `test` [flags](http://tldp.org/LDP/abs/html/fto.html). See also the [wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)) article
@@ -230,7 +229,7 @@ pygmentize -l diff -f html -O full -o diff.html diff.txt
 sudo -E bash -c 'echo $HTTP_PROXY'
 ```
 		
-* capture command execution in a variable -- this example is useful for a date format string
+* capture command execution in a variable -- this example is useful for a date format string ([man date for formats](https://linux.die.net/man/1/date))
 
 ```bash
 timestamp=$(date '+%Y%m%d%H%M')
