@@ -31,6 +31,7 @@
 * [flask](https://github.com/pallets/flask) -- microframework/web
 * [hug](https://github.com/timothycrosley/hug) -- API generation
 * [locust](http://locust.io/) -- load testing (can be used for any webapp)
+* [pillow](https://python-pillow.org/) -- python imaging library fork
  
 ## Google App Engine
 - https://gae-init.appspot.com/
