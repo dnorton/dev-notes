@@ -47,4 +47,5 @@
 
 ### More
 
-_My [Python Wiki page](https://github.com/dnorton/dev-notes/wiki/Python)_ :notebook:
+_My [Python Wiki page](https://github.com/dnorton/dev-notes/wiki/Python)_ :notebook:  
+[python tips](http://book.pythontips.com/en/latest/index.html)
