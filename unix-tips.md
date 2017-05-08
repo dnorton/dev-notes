@@ -278,9 +278,9 @@ curl -s http://get.sdkman.io | bash
 sdk install kotlin
 ```
 
-* update DNS (Windows DNS)
+* update DNS (Windows DNS) -- [nsupdate](http://linuxcommand.org/man_pages/nsupdate8.html)
 
-+ [nsupdate](http://linuxcommand.org/man_pages/nsupdate8.html)
+* [less commands](https://en.wikipedia.org/wiki/Less_(Unix))
 		
 ### file permissions (`chmod`)
 
@@ -334,6 +334,12 @@ $ /usr/sbin/lsof -Pnl +M -i4
 
 ```bash
 ping -t 8.8.8.8
+```
+
+* test connectivity to a TCP or UPD port
+
+```bash
+nc -z <IP or host> <port> (e.g., nc - z dev1-app1 1234)
 ```
 
 ### `curl` commands
