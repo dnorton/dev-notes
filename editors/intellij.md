@@ -55,6 +55,9 @@ _Refactoring_
 myList.size() % 10 == 0
 ```
 
++ `Ctl + F8` -- toggle breakpoint
++ `Ctl + F9` -- Run Debug
+
 ### References
 1. http://trishagee.github.io/
 2. https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard.pdf
