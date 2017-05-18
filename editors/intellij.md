@@ -56,7 +56,7 @@ myList.size() % 10 == 0
 ```
 
 + `Ctl + F8` -- toggle breakpoint
-+ `Ctl + F9` -- Run Debug
++ `Shift + F9` -- Run Debug
 
 ### References
 1. http://trishagee.github.io/
