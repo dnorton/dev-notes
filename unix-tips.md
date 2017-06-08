@@ -342,6 +342,8 @@ ping -t 8.8.8.8
 nc -z <IP or host> <port> (e.g., nc - z dev1-app1 1234)
 ```
 
+* [How to edit iptables](https://fedoraproject.org/wiki/How_to_edit_iptables_rules)
+
 ### `curl` commands
 
 * run curl with the .cer
