@@ -126,6 +126,8 @@ if test ! -s "$1"
 ```
 ([stolen from http://ricostacruz.com/cheatsheets/cron.html](http://ricostacruz.com/cheatsheets/cron.html))
 
+* :star: [crontab.guru](https://crontab.guru)
+
 #### misc commands
 
 * what's my IP? (Use ifconfig.co to get your external facing IP)
