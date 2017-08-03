@@ -341,6 +341,12 @@ ping -t 8.8.8.8
 
 * test connectivity to a TCP or UPD port
 
+You can start up a port to listen on:
+```bash
+nc -l <port to listen on>
+```
+
+You can connect to an active port using:
 ```bash
 nc -z <IP or host> <port> (e.g., nc - z dev1-app1 1234)
 ```
