@@ -441,3 +441,4 @@ hdparm -tT /dev/sda1
 * http://robertmuth.blogspot.com/2012/08/better-bash-scripting-in-15-minutes.html (Better Bash Scripting)
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 * http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file
+* http://www.gnu.org/software/bash/manual/bashref.html#Conditional-Constructs
