@@ -7,7 +7,7 @@ VIM Tips and Tricks
 
 ### Bookmarks
 
-* `mark` locations
+* `mark`[*](http://vim.wikia.com/wiki/Using_marks) locations
 
  	+ `ma` -- set the mark `a` at the current position
  	+ `` `a`` -- jump to mark `a`
