@@ -13,7 +13,7 @@ VIM Tips and Tricks
  	+ `` `a`` -- jump to mark `a`
 	+ `:marks` -- show bookmarks
 	
-* `scroll`[1](http://vimdoc.sourceforge.net/htmldoc/scroll.html)
+* `scroll`[*](http://vimdoc.sourceforge.net/htmldoc/scroll.html)
 
 	+ `zt` -- scroll current line to top of screen
 	+ `z.` -- scroll current line to middle of screen
