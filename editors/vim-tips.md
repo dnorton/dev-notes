@@ -10,7 +10,14 @@ VIM Tips and Tricks
 * `mark` locations
 
  	+ `ma` -- set the mark `a` at the current position
- 	+ ```a`` -- jump to mark `a`
+ 	+ `` `a`` -- jump to mark `a`
+	+ `:marks` -- show bookmarks
+	
+* `scroll`
+
+	+ `zt` -- scroll current line to top of screen
+	+ `z.` -- scroll current line to middle of screen
+	+ `zb` -- scroll current line to bottom of screen
 
 ### `.vimrc` files
 
