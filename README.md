@@ -23,7 +23,7 @@ _short URL: <https://git.io/valFH>_
 
 ## Editors
 + [intellij.md](editors/intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
-+ [atom-io.md](editors/atom-io.md) -- keyboard shortcuts for the [Atom](http://atom.io) text editor
++ [VSCode](https://github.com/dnorton/dev-notes/wiki/VSCode) -- based on Atom
 + [vim-tips.md](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM
 
 ## Scripts
