@@ -88,6 +88,12 @@ ping 8.8.8.8
 sed -i -e 's/string1/val1/' -e '/s/string2/val2/' file.txt
 ```
 
+* delete first 100 lines of a file
+
+```bash
+sed -i '1,100d' filename
+```
+
 ### rsync
 
 _TODO: fill me out_
