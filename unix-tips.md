@@ -359,6 +359,12 @@ nc -z <IP or host> <port> (e.g., nc - z dev1-app1 1234)
 
 * [How to edit iptables](https://fedoraproject.org/wiki/How_to_edit_iptables_rules)
 
+* turn off SMTP using `iptables`
+
+```
+sudo iptables -A OUTPUT -p tcp --dport 25 -j REJECT
+```
+
 ### `curl` commands
 
 * run curl with the .cer
