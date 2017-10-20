@@ -143,6 +143,12 @@ if test ! -s "$1"
 free -m
 ```
 
+**or**
+
+```bash
+cat /proc/meminfo
+```
+
 * what's my IP? (Use ifconfig.co to get your external facing IP)
 
 ```bash
