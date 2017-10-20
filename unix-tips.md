@@ -137,6 +137,12 @@ if test ! -s "$1"
 
 #### misc commands
 
+* see memory information on a host
+
+```bash
+free -m
+```
+
 * what's my IP? (Use ifconfig.co to get your external facing IP)
 
 ```bash
