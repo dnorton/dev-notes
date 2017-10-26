@@ -5,6 +5,8 @@ VIM Tips and Tricks
 
 ## Keyboard shortcuts
 
+* [gist - keyboard shortcuts](https://gist.github.com/awidegreen/3854277)
+
 ### Bookmarks
 
 * `mark`[*](http://vim.wikia.com/wiki/Using_marks) locations
