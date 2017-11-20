@@ -7,6 +7,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 
 ## Table of Contents
 
+* [Introduction](#introduction)
 * [Every Day Commands](#every-day-commands)
 	* [find commands](#find-commands)
 	* [sed commands](#sed-commands)
@@ -24,6 +25,10 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [file permissions](#file-permissions-chmod)  
 * [References](#references)
 	* [Reading List](#reading-list) 	
+
+## Introduction
+
+Start by learing [safe shell scripting](https://sipb.mit.edu/doc/safe-shell/) best practices.
 
 ## Every Day Commands
 		
