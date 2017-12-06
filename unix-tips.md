@@ -22,7 +22,8 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [SSH commands](#ssh-commands)
 * [System](#system)
 	* [Benchmarking](#benchmarking)
-	* [file permissions](#file-permissions-chmod)  
+	* [file permissions](#file-permissions-chmod)
+* [Arithmetic](#arithmetic)
 * [References](#references)
 	* [Reading List](#reading-list) 	
 
@@ -451,6 +452,16 @@ chsh -s $(which zsh)
 
 ```bash
 hdparm -tT /dev/sda1
+```
+
+## Arithmetic
+
+```bash
+#!/bin/bash
+
+OFFSET=${1}
+
+echo "$((OFFSET + 9990))"
 ```
 
 -----
