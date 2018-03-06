@@ -161,7 +161,7 @@ else
 fi
 ```
 
-* see memory information on a host
+* see memory information on a host in MB
 
 ```bash
 free -m
