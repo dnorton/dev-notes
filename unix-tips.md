@@ -1,9 +1,8 @@
 Useful Unix Commands and Notes
 ==============================
 
-_This is a compilation of commands that I have found particularly useful in a pinch. :+1:_
+_This is a compilation of commands that I have found particularly useful in a pinch. :thumbsup:_
 
-- [ ] http://serverfault.com/questions/661978/displaying-a-remote-ssl-certificate-details-using-cli-tools
 
 ## Table of Contents
 
@@ -138,6 +137,30 @@ if test ! -s "$1"
 
 #### misc commands
 
+* load a property file with [periods](https://stackoverflow.com/questions/28830225/how-to-read-a-properties-file-which-contains-keys-that-have-a-period-character)
+
+```bash
+#/bin/bash
+
+file="./app.properties"
+
+if [ -f "$file" ]
+then
+  echo "$file found."
+
+  while IFS='=' read -r key value
+  do
+    key=$(echo $key | tr '.' '_')
+    eval "${key}='${value}'"
+  done < "$file"
+
+  echo "User Id       = " ${db_uat_user}
+  echo "user password = " ${db_uat_passwd}
+else
+  echo "$file not found."
+fi
+```
+
 * see memory information on a host
 
 ```bash
@@ -155,7 +178,6 @@ cat /proc/meminfo
 ```bash
 curl ifconfig.co
 ```
-
 
 * find/replace one liner in perl
 
@@ -337,6 +359,8 @@ keytool -list -keystore file.pfx -storetype PKCS12
 ```bash
 openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 ```
+
+* [Display a remote SSL certificate](http://serverfault.com/questions/661978/displaying-a-remote-ssl-certificate-details-using-cli-tools)
 
 ### TCP commands
 
