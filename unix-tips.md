@@ -11,7 +11,6 @@ _This is a compilation of commands that I have found particularly useful in a pi
 * [Every Day Commands](#every-day-commands)
 	* [find commands](#find-commands)
 	* [sed commands](#sed-commands)
-	* [rsync commands](#rsync)
 	* [test commands](#test)
 	* [cron](#cron)
 	* [miscellanous commands](#misc-commands)  
@@ -99,10 +98,6 @@ sed -i -e 's/string1/val1/' -e '/s/string2/val2/' file.txt
 ```bash
 sed -i '1,100d' filename
 ```
-
-### rsync
-
-_TODO: fill me out_
 
 #### test
 Some file `test` [flags](http://tldp.org/LDP/abs/html/fto.html). See also the [wikipedia](https://en.wikipedia.org/wiki/Test_(Unix)) article
