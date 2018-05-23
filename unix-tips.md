@@ -415,6 +415,10 @@ curl -k https://{https_url} -E ~/certificate.cer:{cert_password}
 ```bash
 curl -O some_url -x <host/>:<port/> -U <user/>:<pass/>
 ```
+
+### DNS
+
+* [reverse dns using dig](https://linuxcommando.blogspot.com/2008/07/how-to-do-reverse-dns-lookup.html)
 		
 ## SSH commands
 
