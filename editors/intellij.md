@@ -28,7 +28,7 @@ _replace `Ctl` with `Cmd` for OSX :apple:_
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
 
-+ `Ctl + Shift + A` -- navigate directly to an action/option
++ `Ctl + Shift + A` -- navigate directly to an action/option (e.g., collapse/expand)
 + `Ctl + Shift + Enter` -- [statement completion](https://confluence.jetbrains.com/display/IntelliJIDEA/Code+Completion#CodeCompletion-4.Statementcompletion)
 + `Ctl + Shift + S` -- open `settings` menu
 + `Ctl + Shift + Alt + S` -- open `project structure` menu
