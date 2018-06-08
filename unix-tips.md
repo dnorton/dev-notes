@@ -22,6 +22,7 @@ _This is a compilation of commands that I have found particularly useful in a pi
 	* [Benchmarking](#benchmarking)
 	* [file permissions](#file-permissions-chmod)
 * [Arithmetic](#arithmetic)
+* [Aliases](#aliases)
 * [References](#references)
 	* [Reading List](#reading-list) 	
 
@@ -485,6 +486,12 @@ hdparm -tT /dev/sda1
 OFFSET=${1}
 
 echo "$((OFFSET + 9990))"
+```
+
+## Aliases
+
+```bash
+alias myip='curl -w "\n" http://169.254.169.254/latest/meta-data/local-ipv4'
 ```
 
 -----
