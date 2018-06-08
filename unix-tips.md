@@ -490,6 +490,8 @@ echo "$((OFFSET + 9990))"
 
 ## Aliases
 
+### AWS specific
+
 ```bash
 alias myip='curl -w "\n" http://169.254.169.254/latest/meta-data/local-ipv4'
 ```
