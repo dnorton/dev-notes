@@ -121,7 +121,7 @@ Github Cheatsheet
 
 1. https://help.github.com/articles/adding-a-remote
 2. http://git-scm.com/book
-3. http://www.atlassian.com/git/tutorial
+3. https://www.atlassian.com/git
 4. http://scottchacon.com/2011/08/31/github-flow.html
 5. http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf (great training slides)
 6. http://gitolite.com/gcs.html#(1) (git concepts explained)
