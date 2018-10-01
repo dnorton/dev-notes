@@ -453,6 +453,7 @@ service sshd restart
 ## System
 
 * [Digital Ocean: Mount an NFS drive on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-14-04) 
+* [Information about /etc/fstab](http://www.linfo.org/etc_fstab.html)
 
 ```bash
 sudo mount 1.2.3.4:/volume1/myvolume /local/folder
