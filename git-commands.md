@@ -7,7 +7,7 @@ title: Useful Git Commands
 
 - [Git tricks](#git-tricks)
 - [Git Commands](#git-commands)
-    * [General git commands](#general-git-commands)
+    * [General commands](#general)
     * [Remote Commands](#remote-repo-commands)
     * [Local Repo Commands](#local-repo-commands)
 - [Git Articles](#git-articles)
