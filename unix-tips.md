@@ -515,3 +515,4 @@ alias myip='curl -w "\n" http://169.254.169.254/latest/meta-data/local-ipv4'
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2
 * http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file
 * http://www.gnu.org/software/bash/manual/bashref.html#Conditional-Constructs
+* https://curl.haxx.se/book.html
