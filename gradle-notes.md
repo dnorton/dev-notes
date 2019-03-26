@@ -22,3 +22,8 @@ stop gradle daemon:
 ```bash
 gradle -stop
 ```
+
+Run a group of tests[*](https://stackoverflow.com/questions/22505533/how-to-run-only-one-test-class-on-gradle):
+```bash
+gradle test --tests '*LocalIT*'
+```
