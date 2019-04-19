@@ -326,6 +326,12 @@ sdk install kotlin
 * update DNS (Windows DNS) -- [nsupdate](http://linuxcommand.org/man_pages/nsupdate8.html)
 
 * [less commands](https://en.wikipedia.org/wiki/Less_(Unix))
+
+* check number of threads for a process
+
+```bash
+ps -o nlwp <pid>
+```
 		
 ### file permissions (`chmod`)
 
