@@ -3,6 +3,8 @@ Useful Unix Commands and Notes
 
 _This is a compilation of commands that I have found particularly useful in a pinch. :thumbsup:_
 
+If you want to get an explanation for a command, see --> https://explainshell.com/
+
 
 ## Table of Contents
 
