@@ -25,6 +25,7 @@ _replace `Ctl` with `Cmd` for OSX :apple:_
 + `Ctl + Shift + N` -- go to any file in the project :star:
 + `Ctl + E` -- show recent files
 + `Ctl + Shift + K` -- git push
++ `Ctl + Ctl` -- *run anything*
  
 _Thanks to [Trisha Gee](http://trishagee.github.io/post/stuff_i_learnt_about_intellij/) for these shortcuts below_
 
