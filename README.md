@@ -5,8 +5,6 @@ This repo contains my tips, tricks, and notes that I have found useful.
 
 _short URL: <https://git.io/valFH>_
 
-:point_right: __[My Reading List](https://github.com/dnorton/dev-notes/wiki/Reading-List)__ :point_left:  
-:point_right: __[My AWS Reading List](https://github.com/dnorton/dev-notes/wiki/AWS-Reading-List)__ :point_left:
 
 ## My Most Used Notes
 + [unix-tips.md](unix-tips.md) -- this file contains lots of Unix commands that I never memorized but got tired of looking up constantly.
