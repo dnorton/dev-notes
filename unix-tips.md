@@ -334,6 +334,12 @@ sdk install kotlin
 ```bash
 ps -o nlwp <pid>
 ```
+
+* change your default shell
+
+```bash
+chsh -s /bin/zsh
+```
 		
 ### file permissions (`chmod`)
 
