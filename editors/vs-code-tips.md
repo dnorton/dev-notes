@@ -8,6 +8,7 @@
 | Ctrl+Shift+] | Jump to Matching Bracket         |
 | Ctrl+\       | Split Active Editor window       |
 | Ctrl+Shift+V | Preview Markdown                 |
+| Ctrl+Shift+P | Action Menu :star:               |
 
 ## gotchas
 
