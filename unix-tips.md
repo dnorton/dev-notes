@@ -407,6 +407,7 @@ nc -l <port to listen on>
 You can connect to an active port using:
 ```bash
 nc -z <IP or host> <port> (e.g., nc - z dev1-app1 1234)
+nc -z -v -u <IP or host> <port> (test UDP port)
 ```
 
 * [How to edit iptables](https://fedoraproject.org/wiki/How_to_edit_iptables_rules)
