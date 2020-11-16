@@ -384,6 +384,12 @@ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 ```bash
 $ /usr/sbin/lsof -i :8380
 ```
+
+* see what ports are listening
+
+```bash
+sudo lsof -i -P -n | grep LISTEN
+```
 		
 * See all TCP ports
 
