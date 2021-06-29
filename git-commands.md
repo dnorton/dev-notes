@@ -111,6 +111,10 @@ See [reference #7](http://stackoverflow.com/questions/2862590/how-to-replace-mas
 
 - [github.com: how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 
+Remove sensitive data from a repository
+
+- https://rtyley.github.io/bfg-repo-cleaner/
+
 Github Cheatsheet
 =================
 
