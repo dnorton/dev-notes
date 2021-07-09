@@ -1,7 +1,7 @@
-DNorton Dev Notes
+My Dev Notes
 =================
 
-This repo contains my tips, tricks, and notes that I have found useful.
+This repo contains tips, tricks, and notes that I have found useful.
 
 _short URL: <https://git.io/valFH>_
 
