@@ -1,8 +1,6 @@
 AWS Notes
 =========
 
-personal sign in URL: https://dnorton.signin.aws.amazon.com/console
-
 ### Notes
 
 + [My AWS Notes](https://docs.google.com/document/d/1oVgBC2OAvvMYf6M1m6fGV2hDbd-vAZdt_eXD9GmieBo/edit?usp=sharing) :notebook_with_decorative_cover:
