@@ -1,7 +1,9 @@
+<!--
 ---
 layout: post
 title: Useful Git Commands
 ---
+-->
 
 ## Table of Contents
 
