@@ -23,7 +23,7 @@ __:dash: [my short scripts](https://gist.github.com/dnorton)__
 
 ## Editors
 + [intellij.md](editors/intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
-+ [VSCode](https://github.com/dnorton/dev-notes/wiki/VSCode) -- based on Atom
++ [VSCode](https://github.com/dnorton/dev-notes/wiki/VSCode) -- wiki page for VS Code
 + [vim-tips.md](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM
 
 ## Scripts
