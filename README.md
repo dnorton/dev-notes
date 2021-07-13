@@ -22,9 +22,9 @@ __:dash: [my short scripts](https://gist.github.com/dnorton)__
 + [DevOps](https://github.com/dnorton/dev-notes/wiki/DevOps)
 
 ## Editors
-+ [intellij.md](editors/intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
++ [IntelliJ](editors/intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
 + [VSCode](https://github.com/dnorton/dev-notes/wiki/VSCode) -- wiki page for VS Code
-+ [vim-tips.md](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM
++ [vim](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM
 
 ## Scripts
 _Very small utility scripts that have come in handy more than once._
