@@ -142,28 +142,6 @@ if test ! -s "$1"
 
 * load a property file with [periods](https://stackoverflow.com/questions/28830225/how-to-read-a-properties-file-which-contains-keys-that-have-a-period-character)
 
-```bash
-#/bin/bash
-
-file="./app.properties"
-
-if [ -f "$file" ]
-then
-  echo "$file found."
-
-  while IFS='=' read -r key value
-  do
-    key=$(echo $key | tr '.' '_')
-    eval "${key}='${value}'"
-  done < "$file"
-
-  echo "User Id       = " ${db_uat_user}
-  echo "user password = " ${db_uat_passwd}
-else
-  echo "$file not found."
-fi
-```
-
 * see memory information on a host in MB
 
 ```bash
@@ -307,6 +285,11 @@ sha1sum {file_name}
 * human readable file sizes including summary of first level directories
 ```bash
 du -h --max-depth=1 --all
+```
+
+* interactive tool that shows file sizes
+```bash
+ncdu -x /
 ```
 
 * view configuration of services in `/etc/rc[0-9]/`.  The `chkconfig` can be used to administer all start up services.
