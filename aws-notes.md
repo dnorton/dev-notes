@@ -10,6 +10,7 @@ AWS Notes
 ### Resources
 
 + [awesome AWS](https://github.com/donnemartin/awesome-aws)
++ [open guide to AWS](https://github.com/open-guides/og-aws)
 
 #### CLI
 
