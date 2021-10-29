@@ -475,6 +475,8 @@ ntpdate 127.0.0.1 (replace with NTP server IP)
 chsh -s $(which zsh)
 ```
 
+* [SFTP commands](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server)
+
 ### Benchmarking
 
 * I/O performance benchmarks
