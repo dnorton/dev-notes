@@ -26,11 +26,5 @@ __:dash: [my short scripts](https://gist.github.com/dnorton)__
 + [VSCode](https://github.com/dnorton/dev-notes/wiki/VSCode) -- wiki page for VS Code
 + [vim](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM
 
-## Scripts
-_Very small utility scripts that have come in handy more than once._
-+ [fr.py](scripts/fr.py) -- a find/replace python script
-+ [dos2unix.sh](https://gist.github.com/dnorton/bdac1f49ce1e6da8f41f) -- for those times when dos2unix isn't installed
-+ [find_sql_files.py](https://gist.github.com/dnorton/fb0fa9f80b6c9d71639a) -- fun with python list comprehensions
-
 
 _:notebook_with_decorative_cover: more notes and getting started guides are available in [the wiki](https://github.com/dnorton/dev-notes/wiki)_
