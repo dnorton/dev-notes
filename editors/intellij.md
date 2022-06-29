@@ -18,7 +18,7 @@ _replace `Ctl` with `Cmd` for OSX :apple:_
 + `Ctl + Plus/Minus` -- expand/collapse code folding
 + `Ctl + Backspace` -- delete current line
 + `Ctl + W` -- smart select. Continue to type W to expand the selection. `⌥ + Up/Down` for MacOs 
-+ `Alt + F1` + `Enter` -- jump to the file in the Project View
++ `⌘ + 1` -- go to Project View
 + `Ctl + Alt + Left/Right` -- go back or forward to last point (useful if traversing a call stack)
 + `Ctl + P` -- show method parameters
 + `Ctl + B` -- go to declaration (for any element in a class)
