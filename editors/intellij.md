@@ -1,6 +1,6 @@
 IntelliJ Tips and Tricks
 ========================
-_as of IntelliJ 14.0.3_
+~~as of IntelliJ 14.0.3~~
 
 🚧 _under review for 2022.1.3_
 
