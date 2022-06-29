@@ -13,7 +13,7 @@ _as of IntelliJ 14.0.3_
 
 ### IntelliJ Shortcuts
 
-_replace `Ctl` with `Cmd` for OSX :apple:_
+🤌 _replace `Ctl` with `⌘ (Cmd)` for MacOS_
 
 + `Ctl + Plus/Minus` -- expand/collapse code folding
 + `Ctl + Backspace` -- delete current line
