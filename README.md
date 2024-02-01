@@ -24,7 +24,7 @@ __:dash: [my short scripts](https://gist.github.com/dnorton)__
 ## Editors
 + [IntelliJ](editors/intellij.md) -- keyboard shortcuts that make `IntelliJ` the most productive IDE ever!
 + [VSCode](https://github.com/dnorton/dev-notes/wiki/VSCode) -- wiki page for VS Code
-+ [vim](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM
++ [vim](editors/vim-tips.md) -- keyboard shortcuts and tricks for VIM (or better yet [neovim](workspace/neovim.md))
 
 
 _:notebook_with_decorative_cover: more notes and getting started guides are available in [the wiki](https://github.com/dnorton/dev-notes/wiki)_
