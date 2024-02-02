@@ -25,4 +25,13 @@ These commands use `<Ctr+b>`
 - `<Ctr+b> d` - detach
 - `<Ctr+b> ?` - help (dismiss with `q`)
 
+## Configuration
 
+Create the file `~/.tmux.conf`
+
+Set the default shell
+
+```conf
+#set the default shell
+set -g default-shell /bin/zsh
+```
