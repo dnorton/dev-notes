@@ -3,7 +3,7 @@
 ## Info
 
 - [Beginners guide to tmux (redhat)](https://www.redhat.com/sysadmin/introduction-tmux-linux)
-
+- [tmux cheatsheet](https://tmuxcheatsheet.com/)
 
 ## Getting Started
 
@@ -35,3 +35,16 @@ Set the default shell
 #set the default shell
 set -g default-shell /bin/zsh
 ```
+
+From the `man tmux` info:
+
+```
+-f file       Specify an alternative configuration file.  By default, tmux loads the system configuration file from /opt/homebrew/etc/tmux.conf, if present, then looks for a user configuration file at
+                   ~/.tmux.conf, $XDG_CONFIG_HOME/tmux/tmux.conf or ~/.config/tmux/tmux.conf.
+```
+
+## TPM
+
+[dreams of code tmux config](https://github.com/dreamsofcode-io/tmux)
+
+

@@ -36,6 +36,15 @@ Buffers
 This is a very small neovim configuration that let's you learn
 as you go.  You can always go back to LazyVim if you back up properly.
 
+Some tips and tricks for out of the box Kickstarter:
+(basic LSP functions)
+
+- `:Telescope keymaps` - shows the keymaps for the Telescope plugin
+- `gd` - go to definition
+- `gr` - look for references
+- `<Space>+d+s` - shows symbols in current file
+- `<Space>fs` - search files
+
 ## Plugins
 
 - [go.nvim](https://github.com/ray-x/go.nvim)
