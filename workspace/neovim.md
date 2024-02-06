@@ -19,7 +19,7 @@ Navigate around the buffers using the following key mappings:
 - `[ + b` - Move to the left buffer
 - `] + b` - Move to the right buffer
 
-_Leader key commands_
+_Leader key commands in Lazy_
 
 - `<space> + f + b` - Open the file explorer
 - `<space> + s + k` - Search key mappings
@@ -48,3 +48,12 @@ Some tips and tricks for out of the box Kickstarter:
 ## Plugins
 
 - [go.nvim](https://github.com/ray-x/go.nvim)
+
+## Lua
+
+Lua is the scripting language built into `neovim`
+
+```
+  you can explore or search through `:help lua-guide`
+  - https://neovim.io/doc/user/lua-guide.html
+```
