@@ -22,8 +22,9 @@ _Commands inside tmux:_
 These commands use `<Ctr+b>`
 
 - `tmux` - start tmux session
-- `<Ctr+b> d` - detach
+- `<Ctr+b> d` - detach (or whatever Leader you set)
 - `<Ctr+b> ?` - help (dismiss with `q`)
+- `<Ctr+b> + :resize-pane -` + `D,U,L, or R` -- (e.g., `:resize-pane -R 10` to expand right by 10)
 
 ## Configuration
 

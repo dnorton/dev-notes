@@ -43,7 +43,7 @@ Some tips and tricks for out of the box Kickstarter:
 - `gd` - go to definition
 - `gr` - look for references
 - `<Space>+d+s` - shows symbols in current file
-- `<Space>fs` - search files
+- `<Space>s+f` - search files
 
 ## Plugins
 
