@@ -3,6 +3,8 @@
 - Info: [NeoVim](https://neovim.io/) is a fork of [Vim](https://www.vim.org/)
 - Setup Video: [Zero to IDE](https://www.youtube.com/watch?v=N93cTbtLCIM)
 
+see [vim-tips](../editors/vim-tips.md) for more on using vim
+
 ## LazyVim
 
 [LazyVim](https://lazyvim.org/) is a plugin that makes it easy to install and manage other plugins.
