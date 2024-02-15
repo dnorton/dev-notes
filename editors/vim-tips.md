@@ -6,6 +6,7 @@ VIM Tips and Tricks
 ## Keyboard shortcuts
 
 * [gist - keyboard shortcuts](https://gist.github.com/awidegreen/3854277)
+* [vim motion diagrams](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 
 ### Bookmarks
 
