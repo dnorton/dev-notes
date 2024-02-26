@@ -3,8 +3,7 @@
 - Info: [NeoVim](https://neovim.io/) is a fork of [Vim](https://www.vim.org/)
 - Setup Video: [Zero to IDE](https://www.youtube.com/watch?v=N93cTbtLCIM)
 
-The first thing we need to do is  
-_get rid of the MD error reports_
+see [vim-tips](../editors/vim-tips.md) for more on using vim
 
 ## LazyVim
 
@@ -22,7 +21,7 @@ Navigate around the buffers using the following key mappings:
 - `[ + b` - Move to the left buffer
 - `] + b` - Move to the right buffer
 
-_Leader key commands_
+_Leader key commands in Lazy_
 
 - `<space> + f + b` - Open the file explorer
 - `<space> + s + k` - Search key mappings
@@ -39,6 +38,26 @@ Buffers
 This is a very small neovim configuration that let's you learn
 as you go.  You can always go back to LazyVim if you back up properly.
 
+Some tips and tricks for out of the box Kickstarter:
+(basic LSP functions)
+
+- `:Telescope keymaps` - shows the keymaps for the Telescope plugin
+- `gd` - go to definition
+- `gr` - look for references
+- `<Space>+d+s` - shows symbols in current file
+- `<Space>s+f` - search files
+
 ## Plugins
 
 - [go.nvim](https://github.com/ray-x/go.nvim)
+- [oil.nvim](https://github.com/stevearc/oil.nvim)
+- [copilot.nvim](https://github.com/github/copilot.vim)
+
+## Lua
+
+Lua is the scripting language built into `neovim`
+
+```
+  you can explore or search through `:help lua-guide`
+  - https://neovim.io/doc/user/lua-guide.html
+```

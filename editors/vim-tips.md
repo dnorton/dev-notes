@@ -1,11 +1,12 @@
 VIM Tips and Tricks
 ===================
 
-
+- [vim cheatsheet](https://vim.rtorr.com/)
 
 ## Keyboard shortcuts
 
 * [gist - keyboard shortcuts](https://gist.github.com/awidegreen/3854277)
+* [vim motion diagrams](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 
 ### Bookmarks
 
@@ -14,6 +15,13 @@ VIM Tips and Tricks
  	+ `ma` -- set the mark `a` at the current position
  	+ `` `a`` -- jump to mark `a`
 	+ `:marks` -- show bookmarks
+
+* search
+
+	+ `f+<char>` - jump to a character on the line
+    	+ `;` - after using `f`, this will jump to next match, `,` go back
+  	+ `t+<char>` - jump to character before
+  	+ `F+<char>` - jump backwards to character
 	
 * `scroll`[*](http://vimdoc.sourceforge.net/htmldoc/scroll.html)
 
