@@ -19,12 +19,13 @@ Install on MacOS:
 
 _Commands inside tmux:_
 
-These commands use `<Ctr+b>`
+These commands use `<Ctr+b>`. I'll refer to it as `<Leader>`
 
 - `tmux` - start tmux session
-- `<Ctr+b> d` - detach (or whatever Leader you set)
-- `<Ctr+b> ?` - help (dismiss with `q`)
-- `<Ctr+b> + :resize-pane -` + `D,U,L, or R` -- (e.g., `:resize-pane -R 10` to expand right by 10)
+- `<Leader> d` - detach (or whatever Leader you set)
+- `<Leader> ?` - help (dismiss with `q`)
+- `<Leader> + :resize-pane -` + `D,U,L, or R` -- (e.g., `:resize-pane -R 10` to expand right by 10)
+- `<Leader> + <option>+(up,down,left,right)` - also resize
 
 ## Configuration
 
