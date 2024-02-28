@@ -18,6 +18,8 @@ Navigate around the buffers using the following key mappings:
 - `Ctrl + j` - Move to the bottom buffer
 - `Ctrl + k` - Move to the top buffer
 
+Additional buffer commands
+
 - `[ + b` - Move to the left buffer
 - `] + b` - Move to the right buffer
 
