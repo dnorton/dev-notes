@@ -69,8 +69,9 @@ Set the `GOPATH` variable to your development folder
 ------
 
 Before you begin work on a go module, you need to initialize it.
+(if you aren't going to publish to `github`, you can use anything `foobar`, `me/stuff`, etc.)
 
-```
+```bash
 go mod init github.com/dnorton/learn-go
 ```
 
@@ -86,4 +87,4 @@ go: module github.com/spf13/cobra@upgrade found (v1.8.0), but does not contain p
 
 ### Examples
 
-- [](https://github.com/golang/example/blob/master/helloserver/server.go)
+- [ ](https://github.com/golang/example/blob/master/helloserver/server.go)
