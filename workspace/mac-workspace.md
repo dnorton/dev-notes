@@ -7,6 +7,7 @@ This is my Mac woskspace setup.
 - [ohnmyzsh](https://ohmyz.sh/)
 - [neovim]
 - [homebrew](https://brew.sh/)
+- [fzf]
 
 Configure `zsh`:
 
@@ -14,4 +15,13 @@ Configure `zsh`:
 
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Configure `fzf`:
+
+```bash
+brew install fzf
+
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
 ```

@@ -7,6 +7,7 @@ VIM Tips and Tricks
 
 * [gist - keyboard shortcuts](https://gist.github.com/awidegreen/3854277)
 * [vim motion diagrams](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
+* in Neovim, type `:Tutor` for some common VIM motions
 
 ### Bookmarks
 
@@ -28,6 +29,11 @@ VIM Tips and Tricks
 	+ `zt` -- scroll current line to top of screen
 	+ `z.` -- scroll current line to middle of screen
 	+ `zb` -- scroll current line to bottom of screen
+
+* `goto`
+
+	+ `G` - jump to bottom of file
+	+ `gg` - jump to top of file 
 
 ### `.vimrc` files
 

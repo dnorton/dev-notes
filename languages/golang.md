@@ -42,6 +42,26 @@ func main() {
   * garbage collected
   * built-in concurrency
 
+## Types
+
+```go
+bool
+
+string
+
+int  int8  int16  int32  int64
+uint uint8 uint16 uint32 uint64 uintptr
+
+byte // alias for uint8
+
+rune // alias for int32
+    // represents a Unicode code point
+
+float32 float64
+
+complex64 complex128
+```
+
 ### Setting up a project
 
 Set the `GOPATH` variable to your development folder
@@ -49,8 +69,9 @@ Set the `GOPATH` variable to your development folder
 ------
 
 Before you begin work on a go module, you need to initialize it.
+(if you aren't going to publish to `github`, you can use anything `foobar`, `me/stuff`, etc.)
 
-```
+```bash
 go mod init github.com/dnorton/learn-go
 ```
 
@@ -66,4 +87,4 @@ go: module github.com/spf13/cobra@upgrade found (v1.8.0), but does not contain p
 
 ### Examples
 
-- [](https://github.com/golang/example/blob/master/helloserver/server.go)
+- [ ](https://github.com/golang/example/blob/master/helloserver/server.go)
