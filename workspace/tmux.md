@@ -48,5 +48,5 @@ From the `man tmux` info:
 ## TPM
 
 [dreams of code tmux config](https://github.com/dreamsofcode-io/tmux)
-
+[catppuchin plugin](https://github.com/catppuccin/tmux)
 
