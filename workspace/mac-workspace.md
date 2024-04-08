@@ -5,9 +5,9 @@ This is my Mac woskspace setup.
 ## Terminal Setup
 
 - [ohnmyzsh](https://ohmyz.sh/)
-- [neovim]
+- [neovim](./neovim.md)
 - [homebrew](https://brew.sh/)
-- [fzf]
+- [fzf](https://github.com/junegunn/fzf)
 
 Configure `zsh`:
 
