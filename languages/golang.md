@@ -79,10 +79,16 @@ install a library
 
 This is going to put the binaries in your `GOPATH`
 
-```
- go get -u github.com/spf13/cobra/cobra
+```bash
+go get -u github.com/spf13/cobra/cobra
 go: downloading github.com/spf13/cobra v1.8.0
 go: module github.com/spf13/cobra@upgrade found (v1.8.0), but does not contain package github.com/spf13/cobra/cobra
+```
+
+To update all packages...
+
+```bash
+go get -u ./...
 ```
 
 ### Examples

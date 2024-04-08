@@ -24,6 +24,14 @@ VIM Tips and Tricks
   	+ `t+<char>` - jump to character before
   	+ `F+<char>` - jump backwards to character
 	
+* `yank` and `paste`
+
+	+ `yy` -- yank current line
+	+ `yf<char>` -- yank to character (including character)
+	+ `yt<char>` -- yank to character (excluding character)
+	+ `p` -- paste after cursor
+	+ `P` -- paste before cursor
+
 * `scroll`[*](http://vimdoc.sourceforge.net/htmldoc/scroll.html)
 
 	+ `zt` -- scroll current line to top of screen
