@@ -54,6 +54,9 @@ Some tips and tricks for out of the box Kickstarter:
 - [go.nvim](https://github.com/ray-x/go.nvim)
 - [oil.nvim](https://github.com/stevearc/oil.nvim)
 - [copilot.nvim](https://github.com/github/copilot.vim)
+- [clipboard-image.nvim](https://github.com/dfendr/clipboard-image.nvim)
+
+Clipboard Image uses `:PasteImg` to paste an image from the clipboard.
 
 ## Lua
 

@@ -55,3 +55,6 @@ VIM Tips and Tricks
 
 		/\ccopyright
 
+* delete empty lines from selected text
+
+	- after selecting text in visual mode, type `:g/^$/d`
