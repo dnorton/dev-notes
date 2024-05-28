@@ -60,5 +60,7 @@ This is an alternative terminal multiplexer to tmux.
 
 - open a pane down `Ctrl+p d`
 - move a pane `Alt + [ or ]`
+- generate a config file `zellij --generate-config`
+  or `zellij setup --dump-config > ~/.config/zellij/zellij.kdl`
 
 

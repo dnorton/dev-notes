@@ -5,6 +5,11 @@
 
 see [vim-tips](../editors/vim-tips.md) for more on using vim
 
+## Custom Configs
+
+- [Abazzi config](https://github.com/Abazzi/nvim/tree/main/lua/core)
+
+
 ## LazyVim
 
 [LazyVim](https://lazyvim.org/) is a plugin that makes it easy to install and manage other plugins.
