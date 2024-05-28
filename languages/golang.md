@@ -27,6 +27,7 @@ func main() {
 - [udacity course](https://www.udacity.com/course/golang--cd11970) $250/month :yikes:
 - [udemy go course](https://www.udemy.com/course/learn-go-the-complete-bootcamp-course-golang/learn/lecture/11665012?start=0#overview)
 - [boot.dev go course](https://www.boot.dev/assignments/162d016b-c9b3-4a14-9be2-fd22c74c5710) and the [YouTube course](https://www.youtube.com/watch?v=un6ZyFkqFKo&t=712)
+- [Effective Go](https://golang.org/doc/effective_go.html)*
 
 ## Community
 

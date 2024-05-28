@@ -9,6 +9,8 @@ VIM Tips and Tricks
 * [vim motion diagrams](https://www.barbarianmeetscoding.com/boost-your-coding-fu-with-vscode-and-vim/moving-blazingly-fast-with-the-core-vim-motions/)
 * in Neovim, type `:Tutor` for some common VIM motions
 
+IntelliJ Idea VIM Plugin - <https://plugins.jetbrains.com/plugin/164-ideavim> ([documentation](https://github.com/JetBrains/ideavim))
+
 ### Bookmarks
 
 * `mark`[*](http://vim.wikia.com/wiki/Using_marks) locations
@@ -55,3 +57,6 @@ VIM Tips and Tricks
 
 		/\ccopyright
 
+* delete empty lines from selected text
+
+	- after selecting text in visual mode, type `:g/^$/d`

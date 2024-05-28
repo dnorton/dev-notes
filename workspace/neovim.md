@@ -5,6 +5,11 @@
 
 see [vim-tips](../editors/vim-tips.md) for more on using vim
 
+## Custom Configs
+
+- [Abazzi config](https://github.com/Abazzi/nvim/tree/main/lua/core)
+
+
 ## LazyVim
 
 [LazyVim](https://lazyvim.org/) is a plugin that makes it easy to install and manage other plugins.
@@ -54,6 +59,9 @@ Some tips and tricks for out of the box Kickstarter:
 - [go.nvim](https://github.com/ray-x/go.nvim)
 - [oil.nvim](https://github.com/stevearc/oil.nvim)
 - [copilot.nvim](https://github.com/github/copilot.vim)
+- [clipboard-image.nvim](https://github.com/dfendr/clipboard-image.nvim)
+
+Clipboard Image uses `:PasteImg` to paste an image from the clipboard.
 
 ## Lua
 
