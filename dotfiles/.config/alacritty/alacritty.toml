@@ -1,0 +1,24 @@
+import = [
+  # uncomment the flavour you want below:
+  #"~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+   "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+  # Specify the font size
+  size = 14.0
+  # Specify the normal font style
+  [font.normal]
+    family = "Hack Nerd Font"
+    # Specify the style if needed, e.g., "Regular"
+    style = "Regular"
+
+[window]
+dynamic_title = true
+opacity = 0.9
+option_as_alt = 'Both'
