@@ -2,10 +2,7 @@
 
 Super fast editor written in rust
 
-## Useful keybindings (https://zed.dev/docs/key-bindings)
-<document># [Zed](https://zed.dev/)
-
-Super fast editor written in rust
+Docs: <https://zed.dev/docs/>
 
 ## Useful keybindings (https://zed.dev/docs/key-bindings)
 
