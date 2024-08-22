@@ -13,3 +13,4 @@ Docs: <https://zed.dev/docs/>
 | `⌘ + B` | Toggle left dock |
 | `⌘ + R` | Toggle right dock |
 | `Control + ~` | New terminal |
+| `⌘ + Shift + V` | Open Preview (Markdown) |
