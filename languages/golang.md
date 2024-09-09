@@ -94,4 +94,11 @@ go get -u ./...
 
 ### Examples
 
-- [ ](https://github.com/golang/example/blob/master/helloserver/server.go)
+- [hello server example](https://github.com/golang/example/blob/master/helloserver/server.go)
+
+### Structs, Interfaces, and Methods
+
+"A method is a function with a receiver."
+
+
+
