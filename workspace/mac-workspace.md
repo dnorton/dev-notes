@@ -8,6 +8,9 @@ This is my Mac woskspace setup.
 - [neovim](./neovim.md)
 - [homebrew](https://brew.sh/) [github](https://github.com/Homebrew/brew)
 - [fzf](https://github.com/junegunn/fzf)
+- [starship](https://starship.rs/)
+
+_check out more about terminals at [awesome-terminals](https://github.com/cdleon/awesome-terminals)_
 
 Configure `zsh`:
 
