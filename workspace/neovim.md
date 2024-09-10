@@ -5,10 +5,15 @@
 
 see [vim-tips](../editors/vim-tips.md) for more on using vim
 
+## Mason
+
+[Mason](https://github.com/williamboman/mason-lspconfig.nvim) - is a plugin that helps you install and configure LSP servers.
+
+To use, run `:Mason` and select the language server you want to install.
+
 ## Custom Configs
 
 - [Abazzi config](https://github.com/Abazzi/nvim/tree/main/lua/core)
-
 
 ## LazyVim
 
