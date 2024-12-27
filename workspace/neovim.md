@@ -9,7 +9,8 @@ see [vim-tips](../editors/vim-tips.md) for more on using vim
 
 [Mason](https://github.com/williamboman/mason-lspconfig.nvim) - is a plugin that helps you install and configure LSP servers.
 
-To use, run `:Mason` and select the language server you want to install.
+To use, run `:Mason` and select the language server you want to install.  
+To see help `:help mason.nvim`
 
 ## Custom Configs
 
@@ -42,13 +43,12 @@ Buffers
 
 - `:bd` - Delete the current buffer
 
-
 ## Kickstarter
 
 [Kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 This is a very small neovim configuration that let's you learn
-as you go.  You can always go back to LazyVim if you back up properly.
+as you go. You can always go back to LazyVim if you back up properly.
 
 Some tips and tricks for out of the box Kickstarter:
 (basic LSP functions)
@@ -76,3 +76,7 @@ Lua is the scripting language built into `neovim`
   you can explore or search through `:help lua-guide`
   - https://neovim.io/doc/user/lua-guide.html
 ```
+
+## Snacks
+
+<https://github.com/folke/snacks.nvim>
