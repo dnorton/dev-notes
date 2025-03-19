@@ -10,8 +10,6 @@
 | Ctrl+Shift+V | Preview Markdown                 |
 | Ctrl+Shift+P | Action Menu :star:               |
 
-* [Vim Cheat Sheet](https://vim.rtorr.com/)
-
 ## gotchas
 
 * there is no shortcut to join lines
