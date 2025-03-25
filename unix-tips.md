@@ -501,6 +501,31 @@ OFFSET=${1}
 echo "$((OFFSET + 9990))"
 ```
 
+## Bash command arguments
+
+Here is an example of a script that can take one or more arguments. The `shift 1` command is used to remove the first argument from the list of arguments.
+
+```bash
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -b)
+      BACKUP="true"
+      shift 1
+      ;;
+    --no-dump)
+      NO_DUMP="true"
+      shift 1
+      ;;
+    --help)
+      usage
+      ;;
+    *)
+      echo "Unknown argument: $1"
+      usage
+  esac
+done
+```
+
 ## Aliases
 
 ### AWS specific
