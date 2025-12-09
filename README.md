@@ -13,8 +13,8 @@ __:dash: [my short scripts](https://gist.github.com/dnorton)__
 + [git-commands.md](git-commands.md) -- local and remote git commands as well as some Github tips and tricks :octocat:
 + [markdown.md](markdown.md) -- Markdown cheatsheet
 + [cs-notes.md](cs-notes.md) -- general purpose Computer Science notes (data structures, algorithms, cryptography, etc)
-+ [java-tips.md](java-tips.md) -- Java/JVM notes including libraries, debugging info, useful resources
-+ [python-notes.md](python-notes.md) -- Python tips, tricks, libraries - obviously
++ [java-tips.md](languages/java-tips.md) -- Java/JVM notes including libraries, debugging info, useful resources
++ [python-notes.md](languages/python-notes.md) -- Python tips, tricks, libraries - obviously
 
 ## Wiki Links
 
