@@ -43,3 +43,6 @@ RedHat Tips
 		rpm -ql oracle-instantclient11.2-sqlplus-11.2.0.1.0-1
 		
 
+### Joining Microsoft AD
+
+- https://technet.microsoft.com/en-us/library/2008.12.linux.aspx

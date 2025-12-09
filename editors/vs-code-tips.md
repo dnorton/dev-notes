@@ -8,6 +8,7 @@
 | Ctrl+Shift+] | Jump to Matching Bracket         |
 | Ctrl+\       | Split Active Editor window       |
 | Ctrl+Shift+V | Preview Markdown                 |
+| Ctrl+Shift+P | Action Menu :star:               |
 
 ## gotchas
 
@@ -17,3 +18,4 @@
 ## references
 
 * https://github.com/viatsko/awesome-vscode
+* http://docs.emmet.io/cheat-sheet/

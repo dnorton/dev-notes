@@ -5,11 +5,14 @@ Table of Contents
 -----------------
 
 * [Debugging](#debugging)
+* [Testing](#testing)
 * [Security](#security)
 * [Resources](#resources)
       * [Java 8](#java-8)    
       * [Libraries](#libraries)
       * [DesignPatterns](#design-patterns)
+* [Groovy](#groovy)
+     * [Libraries](#groovy-libraries)
 * [Detailed Notes](#detailed-notes)
 
 
@@ -51,13 +54,19 @@ jar uf <jar_file> <file>
 java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name]
 ```
 
+## Testing 
+
+- [AssertJ asserts](http://joel-costigliola.github.io/assertj/assertj-core-converting-junit-assertions-to-assertj.html)
+
 ## Security
+
++ test an SSL connection - [SSLPoke.java](https://gist.github.com/4ndrej/4547029)
 
 ### Keytool
 
-- [Most Common keytool commands](https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
-
+* [Most Common keytool commands](https://www.sslshopper.com/article-most-common-java-keytool-keystore-commands.html)
 * `keytool -list -keystore cacerts` -- list the certificates in the `cacerts` file. You will need to know the keystore pwd.
+* [simple example of importing a certificate](https://azure.microsoft.com/en-us/documentation/articles/java-add-certificate-ca-store/)
  
 ### Secure Password Storage
 
@@ -68,6 +77,7 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 ### Java 8
 
 - [java8-tutorial](https://github.com/winterbe/java8-tutorial)
+- [Java 8 Code Swim (YouTube) @venkat](https://blogs.oracle.com/java/java-8-code-swim)
 
 ### Libraries
 
@@ -76,6 +86,12 @@ java -cp .:/usr/share/java/junit.jar org.junit.runner.JUnitCore [test class name
 ### Design Patterns
 
 - [java-design-patterns](https://github.com/iluwatar/java-design-patterns)
+
+## Groovy
+
+### Groovy Libraries
+
+- [HTTPBuilder](https://github.com/jgritman/httpbuilder/wiki)
 
 ## Detailed Notes
 :100: _go to [Google Drive: Java Notes](https://docs.google.com/document/d/1P68nAfkay0KGi7elw56HflUxoxhCy96uTXtI0ToiImY/edit?usp=sharing) for notes on the JVM, useful libraries, language information, etc._

@@ -1,13 +1,15 @@
+<!--
 ---
 layout: post
 title: Useful Git Commands
 ---
+-->
 
 ## Table of Contents
 
 - [Git tricks](#git-tricks)
 - [Git Commands](#git-commands)
-    * [General git commands](#general-git-commands)
+    * [General commands](#general)
     * [Remote Commands](#remote-repo-commands)
     * [Local Repo Commands](#local-repo-commands)
 - [Git Articles](#git-articles)
@@ -17,13 +19,18 @@ title: Useful Git Commands
 
 ## Git tricks
 
-:bowtie: <http://www.alexkras.com/19-git-tips-for-everyday-use/>
++ :clap: [Oh Shit Git](http://ohshitgit.com/)
++ :bowtie: <http://www.alexkras.com/19-git-tips-for-everyday-use/>
++ :secret: [CIA's git tips & tricks](https://wikileaks.org/ciav7p1/cms/page_1179773.html)
+
+### Git command line
 
 * `git log --oneline --graph` -- great logging output
+* `export GIT_CURL_VERBOSE=1;git clone ...` -- show the verbose output of the git curl
 
-## Git commands
+## Git usage
 
-### General git commands
+### General
 
 * `git init` -- initialize a git repo in the current directory (you still need to add and commit the local files)
 * `git config -l` -- view git configs
@@ -74,7 +81,7 @@ Read about the [Github Flow](http://scottchacon.com/2011/08/31/github-flow.html)
 
 * `git checkout -b dnorton-dev-2 origin/release-1.0.0` -- check out from a remote branch
 * `git push -u origin dnorton-dev-2` -- push feature branch to remote repo
-* `git pull origin dnorton-dev-2` -- pull feature branch
+* `git pull --rebase origin dnorton-dev-2` -- pull feature branch and rebase - no extra merge commit
 * `git push origin :dnorton-dev-2` -- delete the remote feature branch ([see the git-scm page](http://git-scm.com/book/en/Git-Branching-Remote-Branches#Deleting-Remote-Branches))
 
 * Github help: [syncing a fork](https://help.github.com/articles/syncing-a-fork)
@@ -106,6 +113,10 @@ See [reference #7](http://stackoverflow.com/questions/2862590/how-to-replace-mas
 
 - [github.com: how to undo almost anything with git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
 
+Remove sensitive data from a repository
+
+- https://rtyley.github.io/bfg-repo-cleaner/
+
 Github Cheatsheet
 =================
 
@@ -116,7 +127,7 @@ Github Cheatsheet
 
 1. https://help.github.com/articles/adding-a-remote
 2. http://git-scm.com/book
-3. http://www.atlassian.com/git/tutorial
+3. https://www.atlassian.com/git
 4. http://scottchacon.com/2011/08/31/github-flow.html
 5. http://githubtraining.s3.amazonaws.com/github-git-training-slides.pdf (great training slides)
 6. http://gitolite.com/gcs.html#(1) (git concepts explained)

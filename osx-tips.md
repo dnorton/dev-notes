@@ -5,7 +5,8 @@ _[Apple's Keyboard Shortcut page](https://support.apple.com/en-us/HT201236)_
 + `F4` -- open Launchpad
 + `Ctrl + Left/Right` -- move between desktops
 + `Ctrl + Down` -- view all windows for current app
-+ `Cmd + Shift +4` -- screen shot a part of the screen (3 for the whole desktop)
++ `Cmd + Shift + 4` -- screen shot a part of the screen (3 for the whole desktop)
++ `Fn + i` - turn on/off insert
  
 ### Trackpad Gestures
 
