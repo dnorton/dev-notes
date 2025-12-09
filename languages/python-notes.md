@@ -12,6 +12,10 @@
 * [get-pip.py](https://bootstrap.pypa.io/get-pip.py) -- install pip
 * `pip install --index-url=http://pypi.python.org/simple/ --trusted-host pypi.python.org  pythonPackage`
 
+## Package Management Tools
+
+* [uv](../tools/uv.md) -- fast Python package manager (pip replacement)
+
 ## Standard Library
 
 + [subprocess](https://docs.python.org/2/library/subprocess.html) -- library for making system calls
