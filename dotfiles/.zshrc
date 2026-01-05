@@ -3,6 +3,16 @@
 export CYPHER_SHELL_PATH=/Users/dnorton/bin/cypher-shell
 export PATH=$HOME/.local/bin:${CYPHER_SHELL_PATH}:$PATH
 
+# Additional PATH configurations
+export PATH="$HOME/.antigravity/antigravity/bin:$PATH"
+export PATH="/opt/homebrew/opt/dotnet@8/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# .NET configuration
+export DOTNET_ROOT=/opt/homebrew/opt/dotnet@8/libexec
+
 # TCN development environment variables
 export COGNITO_USERNAME="daniel.norton@leanlawlabs.com"
 export COGNITO_PASSWORD=<redacted>
@@ -121,6 +131,11 @@ source $ZSH/oh-my-zsh.sh
 alias pn="pnpm"
 alias dockerc="docker-compose"
 alias vim='nvim'
+alias checknet='~/me/dev-notes/scripts/check_network.sh'
+alias devauth='grep -m 1 '\''password:'\'' ~/notes/tcn-auth-info.md | sed '\''s/.*`\(.*\)`.*/\1/'\'' | pbcopy'
+
+# Set nvim as default editor
+export EDITOR=nvim
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
@@ -131,6 +146,8 @@ export PATH="$PATH:/Users/dnorton/.local/bin"
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# Ruby and rbenv configuration
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 eval "$(rbenv init - zsh)"
 
@@ -142,3 +159,6 @@ eval "$(starship init zsh)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 eval "$(zoxide init zsh)"
+
+# .NET tools path
+export PATH="$PATH:$HOME/.dotnet/tools"
